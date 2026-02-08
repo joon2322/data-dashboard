@@ -1,0 +1,275 @@
+{
+  "date": "2026-02-05",
+  "posts": [
+    {
+      "id": 46881264,
+      "title": "I miss thinking hard",
+      "url": "https://www.jernesto.com/articles/thinking_hard",
+      "score": 1225,
+      "author": "jernestomg",
+      "comments": 674,
+      "posted_at": "2026-02-04 03:54:11"
+    },
+    {
+      "id": 46873294,
+      "title": "France dumps Zoom and Teams as Europe seeks digital autonomy from the US",
+      "url": "https://apnews.com/article/europe-digital-sovereignty-big-tech-9f5388b68a0648514cebc8d92f682060",
+      "score": 1127,
+      "author": "AareyBaba",
+      "comments": 583,
+      "posted_at": "2026-02-03 16:39:18"
+    },
+    {
+      "id": 46876105,
+      "title": "Data centers in space makes no sense",
+      "url": "https://civai.org/blog/space-data-centers",
+      "score": 1056,
+      "author": "ajyoon",
+      "comments": 1240,
+      "posted_at": "2026-02-03 19:37:30"
+    },
+    {
+      "id": 46902223,
+      "title": "Claude Opus 4.6",
+      "url": "https://www.anthropic.com/news/claude-opus-4-6",
+      "score": 1011,
+      "author": "HellsMaddy",
+      "comments": 429,
+      "posted_at": "2026-02-05 17:38:53"
+    },
+    {
+      "id": 46886735,
+      "title": "Voxtral Transcribe 2",
+      "url": "https://mistral.ai/news/voxtral-transcribe-2",
+      "score": 827,
+      "author": "meetpateltech",
+      "comments": 204,
+      "posted_at": "2026-02-04 15:08:17"
+    },
+    {
+      "id": 46872706,
+      "title": "Qwen3-Coder-Next",
+      "url": "https://qwen.ai/blog?id=qwen3-coder-next",
+      "score": 719,
+      "author": "danielhanchen",
+      "comments": 419,
+      "posted_at": "2026-02-03 16:01:50"
+    },
+    {
+      "id": 46868759,
+      "title": "What's up with all those equals signs anyway?",
+      "url": "https://lars.ingebrigtsen.no/2026/02/02/whats-up-with-all-those-equals-signs-anyway/",
+      "score": 669,
+      "author": "todsacerdoti",
+      "comments": 189,
+      "posted_at": "2026-02-03 09:37:40"
+    },
+    {
+      "id": 46902638,
+      "title": "GPT-5.3-Codex",
+      "url": "https://openai.com/index/introducing-gpt-5-3-codex/",
+      "score": 662,
+      "author": "meetpateltech",
+      "comments": 261,
+      "posted_at": "2026-02-05 18:08:08"
+    },
+    {
+      "id": 46872540,
+      "title": "New York’s budget bill would require “blocking technology” on all 3D printers",
+      "url": "https://blog.adafruit.com/2026/02/03/new-york-wants-to-ctrlaltdelete-your-3d-printer/",
+      "score": 647,
+      "author": "ptorrone",
+      "comments": 785,
+      "posted_at": "2026-02-03 15:51:42"
+    },
+    {
+      "id": 46868998,
+      "title": "X offices raided in France as UK opens fresh investigation into Grok",
+      "url": "https://www.bbc.com/news/articles/ce3ex92557jo",
+      "score": 573,
+      "author": "vikaveri",
+      "comments": 1081,
+      "posted_at": "2026-02-03 10:08:52"
+    },
+    {
+      "id": 46886237,
+      "title": "FBI couldn't get into WaPo reporter's iPhone because Lockdown Mode enabled",
+      "url": "https://www.404media.co/fbi-couldnt-get-into-wapo-reporters-iphone-because-it-had-lockdown-mode-enabled/",
+      "score": 561,
+      "author": "robin_reala",
+      "comments": 487,
+      "posted_at": "2026-02-04 14:31:32"
+    },
+    {
+      "id": 46871173,
+      "title": "Agent Skills",
+      "url": "https://agentskills.io/home",
+      "score": 523,
+      "author": "mooreds",
+      "comments": 253,
+      "posted_at": "2026-02-03 14:09:54"
+    },
+    {
+      "id": 46874097,
+      "title": "Deno Sandbox",
+      "url": "https://deno.com/blog/introducing-deno-sandbox",
+      "score": 519,
+      "author": "johnspurlock",
+      "comments": 164,
+      "posted_at": "2026-02-03 17:33:20"
+    },
+    {
+      "id": 46884883,
+      "title": "Claude is a space to think",
+      "url": "https://www.anthropic.com/news/claude-is-a-space-to-think",
+      "score": 415,
+      "author": "meetpateltech",
+      "comments": 222,
+      "posted_at": "2026-02-04 12:08:49"
+    },
+    {
+      "id": 46878338,
+      "title": "Notepad++ supply chain attack breakdown",
+      "url": "https://securelist.com/notepad-supply-chain-attack/118708/",
+      "score": 371,
+      "author": "natebc",
+      "comments": 174,
+      "posted_at": "2026-02-03 22:35:27"
+    },
+    {
+      "id": 46874619,
+      "title": "Xcode 26.3 – Developers can leverage coding agents directly in Xcode",
+      "url": "https://www.apple.com/newsroom/2026/02/xcode-26-point-3-unlocks-the-power-of-agentic-coding/",
+      "score": 362,
+      "author": "davidbarker",
+      "comments": 315,
+      "posted_at": "2026-02-03 18:04:08"
+    },
+    {
+      "id": 46870015,
+      "title": "Bunny Database",
+      "url": "https://bunny.net/blog/meet-bunny-database-the-sql-service-that-just-works/",
+      "score": 320,
+      "author": "dabinat",
+      "comments": 132,
+      "posted_at": "2026-02-03 12:13:44"
+    },
+    {
+      "id": 46873574,
+      "title": "221 Cannon is Not For Sale",
+      "url": "https://fredbenenson.com/blog/2026/02/03/221-cannon-is-not-for-sale/",
+      "score": 311,
+      "author": "mecredis",
+      "comments": 253,
+      "posted_at": "2026-02-03 16:56:06"
+    },
+    {
+      "id": 46888441,
+      "title": "AI is killing B2B SaaS",
+      "url": "https://nmn.gl/blog/ai-killing-b2b-saas",
+      "score": 302,
+      "author": "namanyayg",
+      "comments": 453,
+      "posted_at": "2026-02-04 17:09:28"
+    },
+    {
+      "id": 46886191,
+      "title": "Guinea worm on track to be 2nd eradicated human disease; only 10 cases in 2025",
+      "url": "https://arstechnica.com/health/2026/02/guinea-worm-on-track-to-be-2nd-eradicated-human-disease-only-10-cases-in-2025/",
+      "score": 301,
+      "author": "bookofjoe",
+      "comments": 140,
+      "posted_at": "2026-02-04 14:27:05"
+    },
+    {
+      "id": 46882389,
+      "title": "Show HN: Ghidra MCP Server – 110 tools for AI-assisted reverse engineering",
+      "url": "https://github.com/bethington/ghidra-mcp",
+      "score": 291,
+      "author": "xerzes",
+      "comments": 66,
+      "posted_at": "2026-02-04 06:51:51"
+    },
+    {
+      "id": 46872894,
+      "title": "X offices raided in France",
+      "url": "https://apnews.com/article/france-x-investigation-seach-elon-musk-1116be84d84201011219086ecfd4e0bc",
+      "score": 289,
+      "author": "labrador",
+      "comments": 15,
+      "posted_at": "2026-02-03 16:14:17"
+    },
+    {
+      "id": 46875228,
+      "title": "AliSQL: Alibaba's open-source MySQL with vector and DuckDB engines",
+      "url": "https://github.com/alibaba/AliSQL",
+      "score": 283,
+      "author": "baotiao",
+      "comments": 46,
+      "posted_at": "2026-02-03 18:40:18"
+    },
+    {
+      "id": 46873138,
+      "title": "Prek: A better, faster, drop-in pre-commit replacement, engineered in Rust",
+      "url": "https://github.com/j178/prek",
+      "score": 281,
+      "author": "fortuitous-frog",
+      "comments": 122,
+      "posted_at": "2026-02-03 16:29:34"
+    },
+    {
+      "id": 46901452,
+      "title": "European Commission Trials Matrix to Replace Teams",
+      "url": "https://www.euractiv.com/news/commission-trials-european-open-source-communications-software/",
+      "score": 277,
+      "author": "Arathorn",
+      "comments": 143,
+      "posted_at": "2026-02-05 16:33:56"
+    },
+    {
+      "id": 46886440,
+      "title": "A case study in PDF forensics: The Epstein PDFs",
+      "url": "https://pdfa.org/a-case-study-in-pdf-forensics-the-epstein-pdfs/",
+      "score": 268,
+      "author": "DuffJohnson",
+      "comments": 147,
+      "posted_at": "2026-02-04 14:46:46"
+    },
+    {
+      "id": 46893970,
+      "title": "OpenClaw is what Apple intelligence should have been",
+      "url": "https://www.jakequist.com/thoughts/openclaw-is-what-apple-intelligence-should-have-been",
+      "score": 253,
+      "author": "jakequist",
+      "comments": 232,
+      "posted_at": "2026-02-05 00:28:06"
+    },
+    {
+      "id": 46845845,
+      "title": "Claude Code: connect to a local model when your quota runs out",
+      "url": "https://boxc.net/blog/2026/claude-code-connecting-to-local-models-when-your-quota-runs-out/",
+      "score": 245,
+      "author": "fugu2",
+      "comments": 123,
+      "posted_at": "2026-02-01 12:43:41"
+    },
+    {
+      "id": 46889008,
+      "title": "The Great Unwind",
+      "url": "https://occupywallst.com/yen",
+      "score": 230,
+      "author": "jart",
+      "comments": 184,
+      "posted_at": "2026-02-04 17:49:26"
+    },
+    {
+      "id": 46899808,
+      "title": "CIA suddenly stops publishing, removes archives of The World Factbook",
+      "url": "https://simonwillison.net/2026/Feb/5/the-world-factbook/",
+      "score": 225,
+      "author": "ck2",
+      "comments": 84,
+      "posted_at": "2026-02-05 14:11:13"
+    }
+  ]
+}

@@ -1,0 +1,122 @@
+{
+  "date": "2026-02-05",
+  "quotes": [
+    {
+      "symbol": "AAPL",
+      "name": "Apple",
+      "category": "tech",
+      "price": 275.91,
+      "change_percent": null,
+      "volume": 49202616,
+      "captured_at": "2026-02-05 21:00:54"
+    },
+    {
+      "symbol": "MSFT",
+      "name": "Microsoft",
+      "category": "tech",
+      "price": 393.67,
+      "change_percent": null,
+      "volume": 60674412,
+      "captured_at": "2026-02-05 21:00:57"
+    },
+    {
+      "symbol": "GOOGL",
+      "name": "Alphabet",
+      "category": "tech",
+      "price": 331.25,
+      "change_percent": null,
+      "volume": 85676845,
+      "captured_at": "2026-02-05 21:00:56"
+    },
+    {
+      "symbol": "AMZN",
+      "name": "Amazon",
+      "category": "tech",
+      "price": 222.69,
+      "change_percent": null,
+      "volume": 76134923,
+      "captured_at": "2026-02-05 21:00:55"
+    },
+    {
+      "symbol": "NVDA",
+      "name": "NVIDIA",
+      "category": "tech",
+      "price": 171.81,
+      "change_percent": null,
+      "volume": 192509434,
+      "captured_at": "2026-02-05 21:00:57"
+    },
+    {
+      "symbol": "TSLA",
+      "name": "Tesla",
+      "category": "tech",
+      "price": 397.21,
+      "change_percent": null,
+      "volume": 68810263,
+      "captured_at": "2026-02-05 21:00:58"
+    },
+    {
+      "symbol": "META",
+      "name": "Meta",
+      "category": "tech",
+      "price": 670.21,
+      "change_percent": null,
+      "volume": 16197609,
+      "captured_at": "2026-02-05 21:00:56"
+    },
+    {
+      "symbol": "AMD",
+      "name": "AMD",
+      "category": "tech",
+      "price": 192.5,
+      "change_percent": null,
+      "volume": 60331574,
+      "captured_at": "2026-02-05 21:00:54"
+    },
+    {
+      "symbol": "PLTR",
+      "name": "Palantir",
+      "category": "tech",
+      "price": 130.01,
+      "change_percent": null,
+      "volume": 90724630,
+      "captured_at": "2026-02-05 21:00:58"
+    },
+    {
+      "symbol": "COIN",
+      "name": "Coinbase",
+      "category": "crypto",
+      "price": 146.12,
+      "change_percent": null,
+      "volume": 28691076,
+      "captured_at": "2026-02-05 21:00:55"
+    },
+    {
+      "symbol": "^GSPC",
+      "name": "S&P 500",
+      "category": "index",
+      "price": 6798.09,
+      "change_percent": null,
+      "volume": 4190676000,
+      "captured_at": "2026-02-05 21:00:59"
+    },
+    {
+      "symbol": "^IXIC",
+      "name": "NASDAQ",
+      "category": "index",
+      "price": 22540.586,
+      "change_percent": null,
+      "volume": 7241130000,
+      "captured_at": "2026-02-05 21:00:59"
+    },
+    {
+      "symbol": "^DJI",
+      "name": "Dow Jones",
+      "category": "index",
+      "price": 48908.17,
+      "change_percent": null,
+      "volume": 669087325,
+      "captured_at": "2026-02-05 21:00:58"
+    }
+  ]
+}
