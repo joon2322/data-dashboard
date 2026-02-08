@@ -10,7 +10,7 @@ export COMPILED_DIR="/home/moltbot/clawd/briefing_collect/compiled"
 export OUTPUT_DIR="${REPO_DIR}/data"
 
 cd "$DB_DIR"
-node "${REPO_DIR}/scripts/export-daily.js" "$DATE"
+NODE_PATH="$DB_DIR/node_modules" node "${REPO_DIR}/scripts/export-daily.js" "$DATE"
 
 cd "$REPO_DIR"
 git add "data/${DATE}/"
