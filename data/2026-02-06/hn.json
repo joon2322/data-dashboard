@@ -180,6 +180,96 @@
       "author": "dagurp",
       "comments": 32,
       "posted_at": "2026-02-06 10:26:16"
+    },
+    {
+      "id": 46855697,
+      "title": "Animated Knots",
+      "url": "https://www.animatedknots.com/",
+      "score": 67,
+      "author": "ostacke",
+      "comments": 10,
+      "posted_at": "2026-02-02 13:18:05"
+    },
+    {
+      "id": 46867271,
+      "title": "Plasma Effect (2016)",
+      "url": "https://www.4rknova.com/blog/2016/11/01/plasma",
+      "score": 62,
+      "author": "todsacerdoti",
+      "comments": 10,
+      "posted_at": "2026-02-03 06:26:01"
+    },
+    {
+      "id": 46908671,
+      "title": "I reversed Tower of Fantasy's anti-cheat driver: a BYOVD toolkit never loaded",
+      "url": "https://vespalec.com/blog/tower-of-flaws/",
+      "score": 57,
+      "author": "svespalec",
+      "comments": 20,
+      "posted_at": "2026-02-06 03:22:29"
+    },
+    {
+      "id": 46906947,
+      "title": "The RCE that AMD won't fix",
+      "url": "https://mrbruh.com/amd/",
+      "score": 57,
+      "author": "MrBruh",
+      "comments": 25,
+      "posted_at": "2026-02-05 23:29:18"
+    },
+    {
+      "id": 46870501,
+      "title": "The browser catches homograph attacks, the terminal doesn't",
+      "url": "https://github.com/sheeki03/tirith",
+      "score": 57,
+      "author": "MrBuddyCasino",
+      "comments": 21,
+      "posted_at": "2026-02-03 13:06:19"
+    },
+    {
+      "id": 46868803,
+      "title": "DNS Explained – How Domain Names Get Resolved",
+      "url": "https://www.bhusalmanish.com.np/blog/posts/dns-explained.html",
+      "score": 53,
+      "author": "okchildhood",
+      "comments": 12,
+      "posted_at": "2026-02-03 09:43:36"
+    },
+    {
+      "id": 46845296,
+      "title": "OpenClaw: When AI Agents Get Full System Access. Security nightmare?",
+      "url": "https://innfactory.ai:443/en/blog/openclaw-ai-agent-security/",
+      "score": 50,
+      "author": "i-blis",
+      "comments": 27,
+      "posted_at": "2026-02-01 11:06:29"
+    },
+    {
+      "id": 46909037,
+      "title": "Show HN: Artifact Keeper – Open-Source Artifactory/Nexus Alternative in Rust",
+      "url": "https://github.com/artifact-keeper",
+      "score": 48,
+      "author": "bsgeraci",
+      "comments": 11,
+      "posted_at": "2026-02-06 04:12:59"
+    },
+    {
+      "id": 46860623,
+      "title": "The Monad Called Free",
+      "url": "http://blog.sigfpe.com/2014/04/the-monad-called-free.html",
+      "score": 47,
+      "author": "romes",
+      "comments": 22,
+      "posted_at": "2026-02-02 20:02:26"
+    },
+    {
+      "id": 46916586,
+      "title": "How to effectively write quality code with AI",
+      "url": "https://heidenstedt.org/posts/2026/how-to-effectively-write-quality-code-with-ai/",
+      "score": 42,
+      "author": "i5heu",
+      "comments": 20,
+      "posted_at": "2026-02-06 18:49:59"
     }
   ]
 }

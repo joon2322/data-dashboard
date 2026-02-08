@@ -1,0 +1,723 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Daily Briefing</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700;900&family=DM+Serif+Display:ital@0;1&family=JetBrains+Mono:wght@400;500&display=swap');
+
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  body {
+    background: #0c0c14;
+    color: #c8c8d4;
+    font-family: 'Noto Sans KR', -apple-system, sans-serif;
+    font-size: 15px;
+    line-height: 1.65;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  .wrapper {
+    max-width: 840px;
+    margin: 0 auto;
+    padding: 0;
+  }
+
+  /* ─── HEADER ─── */
+  .header {
+    padding: 40px 24px 28px;
+    border-bottom: 1px solid rgba(255,255,255,0.04);
+  }
+
+  .header-label {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 11px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: #5a5a72;
+    margin-bottom: 6px;
+  }
+
+  .header-title {
+    font-family: 'DM Serif Display', serif;
+    font-size: 32px;
+    font-weight: 400;
+    color: #ededf0;
+    line-height: 1.2;
+    margin-bottom: 8px;
+  }
+
+  .header-meta {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 12px;
+    color: #444460;
+    display: flex;
+    gap: 16px;
+    flex-wrap: wrap;
+  }
+
+  .header-meta span {
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+  }
+
+  /* ─── TL;DR HERO ─── */
+  .tldr {
+    margin: 24px 16px 0;
+    padding: 28px 24px 24px;
+    background: linear-gradient(135deg, #161628 0%, #1a1530 50%, #161628 100%);
+    border: 1px solid rgba(120, 100, 255, 0.12);
+    border-radius: 16px;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .tldr::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 2px;
+    background: linear-gradient(90deg, transparent, #6c5ce7, #a29bfe, #6c5ce7, transparent);
+  }
+
+  .tldr-badge {
+    display: inline-block;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 10px;
+    font-weight: 500;
+    letter-spacing: 2.5px;
+    text-transform: uppercase;
+    color: #a29bfe;
+    background: rgba(108, 92, 231, 0.1);
+    padding: 4px 12px;
+    border-radius: 100px;
+    margin-bottom: 16px;
+    border: 1px solid rgba(108, 92, 231, 0.15);
+  }
+
+  .tldr-list {
+    list-style: none;
+    padding: 0;
+  }
+
+  .tldr-item {
+    position: relative;
+    padding: 12px 0 12px 20px;
+    font-size: 15.5px;
+    line-height: 1.7;
+    color: #dddde8;
+    font-weight: 400;
+  }
+
+  .tldr-item + .tldr-item {
+    border-top: 1px solid rgba(255,255,255,0.03);
+  }
+
+  .tldr-item::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background: #6c5ce7;
+    box-shadow: 0 0 8px rgba(108, 92, 231, 0.4);
+  }
+
+  .tldr-item strong {
+    color: #ededf0;
+    font-weight: 700;
+  }
+
+  .tldr-item em {
+    font-style: normal;
+    color: #a29bfe;
+    font-weight: 500;
+  }
+
+  /* ─── SECTION COMMON ─── */
+  .section {
+    padding: 28px 24px 20px;
+    border-bottom: 1px solid rgba(255,255,255,0.03);
+  }
+
+  .section-header {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 16px;
+  }
+
+  .section-icon {
+    width: 28px;
+    height: 28px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+    flex-shrink: 0;
+  }
+
+  .section-title {
+    font-family: 'DM Serif Display', serif;
+    font-size: 18px;
+    color: #ededf0;
+    font-weight: 400;
+  }
+
+  .section-count {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 10px;
+    color: #555570;
+    margin-left: auto;
+    letter-spacing: 0.5px;
+  }
+
+  /* ─── NEWS ITEMS ─── */
+  .news-item {
+    padding: 10px 0;
+    display: flex;
+    gap: 12px;
+    align-items: flex-start;
+  }
+
+  .news-item + .news-item {
+    border-top: 1px solid rgba(255,255,255,0.025);
+  }
+
+  .news-bullet {
+    flex-shrink: 0;
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
+    margin-top: 10px;
+    background: #3a3a52;
+  }
+
+  .news-content {
+    flex: 1;
+    min-width: 0;
+  }
+
+  .news-headline {
+    font-size: 14.5px;
+    color: #d0d0dc;
+    line-height: 1.6;
+    font-weight: 400;
+  }
+
+  .news-headline strong {
+    color: #ededf0;
+    font-weight: 600;
+  }
+
+  .news-sources {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 10.5px;
+    color: #3d3d55;
+    margin-top: 3px;
+    line-height: 1.4;
+  }
+
+  .news-sources a {
+    color: #3d3d55;
+    text-decoration: none;
+    transition: color 0.15s;
+  }
+
+  .news-sources a:hover {
+    color: #6c5ce7;
+  }
+
+  /* ─── X / ELON SECTION ─── */
+  .x-section .section-icon {
+    background: rgba(255, 255, 255, 0.06);
+    color: #e0e0e0;
+  }
+
+  .x-post {
+    padding: 10px 0;
+    display: flex;
+    gap: 12px;
+    align-items: flex-start;
+  }
+
+  .x-post + .x-post {
+    border-top: 1px solid rgba(255,255,255,0.025);
+  }
+
+  .x-marker {
+    flex-shrink: 0;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 10px;
+    color: #555570;
+    width: 18px;
+    text-align: center;
+    margin-top: 3px;
+  }
+
+  .x-text {
+    font-size: 14.5px;
+    color: #d0d0dc;
+    line-height: 1.6;
+  }
+
+  .x-text strong {
+    color: #ededf0;
+    font-weight: 600;
+  }
+
+  .x-text .quote {
+    color: #8a8aa0;
+    font-style: italic;
+  }
+
+  /* Context chain - inline subtle */
+  .context-inline {
+    margin-top: 14px;
+    padding: 12px 16px;
+    background: rgba(255,255,255,0.02);
+    border-radius: 10px;
+    border-left: 2px solid rgba(255,255,255,0.06);
+  }
+
+  .context-label {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 10px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    color: #444460;
+    margin-bottom: 8px;
+  }
+
+  .context-item {
+    font-size: 13px;
+    color: #666680;
+    line-height: 1.55;
+    padding: 2px 0;
+  }
+
+  .context-item + .context-item {
+    margin-top: 2px;
+  }
+
+  /* ─── US/EN NEWS ─── */
+  .us-section .section-icon {
+    background: rgba(45, 120, 240, 0.08);
+    color: #5b9aff;
+  }
+
+  .us-section .news-bullet {
+    background: #2d4a7a;
+  }
+
+  /* ─── KR NEWS ─── */
+  .kr-section .section-icon {
+    background: rgba(0, 180, 130, 0.08);
+    color: #34d399;
+  }
+
+  .kr-section .news-bullet {
+    background: #1a6650;
+  }
+
+  /* ─── DEV / GITHUB ─── */
+  .dev-section .section-icon {
+    background: rgba(255, 160, 50, 0.08);
+    color: #f59e42;
+  }
+
+  .dev-section .news-bullet {
+    background: #6b4a1a;
+  }
+
+  .dev-tag {
+    display: inline-block;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 10px;
+    color: #f59e42;
+    background: rgba(255, 160, 50, 0.06);
+    padding: 1px 7px;
+    border-radius: 4px;
+    margin-right: 4px;
+    vertical-align: middle;
+  }
+
+  /* ─── FOOTER / DATA HEALTH ─── */
+  .footer {
+    padding: 20px 24px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 8px;
+    border-top: 1px solid rgba(255,255,255,0.03);
+  }
+
+  .health-row {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    flex-wrap: wrap;
+  }
+
+  .health-pill {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 10px;
+    letter-spacing: 0.5px;
+    color: #34d399;
+    background: rgba(52, 211, 153, 0.06);
+    padding: 3px 10px;
+    border-radius: 100px;
+    border: 1px solid rgba(52, 211, 153, 0.08);
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+  }
+
+  .health-pill::before {
+    content: '';
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
+    background: #34d399;
+  }
+
+  .health-pill.warn {
+    color: #f59e42;
+    background: rgba(245, 158, 66, 0.06);
+    border-color: rgba(245, 158, 66, 0.08);
+  }
+
+  .health-pill.warn::before {
+    background: #f59e42;
+  }
+
+  .footer-note {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 10px;
+    color: #333348;
+    letter-spacing: 0.3px;
+  }
+
+  /* ─── DIVIDER LABEL ─── */
+  .divider-label {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 9px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: #2a2a40;
+    text-align: center;
+    padding: 20px 0 0;
+  }
+
+  /* ─── MOBILE ─── */
+  @media (max-width: 480px) {
+    .header {
+      padding: 28px 18px 20px;
+    }
+
+    .header-title {
+      font-size: 26px;
+    }
+
+    .tldr {
+      margin: 16px 10px 0;
+      padding: 22px 18px 20px;
+    }
+
+    .tldr-item {
+      font-size: 14.5px;
+    }
+
+    .section {
+      padding: 22px 18px 16px;
+    }
+
+    .footer {
+      padding: 16px 18px;
+    }
+
+    .news-headline {
+      font-size: 14px;
+    }
+
+    .x-text {
+      font-size: 14px;
+    }
+  }
+</style>
+</head>
+<body>
+<div class="wrapper">
+  <!-- ━━ HEADER ━━ -->
+  <div class="header">
+    <div class="header-label">AM BRIEFING</div>
+    <div class="header-title">AM 브리핑</div>
+    <div class="header-meta">
+      <span>2026-02-06 (KST)</span>
+      <span style="color:#333348;">|</span>
+      <span>대상: 2026-02-05 18:00 ~ 2026-02-06 05:00</span>
+      <span style="color:#333348;">|</span>
+      <span>생성: 2026-02-06 06:20</span>
+    </div>
+  </div>
+
+  <!-- ━━ TL;DR HERO ━━ -->
+  <div class="tldr">
+    <div class="tldr-badge">TL;DR</div>
+    <ul class="tldr-list">
+      <li class="tldr-item"><em>(규제)</em> <strong>EU AI Act 집행(2026년 8월) 앞두고 ‘GPAI 준수’ 실무 정비</strong> — EU AI Office 태스크포스/국가별 이행 법안 등 준비 신호가 누적.</li>
+      <li class="tldr-item"><em>(법/저작권)</em> <strong>생성형 AI 학습 데이터의 저작권 분쟁 ‘본격화’ 프레임</strong> — 국내에서도 무작위 학습/저작권 소송 확산 관측.</li>
+      <li class="tldr-item"><em>(제품)</em> <strong>Elon: “폰 개발 안 한다” + Starlink/SpaceX 관련 코멘트</strong> — Starlink 단말 등록(우크라이나)·Orbital Data Centers 신청 등 맥락과 함께 노출.</li>
+      <li class="tldr-item"><em>(Dev)</em> <strong>오픈소스/SDK 업데이트 흐름</strong> — oh-my-opencode(에이전트 동작 개선), Vercel AI(Open Responses provider), openai-python(2.16.0) 등 커밋/릴리즈 반영.</li>
+    </ul>
+  </div>
+
+  <!-- ━━ X / ELON ━━ -->
+  <div class="section x-section">
+    <div class="section-header">
+      <div class="section-icon">&#x1D54F;</div>
+      <div class="section-title">X / Elon</div>
+      <div class="section-count">3건</div>
+    </div>
+
+    <div class="x-post">
+      <div class="x-marker">1</div>
+      <div class="x-text"><strong>Starlink ‘폰 개발’ 선 긋기 + Reuters 반박</strong> — “We are not developing a phone”, “Reuters lies relentlessly” 등 단문 답글로 논쟁 정리.
+        <div class="news-sources"><a href="https://x.com/elonmusk/status/2019477859950285192">2019477859950285192</a> · <a href="https://x.com/elonmusk/status/2019479399096017269">2019479399096017269</a></div>
+      </div>
+    </div>
+
+    <div class="x-post">
+      <div class="x-marker">2</div>
+      <div class="x-text"><strong>인터뷰/미디어 노출</strong> — Dwarkesh 인터뷰 예고(레인지: Grok·alignment·xAI/SpaceX 등) RT + ‘Guinness’ 포스트로 관심 집중.
+        <div class="news-sources"><a href="https://x.com/elonmusk/status/2019469278618255831">2019469278618255831</a> · <a href="https://x.com/elonmusk/status/2019469198393766235">2019469198393766235</a></div>
+      </div>
+    </div>
+
+    <div class="x-post">
+      <div class="x-marker">3</div>
+      <div class="x-text"><strong>정치/검열 이슈 RT 재노출</strong> — EU ‘검열/선거개입’ 프레임을 반복적으로 RT(맥락: 소셜 규제·표현의 자유 논쟁).
+        <div class="news-sources"><a href="https://x.com/elonmusk/status/2019498039820611875">2019498039820611875</a> · <a href="https://x.com/elonmusk/status/2019452067987988747">2019452067987988747</a></div>
+      </div>
+    </div>
+
+    <!-- Context + Rotation merged inline -->
+    <div class="context-inline">
+      <div class="context-label">CONTEXT</div>
+      <div class="context-item">Rotation: @karpathy — ‘vibe coding’ 1주년 회고 + “agentic engineering” 프레이밍(에이전트 오케스트레이션/품질감시가 핵심이라는 주장).</div>
+      <div class="context-item">이번 윈도우 후반(04~05시)엔 News/GitHub/Market/HN가 대부분 skipped(=신규 실행 없음)로 기록됨.</div>
+    </div>
+  </div>
+
+  <!-- ━━ US / EN NEWS ━━ -->
+  <div class="section us-section">
+    <div class="section-header">
+      <div class="section-icon">EN</div>
+      <div class="section-title">US / EN News</div>
+      <div class="section-count">3건</div>
+    </div>
+
+    <div class="news-item">
+      <div class="news-bullet"></div>
+      <div class="news-content">
+        <div class="news-headline"><strong>EU AI Act: 아일랜드 ‘이행 법안(2026)’ 세부</strong> — 각국 집행 체계(감독기관/절차) 구체화 단계로 진입.</div>
+        <div class="news-sources"><a href="https://www.irishlegal.com/articles/more-details-about-irish-implementation-of-eu-ai-act">Irish Legal News</a></div>
+      </div>
+    </div>
+
+    <div class="news-item">
+      <div class="news-bullet"></div>
+      <div class="news-content">
+        <div class="news-headline"><strong>EU AI Office: GPAI(범용 AI) 준수 가이드 태스크포스 구성</strong> — 2026년 8월 집행 시작을 앞두고 공급자 측 체크리스트/코드·가이드 정비 흐름.</div>
+        <div class="news-sources"><a href="https://babl.ai/eu-ai-office-establishes-signatory-taskforce-to-guide-compliance-with-general-purpose-ai-rules/">BABL AI</a></div>
+      </div>
+    </div>
+
+    <div class="news-item">
+      <div class="news-bullet"></div>
+      <div class="news-content">
+        <div class="news-headline"><strong>미국: ‘주(州)별 파편화’ vs 연방 주도 AI 정책</strong> — 규제 주도권 논쟁(연방 입법 필요성 주장) 재부상.</div>
+        <div class="news-sources"><a href="https://www.rstreet.org/commentary/congress-should-lead-on-ai-policy-not-the-states/">R Street Institute</a></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ━━ KR NEWS ━━ -->
+  <div class="section kr-section">
+    <div class="section-header">
+      <div class="section-icon">KR</div>
+      <div class="section-title">KR News</div>
+      <div class="section-count">3건</div>
+    </div>
+
+    <div class="news-item">
+      <div class="news-bullet"></div>
+      <div class="news-content">
+        <div class="news-headline"><strong>국내: 생성형 AI ‘무작위 학습’에 제동 가능성</strong> — 빅테크 대상 저작권 소송이 늘며 데이터/학습 정당성 이슈가 전면으로.</div>
+        <div class="news-sources"><a href="https://www.seoul.co.kr/news/plan/AI-lawbooks-algorithm/2026/02/06/20260206008004">서울신문</a></div>
+      </div>
+    </div>
+
+    <div class="news-item">
+      <div class="news-bullet"></div>
+      <div class="news-content">
+        <div class="news-headline"><strong>제조업: AI 팩토리/자동화가 ‘진입장벽을 낮춘다’는 위기감</strong> — 빅테크의 제조/자동화 플랫폼화가 국내 대기업에 위협이 될 수 있다는 관측.</div>
+        <div class="news-sources"><a href="https://www.hankyung.com/article/2026020441101">한국경제</a></div>
+      </div>
+    </div>
+
+    <div class="news-item">
+      <div class="news-bullet"></div>
+      <div class="news-content">
+        <div class="news-headline"><strong>산업별 규제: 화장품 분야에서도 AI 관련 법/개정안 논의</strong> — AI 활용·광고·데이터 등으로 연결되는 ‘세부 산업 규정’ 움직임.</div>
+        <div class="news-sources"><a href="https://www.cosinkorea.com/news/article.html?no=56784">코스인코리아</a></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ━━ DEV / GITHUB ━━ -->
+  <div class="section dev-section">
+    <div class="section-header">
+      <div class="section-icon">&lt;/&gt;</div>
+      <div class="section-title">Dev / GitHub Radar</div>
+      <div class="section-count">4건</div>
+    </div>
+
+    <div class="news-item">
+      <div class="news-bullet"></div>
+      <div class="news-content">
+        <div class="news-headline"><span class="dev-tag">merge</span><strong>oh-my-opencode</strong> — “autonomous problem-solving behavior” 개선 머지(에이전트 자율 해결 동작 튜닝).</div>
+        <div class="news-sources"><a href="https://github.com/code-yeongyu/oh-my-opencode/commit/f468effd474db64b33bab6fa303988342bcd938e">commit f468eff</a></div>
+      </div>
+    </div>
+
+    <div class="news-item">
+      <div class="news-bullet"></div>
+      <div class="news-content">
+        <div class="news-headline"><span class="dev-tag">feat</span><strong>vercel/ai</strong> — Open Responses provider 추가(프로바이더 레이어 확장).</div>
+        <div class="news-sources"><a href="https://github.com/vercel/ai/commit/e4e3e8c1c1f1233579cdec26417f2e7f7844c0d1">commit e4e3e8c</a></div>
+      </div>
+    </div>
+
+    <div class="news-item">
+      <div class="news-bullet"></div>
+      <div class="news-content">
+        <div class="news-headline"><span class="dev-tag">changelog</span><strong>anthropics/claude-code</strong> — CHANGELOG 업데이트 커밋(변경내역 정리).</div>
+        <div class="news-sources"><a href="https://github.com/anthropics/claude-code/commit/bd78b216ed563e57767901dcdd80f9a7750434c9">commit bd78b21</a></div>
+      </div>
+    </div>
+
+    <div class="news-item">
+      <div class="news-bullet"></div>
+      <div class="news-content">
+        <div class="news-headline"><span class="dev-tag">release</span><strong>openai/openai-python 2.16.0</strong> — SDK 릴리즈 반영.</div>
+        <div class="news-sources"><a href="https://github.com/openai/openai-python/commit/dc68b90655912886bd7a6c7787f96005452ebfc9">release commit dc68b90</a></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ━━ MARKET (optional) ━━ -->
+  <div class="section">
+    <div class="section-header">
+      <div class="section-icon" style="background: rgba(52, 211, 153, 0.08); color: #34d399;">$</div>
+      <div class="section-title">Market Snapshot</div>
+      <div class="section-count">02:00 기준(캐시)</div>
+    </div>
+
+    <div class="news-item">
+      <div class="news-bullet" style="background:#1a6650;"></div>
+      <div class="news-content">
+        <div class="news-headline"><strong>지수</strong> — S&amp;P 500 6822.47 · NASDAQ 22648.38 · Dow 49162.44</div>
+        <div class="news-sources">raw: 2026-02-06 02:00 (KST)</div>
+      </div>
+    </div>
+
+    <div class="news-item">
+      <div class="news-bullet" style="background:#1a6650;"></div>
+      <div class="news-content">
+        <div class="news-headline"><strong>주요 종목</strong> — NVDA 173.79 · TSLA 394.94 · GOOGL 321.11 · MSFT 400.83 · AAPL 274.12</div>
+        <div class="news-sources">변동률(change%)은 수집값이 비어 있음(null)</div>
+      </div>
+    </div>
+
+    <div class="news-item">
+      <div class="news-bullet" style="background:#1a6650;"></div>
+      <div class="news-content">
+        <div class="news-headline"><strong>크립토 연동(주식)</strong> — COIN 158.13</div>
+        <div class="news-sources">(참고) 크립토 현물/선물은 별도 모듈 미수집</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ━━ HN (optional) ━━ -->
+  <div class="section">
+    <div class="section-header">
+      <div class="section-icon" style="background: rgba(108, 92, 231, 0.10); color: #a29bfe;">HN</div>
+      <div class="section-title">Hacker News (Top)</div>
+      <div class="section-count">02:00 기준(10개)</div>
+    </div>
+
+    <div class="news-item">
+      <div class="news-bullet"></div>
+      <div class="news-content">
+        <div class="news-headline"><strong>I miss thinking hard</strong> — 점수 1225 · 댓글 674</div>
+        <div class="news-sources"><a href="https://www.jernesto.com/articles/thinking_hard">jernesto.com</a></div>
+      </div>
+    </div>
+
+    <div class="news-item">
+      <div class="news-bullet"></div>
+      <div class="news-content">
+        <div class="news-headline"><strong>France dumps Zoom and Teams…(디지털 주권)</strong> — 점수 1127 · 댓글 583</div>
+        <div class="news-sources"><a href="https://apnews.com/article/europe-digital-sovereignty-big-tech-9f5388b68a0648514cebc8d92f682060">AP News</a></div>
+      </div>
+    </div>
+
+    <div class="news-item">
+      <div class="news-bullet"></div>
+      <div class="news-content">
+        <div class="news-headline"><strong>Data centers in space makes no sense</strong> — 점수 1056 · 댓글 1240</div>
+        <div class="news-sources"><a href="https://civai.org/blog/space-data-centers">civai.org</a></div>
+      </div>
+    </div>
+
+    <div class="news-item">
+      <div class="news-bullet"></div>
+      <div class="news-content">
+        <div class="news-headline"><strong>Voxtral Transcribe 2</strong> — 점수 827 · 댓글 204</div>
+        <div class="news-sources"><a href="https://mistral.ai/news/voxtral-transcribe-2">mistral.ai</a></div>
+      </div>
+    </div>
+
+    <div class="news-item">
+      <div class="news-bullet"></div>
+      <div class="news-content">
+        <div class="news-headline"><strong>Qwen3-Coder-Next</strong> — 점수 719 · 댓글 419</div>
+        <div class="news-sources"><a href="https://qwen.ai/blog?id=qwen3-coder-next">qwen.ai</a></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ━━ FOOTER / DATA HEALTH ━━ -->
+  <div class="footer">
+    <div class="health-row">
+      <div class="health-pill">최신 raw 05:00 KST</div>
+      <div class="health-pill warn">News 최신 03:00</div>
+      <div class="health-pill warn">GitHub 최신 00:00</div>
+      <div class="health-pill warn">Market/HN 최신 02:00</div>
+    </div>
+    <div class="footer-note">오류 2건 · 18:00 X 검색 타임아웃(일부) · 01:00 rotation 계정 fallback</div>
+  </div>
+</div>
+</body>
+</html>
