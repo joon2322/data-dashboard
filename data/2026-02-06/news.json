@@ -1,0 +1,327 @@
+{
+  "date": "2026-02-06",
+  "us": [
+    {
+      "title": "AI and Software Companies Might Be Better Off Partnering Than Fighting - Business Insider",
+      "url": "https://www.businessinsider.com/ai-software-companies-partnerships-openai-frontier-2026-2",
+      "snippet": null,
+      "source": "www.businessinsider.com",
+      "category": "ai_industry",
+      "fetched_at": "2026-02-06T21:03:42.250Z"
+    },
+    {
+      "title": "Alphabet resets the bar for AI infrastructure spending",
+      "url": "https://www.cnbc.com/2026/02/04/alphabet-resets-the-bar-for-ai-infrastructure-spending.html",
+      "snippet": null,
+      "source": "www.cnbc.com",
+      "category": "ai_industry",
+      "fetched_at": "2026-02-06T21:03:42.250Z"
+    },
+    {
+      "title": "Accel Backs $15.8M Seed Round in US AI Platform",
+      "url": "https://startupnews.fyi/2026/02/06/accel-15-8m-seed-us-ai-platform/",
+      "snippet": null,
+      "source": "startupnews.fyi",
+      "category": "ai_industry",
+      "fetched_at": "2026-02-06T21:03:42.250Z"
+    },
+    {
+      "title": "Supermicro Q2 FY2026: Breakout AI GPU Platform Revenue - Futurum",
+      "url": "https://futurumgroup.com/insights/supermicro-q2-fy2026-delivers-breakout-ai-gpu-platform-revenue/",
+      "snippet": null,
+      "source": "futurumgroup.com",
+      "category": "ai_industry",
+      "fetched_at": "2026-02-06T21:03:42.250Z"
+    },
+    {
+      "title": "NVIDIA Vera Rubin Platform Enters Full Production, Promising 10x Cost Reduction for Agentic AI",
+      "url": "https://markets.financialcontent.com/stocks/article/tokenring-2026-2-5-nvidia-vera-rubin-platform-enters-full-production-promising-10x-cost-reduction-for-agentic-ai",
+      "snippet": null,
+      "source": "markets.financialcontent.com",
+      "category": "ai_industry",
+      "fetched_at": "2026-02-06T21:03:42.250Z"
+    },
+    {
+      "title": "Spot bitcoin ETFs register second consecutive day of outflows totaling $545 million | The Block",
+      "url": "https://www.theblock.co/post/388609/spot-bitcoin-etfs-second-day-outflows-545-million",
+      "snippet": null,
+      "source": "www.theblock.co",
+      "category": "crypto_market",
+      "fetched_at": "2026-02-06T18:02:04.957Z"
+    },
+    {
+      "title": "BTC ETFs see over $500M in outflows as Bitcoin struggles to stay above $71K | Invezz",
+      "url": "https://invezz.com/news/2026/02/05/btc-etfs-see-over-500m-in-outflows-as-bitcoin-struggles-to-stay-above-71k/",
+      "snippet": null,
+      "source": "invezz.com",
+      "category": "crypto_market",
+      "fetched_at": "2026-02-06T18:02:04.957Z"
+    },
+    {
+      "title": "Crypto networks respond after Vitalik Buterin told them they 'no longer makes sense' for Ethereum | CoinDesk",
+      "url": "https://www.coindesk.com/business/2026/02/04/from-ethereum-s-sidekick-to-standalone-stars-how-vitalik-buterin-s-latest-pivot-is-forcing-layer-2s-to-grow-up",
+      "snippet": null,
+      "source": "www.coindesk.com",
+      "category": "crypto_market",
+      "fetched_at": "2026-02-06T18:02:04.957Z"
+    },
+    {
+      "title": "Ethereum scalers vow to soldier on after Vitalik’s about-face on Ethereum growth – DL News",
+      "url": "https://www.dlnews.com/articles/defi/ethereum-scalers-to-continue-after-vitalik-revises-ethereum-roadmap/",
+      "snippet": null,
+      "source": "www.dlnews.com",
+      "category": "crypto_market",
+      "fetched_at": "2026-02-06T18:02:04.957Z"
+    },
+    {
+      "title": "OpenCode: an Open-source AI Coding Agent Competing with Claude Code and Copilot - InfoQ",
+      "url": "https://www.infoq.com/news/2026/02/opencode-coding-agent/",
+      "snippet": null,
+      "source": "InfoQ",
+      "category": "dev_tools",
+      "fetched_at": "2026-02-06T15:04:47.737Z"
+    },
+    {
+      "title": "Anthropic Release Notes - February 2026 Latest Updates - Releasebot",
+      "url": "https://releasebot.io/updates/anthropic",
+      "snippet": null,
+      "source": "releasebot.io",
+      "category": "dev_tools",
+      "fetched_at": "2026-02-06T15:04:47.737Z"
+    },
+    {
+      "title": "Top MCP security resources — February 2026 | Adversa AI",
+      "url": "https://adversa.ai/blog/top-mcp-security-resources-february-2026/",
+      "snippet": null,
+      "source": "adversa.ai",
+      "category": "dev_tools",
+      "fetched_at": "2026-02-06T15:04:47.737Z"
+    },
+    {
+      "title": "Want local vibe coding? This AI stack replaces Claude Code and Codex - and it's free | ZDNET",
+      "url": "https://www.zdnet.com/article/local-ai-coding-stack-replaces-claude-code-codex-free/",
+      "snippet": null,
+      "source": "ZDNET",
+      "category": "dev_tools",
+      "fetched_at": "2026-02-06T15:04:47.737Z"
+    },
+    {
+      "title": "Understanding Public MCP Servers in MuleSoft Agent Registry | MuleSoft Blog",
+      "url": "https://blogs.mulesoft.com/news/public-mcp-servers-in-mulesoft-agent-registry/",
+      "snippet": null,
+      "source": "MuleSoft Blog",
+      "category": "dev_tools",
+      "fetched_at": "2026-02-06T15:04:47.737Z"
+    },
+    {
+      "title": "FAA Closes SpaceX Starship Mishap Investigation | Federal Aviation Administration",
+      "url": "https://www.faa.gov/newsroom/faa-closes-spacex-starship-mishap-investigation",
+      "snippet": null,
+      "source": null,
+      "category": "elon_spacex_tesla",
+      "fetched_at": "2026-02-06T12:02:00.816Z"
+    },
+    {
+      "title": "FAA dismisses airline, sonic boom concerns in signing off on SpaceX Starship plans from KSC",
+      "url": "https://phys.org/news/2026-02-faa-dismisses-airline-sonic-boom.html",
+      "snippet": null,
+      "source": null,
+      "category": "elon_spacex_tesla",
+      "fetched_at": "2026-02-06T12:02:00.816Z"
+    },
+    {
+      "title": "FAA Warns Airlines About Safety Risks from Rocket Launches — ProPublica",
+      "url": "https://www.propublica.org/article/faa-safety-warning-spacex-starship-explosions-airlines",
+      "snippet": null,
+      "source": null,
+      "category": "elon_spacex_tesla",
+      "fetched_at": "2026-02-06T12:02:00.816Z"
+    },
+    {
+      "title": "Update Vehicle Firmware to Disable FSD Beta “Rolling Stop” Functionality | Tesla Support",
+      "url": "https://www.tesla.com/support/recall-rolling-stop-functionality",
+      "snippet": null,
+      "source": null,
+      "category": "elon_spacex_tesla",
+      "fetched_at": "2026-02-06T12:02:00.816Z"
+    },
+    {
+      "title": "OMB Control No.: 2127-0004 Part 573 Safety Recall Report 23V-085",
+      "url": "https://static.nhtsa.gov/odi/rcl/2023/RCLRPT-23V085-3451.PDF",
+      "snippet": null,
+      "source": null,
+      "category": "elon_spacex_tesla",
+      "fetched_at": "2026-02-06T12:02:00.816Z"
+    },
+    {
+      "title": "AI Regulation in Flux: ... Trump’s AI Executive Order - CM Law",
+      "url": "https://www.cm.law/ai-regulation-in-flux-aami-asks-cm-law-partner-reiko-feaver-about-trumps-ai-executive-order/",
+      "snippet": null,
+      "source": "www.cm.law",
+      "category": "regulation_policy",
+      "fetched_at": "2026-02-06T09:05:06.841Z"
+    }
+  ],
+  "kr": [
+    {
+      "title": "프라이빗 AI로 보안·성과 잡는다···HS효성인포메이션시스템, 2026년 AX 전략 발표 | CIO",
+      "url": "https://www.cio.com/article/4128620/%ED%94%84%EB%9D%BC%EC%9D%B4%EB%B9%97-ai%EB%A1%9C-%EB%B3%B4%EC%95%88%C2%B7%EC%84%B1%EA%B3%BC-%EC%9E%A1%EB%8A%94%EB%8B%A4%C2%B7%C2%B7%C2%B7hs%ED%9A%A8%EC%84%B1%EC%9D%B8%ED%8F%AC%EB%A9%94%EC%9D%B4.html",
+      "snippet": null,
+      "source": "www.cio.com",
+      "category": "ai_industry",
+      "fetched_at": "2026-02-06T21:03:42.250Z"
+    },
+    {
+      "title": "[FETV] 삼성전자 ‘선확보’ vs SK하이닉스 ‘구체화’…서로 다른 AI 메모리 투자 전략",
+      "url": "https://www.fetv.co.kr/news/article.html?no=211977",
+      "snippet": null,
+      "source": "www.fetv.co.kr",
+      "category": "ai_industry",
+      "fetched_at": "2026-02-06T21:03:42.250Z"
+    },
+    {
+      "title": "반도체 공급부족 CPU로 번져…인텔·AMD, 中시장 공급 ...",
+      "url": "https://edaily.co.kr/News/Read?mediaCodeNo=257&newsId=04972486645347896",
+      "snippet": null,
+      "source": "edaily.co.kr",
+      "category": "ai_industry",
+      "fetched_at": "2026-02-06T21:03:42.250Z"
+    },
+    {
+      "title": "[헬로티 HelloT] 인텔, 엔비디아가 장악한 GPU 시장에 본격 진출한다",
+      "url": "https://www.hellot.net/news/article.html?no=110130",
+      "snippet": null,
+      "source": "www.hellot.net",
+      "category": "ai_industry",
+      "fetched_at": "2026-02-06T21:03:42.250Z"
+    },
+    {
+      "title": "[퇴근길 시황] 비트코인 6만5000달러대, 공포 심리 심화 속 ETF 자금 이탈 | 블록미디어",
+      "url": "https://www.blockmedia.co.kr/archives/1043113",
+      "snippet": null,
+      "source": "www.blockmedia.co.kr",
+      "category": "crypto_market",
+      "fetched_at": "2026-02-06T18:02:04.957Z"
+    },
+    {
+      "title": "2월 6일 출근길 팟캐스트 — 비트코인 청산 8억 달러 육박…기관 매도 신호에 시장 긴장 - TokenPost",
+      "url": "https://www.tokenpost.kr/news/insights/329626",
+      "snippet": null,
+      "source": "www.tokenpost.kr",
+      "category": "crypto_market",
+      "fetched_at": "2026-02-06T18:02:04.957Z"
+    },
+    {
+      "title": "비탈릭 부테린 “이더리움의 레이어2 전략은 실패”… ETH/USD 2% 하락",
+      "url": "https://99bitcoins.com/kr/news/presales/vitalik-ethereum-l2-roadmap-shift/",
+      "snippet": null,
+      "source": "99bitcoins.com",
+      "category": "crypto_market",
+      "fetched_at": "2026-02-06T18:02:04.957Z"
+    },
+    {
+      "title": "애플, 엑스코드에 클로드·코덱스 담았다...'에이전트 코딩' 본격화 - MS TODAY",
+      "url": "https://www.mstoday.co.kr/news/articleView.html?idxno=100492",
+      "snippet": null,
+      "source": "mstoday.co.kr",
+      "category": "dev_tools",
+      "fetched_at": "2026-02-06T15:04:47.737Z"
+    },
+    {
+      "title": "한 달 만에 20만 다운로드, 전 세계 홀린 한국 개발자 | 요즘IT",
+      "url": "https://yozm.wishket.com/magazine/detail/3590/",
+      "snippet": null,
+      "source": "yozm.wishket.com",
+      "category": "dev_tools",
+      "fetched_at": "2026-02-06T15:04:47.737Z"
+    },
+    {
+      "title": "깃허브 에이전트 HQ, 클로드·코덱스 지원 시작",
+      "url": "https://www.epnc.co.kr/news/articleView.html?idxno=328359",
+      "snippet": null,
+      "source": "epnc.co.kr",
+      "category": "dev_tools",
+      "fetched_at": "2026-02-06T15:04:47.737Z"
+    },
+    {
+      "title": "앤트로픽 클로드 새 버전, 100만 토큰을 처리한다 – 바이라인네트워크",
+      "url": "https://byline.network/2026/02/claude-2/",
+      "snippet": null,
+      "source": "byline.network",
+      "category": "dev_tools",
+      "fetched_at": "2026-02-06T15:04:47.737Z"
+    },
+    {
+      "title": "깃허브 에이전트 HQ, 클로드·코덱스 지원 시작 - 데일리시큐",
+      "url": "https://www.dailysecu.com/news/articleView.html?idxno=205012",
+      "snippet": null,
+      "source": "dailysecu.com",
+      "category": "dev_tools",
+      "fetched_at": "2026-02-06T15:04:47.737Z"
+    },
+    {
+      "title": "스페이스X 스타십 9차 시험비행 승인...연간 발사가능 횟수 확대",
+      "url": "https://m.science.ytn.co.kr/program/view_today.php?s_mcd=0082&key=202505161608475304",
+      "snippet": null,
+      "source": null,
+      "category": "elon_spacex_tesla",
+      "fetched_at": "2026-02-06T12:02:00.816Z"
+    },
+    {
+      "title": "[코스모스 타임즈] \"2025년은 '스타십'의 해\"메가로켓 25차례 발사한다",
+      "url": "https://www.cosmostimes.net/news/article.html?no=25004",
+      "snippet": null,
+      "source": null,
+      "category": "elon_spacex_tesla",
+      "fetched_at": "2026-02-06T12:02:00.816Z"
+    },
+    {
+      "title": "테슬라, 소프트웨어 결함으로 1만2천대 리콜 – 라디오 서울",
+      "url": "https://www.radioseoul1650.com/international/%ED%85%8C%EC%8A%AC%EB%9D%BC-%EC%86%8C%ED%94%84%ED%8A%B8%EC%9B%A8%EC%96%B4-%EA%B2%B0%ED%95%A8%EC%9C%BC%EB%A1%9C-1%EB%A7%8C2%EC%B2%9C%EB%8C%80-%EB%A6%AC%EC%BD%9C/",
+      "snippet": null,
+      "source": null,
+      "category": "elon_spacex_tesla",
+      "fetched_at": "2026-02-06T12:02:00.816Z"
+    },
+    {
+      "title": "풀 셀프 드라이빙(감독형) 차량 안전 보고서 | Tesla 대한민국",
+      "url": "https://www.tesla.com/ko_kr/fsd/safety",
+      "snippet": null,
+      "source": null,
+      "category": "elon_spacex_tesla",
+      "fetched_at": "2026-02-06T12:02:00.816Z"
+    },
+    {
+      "title": "[신년기획] 2026 AI 인사이트 ⑥ ... ‘AI를 산업 운영체계로’ 만드는 로드맵 - 테크42",
+      "url": "https://www.tech42.co.kr/%EC%8B%A0%EB%85%84%EA%B8%B0%ED%9A%8D-2026-ai-%EC%9D%B8%EC%82%AC%EC%9D%B4%ED%8A%B8-%E2%91%A5-%ED%95%9C%EA%B5%AD%EC%9D%98-2026-%EB%8C%80%EC%9D%91-%EC%A0%84%EB%9E%B5-ai%EB%A5%BC-%EC%82%B0/",
+      "snippet": null,
+      "source": "www.tech42.co.kr",
+      "category": "regulation_policy",
+      "fetched_at": "2026-02-06T09:05:06.841Z"
+    },
+    {
+      "title": "'AI 기본법' 시행 보름 만에...워터마크 제거법 SNS 확산 - 디지털투데이",
+      "url": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=627511",
+      "snippet": null,
+      "source": "www.digitaltoday.co.kr",
+      "category": "regulation_policy",
+      "fetched_at": "2026-02-06T09:05:06.841Z"
+    },
+    {
+      "title": "Privacy-First Transparency: ... EU AI Act Code of Practice - WITNESS Blog",
+      "url": "https://blog.witness.org/2026/02/privacy-first-transparency-witness-response-to-the-first-draft-eu-ai-act-code-of-practice/",
+      "snippet": null,
+      "source": "blog.witness.org",
+      "category": "regulation_policy",
+      "fetched_at": "2026-02-06T09:05:06.841Z"
+    },
+    {
+      "title": "오픈AI, 맥용 '코덱스' 앱 출시...\"코드 생성 넘어 다중 에이전트 통제\" - AI타임스",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=206275",
+      "snippet": null,
+      "source": null,
+      "category": "ai_industry",
+      "fetched_at": "2026-02-06T06:02:21.180Z"
+    }
+  ]
+}
