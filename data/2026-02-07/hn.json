@@ -180,6 +180,96 @@
       "author": "AlexeyBrin",
       "comments": 10,
       "posted_at": "2026-02-07 12:18:20"
+    },
+    {
+      "id": 46918824,
+      "title": "Show HN: R3forth, a ColorForth-inspired language with a tiny VM",
+      "url": "https://github.com/phreda4/r3",
+      "score": 44,
+      "author": "phreda4",
+      "comments": 7,
+      "posted_at": "2026-02-06 22:10:13"
+    },
+    {
+      "id": 46873322,
+      "title": "A Fresh Look at IBM 3270 Information Display System",
+      "url": "https://www.rs-online.com/designspark/a-fresh-look-at-ibm-3270-information-display-system",
+      "score": 42,
+      "author": "rbanffy",
+      "comments": 8,
+      "posted_at": "2026-02-03 16:40:52"
+    },
+    {
+      "id": 46912843,
+      "title": "FORTH? Really!?",
+      "url": "https://rescrv.net/w/2026/02/06/associative",
+      "score": 37,
+      "author": "rescrv",
+      "comments": 17,
+      "posted_at": "2026-02-06 13:54:09"
+    },
+    {
+      "id": 46905745,
+      "title": "Show HN: Slack CLI for Agents",
+      "url": "https://github.com/stablyai/agent-slack",
+      "score": 37,
+      "author": "nwparker",
+      "comments": 8,
+      "posted_at": "2026-02-05 21:38:51"
+    },
+    {
+      "id": 46858042,
+      "title": "72M Points of Interest",
+      "url": "https://tech.marksblogg.com/overture-places-pois.html",
+      "score": 34,
+      "author": "marklit",
+      "comments": 6,
+      "posted_at": "2026-02-02 16:40:55"
+    },
+    {
+      "id": 46902374,
+      "title": "Evaluating and mitigating the growing risk of LLM-discovered 0-days",
+      "url": "https://red.anthropic.com/2026/zero-days/",
+      "score": 33,
+      "author": "lebovic",
+      "comments": 11,
+      "posted_at": "2026-02-05 17:50:37"
+    },
+    {
+      "id": 46920248,
+      "title": "I'm going to cure my girlfriend's brain tumor",
+      "url": "https://andrewjrod.substack.com/p/im-going-to-cure-my-girlfriends-brain",
+      "score": 31,
+      "author": "ray__",
+      "comments": 6,
+      "posted_at": "2026-02-07 01:05:59"
+    },
+    {
+      "id": 46857453,
+      "title": "Dark Alley Mathematics",
+      "url": "https://blog.szczepan.org/blog/three-points/",
+      "score": 31,
+      "author": "quibono",
+      "comments": 2,
+      "posted_at": "2026-02-02 15:58:13"
+    },
+    {
+      "id": 46927098,
+      "title": "Microsoft Account bugs locked me out of Notepad – are Thin Clients ruining PCs?",
+      "url": "https://www.windowscentral.com/microsoft/windows-11/windows-locked-me-out-of-notepad-is-the-thin-client-era-ruining-pcs",
+      "score": 30,
+      "author": "josephcsible",
+      "comments": 23,
+      "posted_at": "2026-02-07 19:51:56"
+    },
+    {
+      "id": 46868135,
+      "title": "The Beauty of Slag",
+      "url": "https://mag.uchicago.edu/science-medicine/beauty-slag",
+      "score": 28,
+      "author": "sohkamyung",
+      "comments": 3,
+      "posted_at": "2026-02-03 08:23:23"
     }
   ]
 }

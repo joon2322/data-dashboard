@@ -1,0 +1,663 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Daily Briefing</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700;900&family=DM+Serif+Display:ital@0;1&family=JetBrains+Mono:wght@400;500&display=swap');
+
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  body {
+    background: #0c0c14;
+    color: #c8c8d4;
+    font-family: 'Noto Sans KR', -apple-system, sans-serif;
+    font-size: 15px;
+    line-height: 1.65;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  .wrapper {
+    max-width: 840px;
+    margin: 0 auto;
+    padding: 0;
+  }
+
+  /* ─── HEADER ─── */
+  .header {
+    padding: 40px 24px 28px;
+    border-bottom: 1px solid rgba(255,255,255,0.04);
+  }
+
+  .header-label {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 11px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: #5a5a72;
+    margin-bottom: 6px;
+  }
+
+  .header-title {
+    font-family: 'DM Serif Display', serif;
+    font-size: 32px;
+    font-weight: 400;
+    color: #ededf0;
+    line-height: 1.2;
+    margin-bottom: 8px;
+  }
+
+  .header-meta {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 12px;
+    color: #444460;
+    display: flex;
+    gap: 16px;
+    flex-wrap: wrap;
+  }
+
+  .header-meta span {
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+  }
+
+  /* ─── TL;DR HERO ─── */
+  .tldr {
+    margin: 24px 16px 0;
+    padding: 28px 24px 24px;
+    background: linear-gradient(135deg, #161628 0%, #1a1530 50%, #161628 100%);
+    border: 1px solid rgba(120, 100, 255, 0.12);
+    border-radius: 16px;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .tldr::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 2px;
+    background: linear-gradient(90deg, transparent, #6c5ce7, #a29bfe, #6c5ce7, transparent);
+  }
+
+  .tldr-badge {
+    display: inline-block;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 10px;
+    font-weight: 500;
+    letter-spacing: 2.5px;
+    text-transform: uppercase;
+    color: #a29bfe;
+    background: rgba(108, 92, 231, 0.1);
+    padding: 4px 12px;
+    border-radius: 100px;
+    margin-bottom: 16px;
+    border: 1px solid rgba(108, 92, 231, 0.15);
+  }
+
+  .tldr-list {
+    list-style: none;
+    padding: 0;
+  }
+
+  .tldr-item {
+    position: relative;
+    padding: 12px 0 12px 20px;
+    font-size: 15.5px;
+    line-height: 1.7;
+    color: #dddde8;
+    font-weight: 400;
+  }
+
+  .tldr-item + .tldr-item {
+    border-top: 1px solid rgba(255,255,255,0.03);
+  }
+
+  .tldr-item::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background: #6c5ce7;
+    box-shadow: 0 0 8px rgba(108, 92, 231, 0.4);
+  }
+
+  .tldr-item strong {
+    color: #ededf0;
+    font-weight: 700;
+  }
+
+  .tldr-item em {
+    font-style: normal;
+    color: #a29bfe;
+    font-weight: 500;
+  }
+
+  /* ─── SECTION COMMON ─── */
+  .section {
+    padding: 28px 24px 20px;
+    border-bottom: 1px solid rgba(255,255,255,0.03);
+  }
+
+  .section-header {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 16px;
+  }
+
+  .section-icon {
+    width: 28px;
+    height: 28px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+    flex-shrink: 0;
+  }
+
+  .section-title {
+    font-family: 'DM Serif Display', serif;
+    font-size: 18px;
+    color: #ededf0;
+    font-weight: 400;
+  }
+
+  .section-count {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 10px;
+    color: #555570;
+    margin-left: auto;
+    letter-spacing: 0.5px;
+  }
+
+  /* ─── NEWS ITEMS ─── */
+  .news-item {
+    padding: 10px 0;
+    display: flex;
+    gap: 12px;
+    align-items: flex-start;
+  }
+
+  .news-item + .news-item {
+    border-top: 1px solid rgba(255,255,255,0.025);
+  }
+
+  .news-bullet {
+    flex-shrink: 0;
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
+    margin-top: 10px;
+    background: #3a3a52;
+  }
+
+  .news-content {
+    flex: 1;
+    min-width: 0;
+  }
+
+  .news-headline {
+    font-size: 14.5px;
+    color: #d0d0dc;
+    line-height: 1.6;
+    font-weight: 400;
+  }
+
+  .news-headline strong {
+    color: #ededf0;
+    font-weight: 600;
+  }
+
+  .news-sources {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 10.5px;
+    color: #3d3d55;
+    margin-top: 3px;
+    line-height: 1.4;
+  }
+
+  .news-sources a {
+    color: #3d3d55;
+    text-decoration: none;
+    transition: color 0.15s;
+  }
+
+  .news-sources a:hover {
+    color: #6c5ce7;
+  }
+
+  /* ─── X / ELON SECTION ─── */
+  .x-section .section-icon {
+    background: rgba(255, 255, 255, 0.06);
+    color: #e0e0e0;
+  }
+
+  .x-post {
+    padding: 10px 0;
+    display: flex;
+    gap: 12px;
+    align-items: flex-start;
+  }
+
+  .x-post + .x-post {
+    border-top: 1px solid rgba(255,255,255,0.025);
+  }
+
+  .x-marker {
+    flex-shrink: 0;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 10px;
+    color: #555570;
+    width: 18px;
+    text-align: center;
+    margin-top: 3px;
+  }
+
+  .x-text {
+    font-size: 14.5px;
+    color: #d0d0dc;
+    line-height: 1.6;
+  }
+
+  .x-text strong {
+    color: #ededf0;
+    font-weight: 600;
+  }
+
+  /* Context chain - inline subtle */
+  .context-inline {
+    margin-top: 14px;
+    padding: 12px 16px;
+    background: rgba(255,255,255,0.02);
+    border-radius: 10px;
+    border-left: 2px solid rgba(255,255,255,0.06);
+  }
+
+  .context-label {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 10px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    color: #444460;
+    margin-bottom: 8px;
+  }
+
+  .context-item {
+    font-size: 13px;
+    color: #666680;
+    line-height: 1.55;
+    padding: 2px 0;
+  }
+
+  .context-item + .context-item {
+    margin-top: 2px;
+  }
+
+  /* ─── US/EN NEWS ─── */
+  .us-section .section-icon {
+    background: rgba(45, 120, 240, 0.08);
+    color: #5b9aff;
+  }
+
+  .us-section .news-bullet {
+    background: #2d4a7a;
+  }
+
+  /* ─── KR NEWS ─── */
+  .kr-section .section-icon {
+    background: rgba(0, 180, 130, 0.08);
+    color: #34d399;
+  }
+
+  .kr-section .news-bullet {
+    background: #1a6650;
+  }
+
+  /* ─── DEV / GITHUB ─── */
+  .dev-section .section-icon {
+    background: rgba(255, 160, 50, 0.08);
+    color: #f59e42;
+  }
+
+  .dev-section .news-bullet {
+    background: #6b4a1a;
+  }
+
+  .dev-tag {
+    display: inline-block;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 10px;
+    color: #f59e42;
+    background: rgba(255, 160, 50, 0.06);
+    padding: 1px 7px;
+    border-radius: 4px;
+    margin-right: 4px;
+    vertical-align: middle;
+  }
+
+  /* ─── FOOTER / DATA HEALTH ─── */
+  .footer {
+    padding: 20px 24px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 8px;
+    border-top: 1px solid rgba(255,255,255,0.03);
+  }
+
+  .health-row {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    flex-wrap: wrap;
+  }
+
+  .health-pill {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 10px;
+    letter-spacing: 0.5px;
+    color: #34d399;
+    background: rgba(52, 211, 153, 0.06);
+    padding: 3px 10px;
+    border-radius: 100px;
+    border: 1px solid rgba(52, 211, 153, 0.08);
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+  }
+
+  .health-pill::before {
+    content: '';
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
+    background: #34d399;
+  }
+
+  .health-pill.warn {
+    color: #f59e42;
+    background: rgba(245, 158, 66, 0.06);
+    border-color: rgba(245, 158, 66, 0.08);
+  }
+
+  .health-pill.warn::before {
+    background: #f59e42;
+  }
+
+  .footer-note {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 10px;
+    color: #333348;
+    letter-spacing: 0.3px;
+  }
+
+  /* ─── MOBILE ─── */
+  @media (max-width: 480px) {
+    .header { padding: 28px 18px 20px; }
+    .header-title { font-size: 26px; }
+    .tldr { margin: 16px 10px 0; padding: 22px 18px 20px; }
+    .tldr-item { font-size: 14.5px; }
+    .section { padding: 22px 18px 16px; }
+    .footer { padding: 16px 18px; }
+    .news-headline { font-size: 14px; }
+    .x-text { font-size: 14px; }
+  }
+</style>
+</head>
+<body>
+<div class="wrapper">
+  <!-- ━━ HEADER ━━ -->
+  <div class="header">
+    <div class="header-label">PM BRIEFING</div>
+    <div class="header-title">PM 브리핑</div>
+    <div class="header-meta">
+      <span>2026-02-07 (KST)</span>
+      <span style="color:#333348;">|</span>
+      <span>대상: 2026-02-07 05:00 ~ 2026-02-07 17:00</span>
+      <span style="color:#333348;">|</span>
+      <span>생성: 2026-02-07 17:50</span>
+    </div>
+  </div>
+
+  <!-- ━━ TL;DR HERO ━━ -->
+  <div class="tldr">
+    <div class="tldr-badge">TL;DR</div>
+    <ul class="tldr-list">
+      <li class="tldr-item"><em>(X)</em> <strong>Elon: “Mass driver on the Moon or bust!”</strong> — 달 대량물자 발사(매스 드라이버) 얘기로 스페이스/공학 밈성 코멘트.</li>
+      <li class="tldr-item"><em>(Dev Tools)</em> <strong>Apple Xcode 26.3: ‘에이전틱 코딩’ 공식 프레이밍</strong> — Anthropic/OpenAI 코딩 에이전트 연동을 전면에.</li>
+      <li class="tldr-item"><em>(Dev Tools)</em> <strong>OpenAI GPT-5.3 Codex: Claude Opus 4.6 정면 대응 구도</strong> — Codex 앱/CLI/IDE 확장 중심으로 배포 확대.</li>
+      <li class="tldr-item"><em>(📈 Market)</em> <strong>미국 지수·테크 강세(캐시)</strong> — S&amp;P(+2.0%), NASDAQ(+2.2%), Dow(+2.5%).</li>
+    </ul>
+  </div>
+
+  <!-- ━━ X / ELON ━━ -->
+  <div class="section x-section">
+    <div class="section-header">
+      <div class="section-icon">𝕏</div>
+      <div class="section-title">X / Elon</div>
+      <div class="section-count">3건</div>
+    </div>
+
+    <div class="x-post">
+      <div class="x-marker">1</div>
+      <div class="x-text"><strong>“Mass driver on the Moon or bust!”</strong> — 달 인프라/발사 방식(매스 드라이버) 얘기.
+        <div class="news-sources"><a href="https://x.com/elonmusk/status/2020044644059422726">2020044644059422726</a></div>
+      </div>
+    </div>
+
+    <div class="x-post">
+      <div class="x-marker">2</div>
+      <div class="x-text"><strong>Grok 트래픽 급증 주장 글 리트윗</strong> — “Claude/Perplexity/Meta보다 방문이 많다” 류 확산.
+        <div class="news-sources"><a href="https://x.com/elonmusk/status/2020017016535449703">2020017016535449703</a></div>
+      </div>
+    </div>
+
+    <div class="x-post">
+      <div class="x-marker">3</div>
+      <div class="x-text"><strong>정부 웹사이트 리액션 리트윗</strong> — “I can't believe this is a government website…”
+        <div class="news-sources"><a href="https://x.com/elonmusk/status/2020020646621900999">2020020646621900999</a></div>
+      </div>
+    </div>
+
+    <div class="context-inline">
+      <div class="context-label">CONTEXT</div>
+      <div class="context-item">17:00 슬롯에서 News/GitHub/Market/HN 모듈은 <strong>skipped</strong>(=그 시각 신규 수집 없음). 이 브리핑은 <strong>가장 최근 ok 슬롯</strong>(News 15:00, GitHub/HN 12:00, Market pm_watchlist 08:40)을 사용.</div>
+      <div class="context-item">Rotation: @zerohedge — <a href="https://x.com/zerohedge/status/2019990786406772840">2019990786406772840</a></div>
+    </div>
+  </div>
+
+  <!-- ━━ US / EN NEWS ━━ -->
+  <div class="section us-section">
+    <div class="section-header">
+      <div class="section-icon">EN</div>
+      <div class="section-title">US / EN News</div>
+      <div class="section-count">3건</div>
+    </div>
+
+    <div class="news-item">
+      <div class="news-bullet"></div>
+      <div class="news-content">
+        <div class="news-headline"><strong>Apple: Xcode 26.3 ‘agentic coding’ 전면화</strong> — 코딩 에이전트를 IDE 워크플로우의 기본 컴포넌트로 밀어붙이는 신호.</div>
+        <div class="news-sources"><a href="https://www.apple.com/newsroom/2026/02/xcode-26-point-3-unlocks-the-power-of-agentic-coding/">Apple Newsroom</a></div>
+      </div>
+    </div>
+
+    <div class="news-item">
+      <div class="news-bullet"></div>
+      <div class="news-content">
+        <div class="news-headline"><strong>OpenAI, GPT-5.3 Codex 확장 보도</strong> — Codex 앱/CLI/IDE 확장 중심으로 ‘코딩 에이전트’ 경쟁을 가속.</div>
+        <div class="news-sources"><a href="https://indianexpress.com/article/technology/tech-news-technology/openai-counters-anthropic-claude-opus-4-6-with-gpt-5-3-codex-its-most-advanced-coding-agent-10516681/">The Indian Express</a></div>
+      </div>
+    </div>
+
+    <div class="news-item">
+      <div class="news-bullet"></div>
+      <div class="news-content">
+        <div class="news-headline"><strong>AI 확산과 ‘IT 서비스/청구시간’ 모델의 긴장</strong> — 에이전트 도입 속도가 실서비스/수익 모델을 압박한다는 관점.</div>
+        <div class="news-sources"><a href="https://restofworld.org/2026/indian-it-ai-stock-crash-claude-cowork/">Rest of World</a></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ━━ KR NEWS ━━ -->
+  <div class="section kr-section">
+    <div class="section-header">
+      <div class="section-icon">KR</div>
+      <div class="section-title">KR News</div>
+      <div class="section-count">3건</div>
+    </div>
+
+    <div class="news-item">
+      <div class="news-bullet"></div>
+      <div class="news-content">
+        <div class="news-headline"><strong>깃허브 ‘에이전트 HQ’에 Claude·Codex 지원 본격화</strong> — 멀티 벤더 코딩 에이전트를 한 워크플로우에서 실행/관리하는 흐름.</div>
+        <div class="news-sources"><a href="https://www.datanet.co.kr/news/articleView.html?idxno=209148">데이터넷</a></div>
+      </div>
+    </div>
+
+    <div class="news-item">
+      <div class="news-bullet"></div>
+      <div class="news-content">
+        <div class="news-headline"><strong>깃허브, 에이전트 HQ에 Claude·Codex 지원</strong> — VS Code/GitHub 환경에서 에이전트 실행을 표준 UX로.</div>
+        <div class="news-sources"><a href="https://www.newstheai.com/news/articleView.html?idxno=20074">더에이아이</a></div>
+      </div>
+    </div>
+
+    <div class="news-item">
+      <div class="news-bullet"></div>
+      <div class="news-content">
+        <div class="news-headline"><strong>[릴리즈 노트] Claude Opus 4.6(코딩 성능) 요약</strong> — ‘코딩 더 잘’ 프레이밍으로 개발자 쪽 파급 정리.</div>
+        <div class="news-sources"><a href="https://yozm.wishket.com/magazine/detail/3594/">요즘IT</a></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ━━ DEV / GITHUB ━━ -->
+  <div class="section dev-section">
+    <div class="section-header">
+      <div class="section-icon">&lt;/&gt;</div>
+      <div class="section-title">Dev / GitHub Radar</div>
+      <div class="section-count">4건</div>
+    </div>
+
+    <div class="news-item">
+      <div class="news-bullet"></div>
+      <div class="news-content">
+        <div class="news-headline"><span class="dev-tag">commit</span><strong>oh-my-opencode</strong> — Opus 4.6용 effort=max 주입 hook(머지) 등 업데이트.</div>
+        <div class="news-sources"><a href="https://github.com/code-yeongyu/oh-my-opencode/commit/368ac310a10c216cf77dc4fb56e4638a7f637f19">368ac310</a></div>
+      </div>
+    </div>
+
+    <div class="news-item">
+      <div class="news-bullet"></div>
+      <div class="news-content">
+        <div class="news-headline"><span class="dev-tag">commit</span><strong>anthropics/claude-code</strong> — CHANGELOG 업데이트.</div>
+        <div class="news-sources"><a href="https://github.com/anthropics/claude-code/commit/2bc62d1456e3b3084bb8c7971a8b111ebe5f505d">2bc62d1</a></div>
+      </div>
+    </div>
+
+    <div class="news-item">
+      <div class="news-bullet"></div>
+      <div class="news-content">
+        <div class="news-headline"><span class="dev-tag">release</span><strong>openai/openai-python 2.17.0</strong></div>
+        <div class="news-sources"><a href="https://github.com/openai/openai-python/releases/tag/v2.17.0">v2.17.0</a></div>
+      </div>
+    </div>
+
+    <div class="news-item">
+      <div class="news-bullet"></div>
+      <div class="news-content">
+        <div class="news-headline"><span class="dev-tag">commit</span><strong>vercel/ai</strong> — provider/klingai 초기 추가(패키지 업데이트).</div>
+        <div class="news-sources"><a href="https://github.com/vercel/ai/commit/3a8e81ab5024ab6f8f29e3d2ad9519c7084a2073">3a8e81a</a></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ━━ MARKET ━━ -->
+  <div class="section">
+    <div class="section-header">
+      <div class="section-icon" style="background: rgba(52, 211, 153, 0.08); color: #34d399;">📈</div>
+      <div class="section-title">Market</div>
+      <div class="section-count">08:40 기준(pm_watchlist)</div>
+    </div>
+
+    <div class="news-item">
+      <div class="news-bullet" style="background:#1a6650;"></div>
+      <div class="news-content">
+        <div class="news-headline"><strong>지수</strong> — S&amp;P 500 6932.3 (▲ +2.0%) · NASDAQ 23031.2 (▲ +2.2%) · Dow 50115.7 (▲ +2.5%)</div>
+      </div>
+    </div>
+
+    <div class="news-item">
+      <div class="news-bullet" style="background:#1a6650;"></div>
+      <div class="news-content">
+        <div class="news-headline"><strong>메가테크</strong> — AAPL 278.1 (▲ +0.8%) · MSFT 401.1 (▲ +1.9%) · NVDA 185.4 (▲ +7.9%) · TSLA 411.1 (▲ +3.5%)</div>
+      </div>
+    </div>
+
+    <div class="news-item">
+      <div class="news-bullet" style="background:#1a6650;"></div>
+      <div class="news-content">
+        <div class="news-headline"><strong>기타(변동성)</strong> — AMD 208.4 (▲ +8.3%) · COIN 165.1 (▲ +13.0%) · AMZN 210.3 (▼ -5.6%)</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ━━ HN ━━ -->
+  <div class="section">
+    <div class="section-header">
+      <div class="section-icon" style="background: rgba(108, 92, 231, 0.10); color: #a29bfe;">HN</div>
+      <div class="section-title">Hacker News (Top 3)</div>
+      <div class="section-count">12:00 기준(캐시)</div>
+    </div>
+
+    <div class="news-item">
+      <div class="news-bullet"></div>
+      <div class="news-content">
+        <div class="news-headline"><strong>I miss thinking hard</strong> — 점수 1225 · 댓글 674</div>
+        <div class="news-sources"><a href="https://www.jernesto.com/articles/thinking_hard">jernesto.com</a></div>
+      </div>
+    </div>
+
+    <div class="news-item">
+      <div class="news-bullet"></div>
+      <div class="news-content">
+        <div class="news-headline"><strong>France dumps Zoom and Teams…(디지털 주권)</strong> — 점수 1127 · 댓글 583</div>
+        <div class="news-sources"><a href="https://apnews.com/article/europe-digital-sovereignty-big-tech-9f5388b68a0648514cebc8d92f682060">AP News</a></div>
+      </div>
+    </div>
+
+    <div class="news-item">
+      <div class="news-bullet"></div>
+      <div class="news-content">
+        <div class="news-headline"><strong>Data centers in space makes no sense</strong> — 점수 1056 · 댓글 1240</div>
+        <div class="news-sources"><a href="https://civai.org/blog/space-data-centers">civai.org</a></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ━━ FOOTER / DATA HEALTH ━━ -->
+  <div class="footer">
+    <div class="health-row">
+      <div class="health-pill">최신 raw 17:00 KST</div>
+      <div class="health-pill warn">News 최신 15:00</div>
+      <div class="health-pill warn">GitHub/HN 최신 12:00</div>
+      <div class="health-pill warn">Market 최신 08:40</div>
+    </div>
+    <div class="footer-note">오류 1건(17:00 db) · Data Health: X 17:00 ok · News 15:00 ok · GitHub 12:00 ok · HN 12:00 ok · Market(pm_watchlist) 08:40</div>
+  </div>
+</div>
+</body>
+</html>
