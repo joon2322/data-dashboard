@@ -160,6 +160,86 @@
       "source": "Simply Wall St.",
       "summary": null,
       "published_at": "2026-02-08T04:13:47.000Z"
+    },
+    {
+      "symbol": "NVDA",
+      "title": "Here’s What UBS and Truist Are Saying About Advanced Micro Devices (AMD)",
+      "url": "https://finance.yahoo.com/news/ubs-truist-saying-advanced-micro-084853231.html",
+      "source": "Insider Monkey",
+      "summary": null,
+      "published_at": "2026-02-08T08:48:53.000Z"
+    },
+    {
+      "symbol": "NVDA",
+      "title": "What Does the Street Think About NVIDIA Corporation (NVDA)?",
+      "url": "https://finance.yahoo.com/news/does-street-think-nvidia-corporation-084845834.html",
+      "source": "Insider Monkey",
+      "summary": null,
+      "published_at": "2026-02-08T08:48:45.000Z"
+    },
+    {
+      "symbol": "NVDA",
+      "title": "Missed Your RMD? You May Still Be Able to Avoid a Penalty.",
+      "url": "https://finance.yahoo.com/m/18bcf584-11cd-388e-8ad9-6db0992f6a17/missed-your-rmd%3F-you-may.html",
+      "source": "Motley Fool",
+      "summary": null,
+      "published_at": "2026-02-08T08:22:00.000Z"
+    },
+    {
+      "symbol": "AAPL",
+      "title": "Will Taking Over Apple's Credit Card Business Boost JPMorgan Chase Stock?",
+      "url": "https://finance.yahoo.com/m/ae5d7288-1917-310b-a325-adc636589bfc/will-taking-over-apple%27s.html",
+      "source": "Motley Fool",
+      "summary": null,
+      "published_at": "2026-02-08T04:50:00.000Z"
+    },
+    {
+      "symbol": "MSFT",
+      "title": "Barclays Remains Bullish on Microsoft Corporation (MSFT)",
+      "url": "https://finance.yahoo.com/news/barclays-remains-bullish-microsoft-corporation-084843308.html",
+      "source": "Insider Monkey",
+      "summary": null,
+      "published_at": "2026-02-08T08:48:43.000Z"
+    },
+    {
+      "symbol": "MSFT",
+      "title": "Think AWS Is Losing To Azure and Google Cloud? You Need To Hear This Quote From Amazon CEO Andy Jassy",
+      "url": "https://finance.yahoo.com/m/7bdbb4fc-dca9-3bcb-bd8e-aba58705b583/think-aws-is-losing-to-azure.html",
+      "source": "Motley Fool",
+      "summary": null,
+      "published_at": "2026-02-08T04:50:00.000Z"
+    },
+    {
+      "symbol": "MSFT",
+      "title": "The Hidden Gem AI Networking Stock That Could Own the Next 5 Years",
+      "url": "https://finance.yahoo.com/m/02e923b8-9018-37a8-a1ec-53a8f0d5915a/the-hidden-gem-ai-networking.html",
+      "source": "Motley Fool",
+      "summary": null,
+      "published_at": "2026-02-08T03:50:00.000Z"
+    },
+    {
+      "symbol": "AMD",
+      "title": "Intel, AMD Warn China Customers Of Months-Long CPU Delays",
+      "url": "https://finance.yahoo.com/news/intel-amd-warn-china-customers-213138002.html",
+      "source": "Benzinga",
+      "summary": null,
+      "published_at": "2026-02-07T21:31:38.000Z"
+    },
+    {
+      "symbol": "TSLA",
+      "title": "Tesla Puts Its Money Where Its Mouth Is in the Biggest Way Possible",
+      "url": "https://finance.yahoo.com/m/71982871-f86e-3bf2-a8f6-db7ec7027eea/tesla-puts-its-money-where.html",
+      "source": "Motley Fool",
+      "summary": null,
+      "published_at": "2026-02-07T21:50:00.000Z"
+    },
+    {
+      "symbol": "TSLA",
+      "title": "Elon Musk warns the U.S. is ‘1,000% going to go bankrupt’ unless AI and robotics save the economy from crushing debt",
+      "url": "https://finance.yahoo.com/news/elon-musk-warns-u-1-184828930.html",
+      "source": "Fortune",
+      "summary": null,
+      "published_at": "2026-02-07T18:48:28.000Z"
     }
   ]
 }

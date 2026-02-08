@@ -180,6 +180,96 @@
       "author": "mbitsnbites",
       "comments": 2,
       "posted_at": "2026-02-04 11:13:33"
+    },
+    {
+      "id": 46889741,
+      "title": "The Legacy of Daniel Kahneman: A Personal View (2025)",
+      "url": "https://ejpe.org/journal/article/view/1075/753",
+      "score": 30,
+      "author": "cainxinth",
+      "comments": 8,
+      "posted_at": "2026-02-04 18:36:37"
+    },
+    {
+      "id": 46869113,
+      "title": "A11yJSON: A standard to describe the accessibility of the physical world",
+      "url": "https://sozialhelden.github.io/a11yjson/",
+      "score": 30,
+      "author": "robin_reala",
+      "comments": 4,
+      "posted_at": "2026-02-03 10:21:37"
+    },
+    {
+      "id": 46888258,
+      "title": "Show HN: It took 4 years to sell my startup. I wrote a book about it",
+      "url": "https://derekyan.com/ma-book/",
+      "score": 29,
+      "author": "zhyan7109",
+      "comments": 7,
+      "posted_at": "2026-02-04 16:56:11"
+    },
+    {
+      "id": 46932192,
+      "title": "DoNotNotify is now Open Source",
+      "url": "https://donotnotify.com/opensource.html",
+      "score": 25,
+      "author": "awaaz",
+      "comments": 3,
+      "posted_at": "2026-02-08 07:39:49"
+    },
+    {
+      "id": 46861158,
+      "title": "The Architecture of Open Source Applications (Volume 1) Berkeley DB",
+      "url": "https://aosabook.org/en/v1/bdb.html",
+      "score": 23,
+      "author": "grep_it",
+      "comments": 3,
+      "posted_at": "2026-02-02 20:37:41"
+    },
+    {
+      "id": 46931559,
+      "title": "Roger Ebert Reviews \"The Shawshank Redemption\"",
+      "url": "https://www.rogerebert.com/reviews/great-movie-the-shawshank-redemption-1994",
+      "score": 21,
+      "author": "monero-xmr",
+      "comments": 15,
+      "posted_at": "2026-02-08 05:25:33"
+    },
+    {
+      "id": 46930391,
+      "title": "Show HN: LocalGPT – A local-first AI assistant in Rust with persistent memory",
+      "url": "https://github.com/localgpt-app/localgpt",
+      "score": 20,
+      "author": "yi_wang",
+      "comments": 5,
+      "posted_at": "2026-02-08 01:26:38"
+    },
+    {
+      "id": 46869713,
+      "title": "uLauncher",
+      "url": "https://github.com/jrpie/launcher",
+      "score": 20,
+      "author": "dtj1123",
+      "comments": 1,
+      "posted_at": "2026-02-03 11:41:11"
+    },
+    {
+      "id": 46934165,
+      "title": "Bitcoin tumbles below $70K, heavy losses in cryptocurrencies in last three weeks",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-05/bitcoin-drops-below-70-000-as-forced-deleveraging-accelerates",
+      "score": 19,
+      "author": "heresie-dabord",
+      "comments": 11,
+      "posted_at": "2026-02-08 13:48:09"
+    },
+    {
+      "id": 46869383,
+      "title": "Show HN: Craftplan – Elixir-based micro-ERP for small-scale manufacturers",
+      "url": "https://puemos.github.io/craftplan/",
+      "score": 15,
+      "author": "deofoo",
+      "comments": 3,
+      "posted_at": "2026-02-03 11:01:48"
     }
   ]
 }

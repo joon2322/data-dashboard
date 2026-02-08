@@ -160,6 +160,14 @@
       "source": "www.morningbrew.com",
       "category": "ai_industry",
       "fetched_at": "2026-02-08T00:05:03.373Z"
+    },
+    {
+      "title": "Anthropic releases Opus 4.6 with new 'agent teams' | TechCrunch",
+      "url": "https://techcrunch.com/2026/02/05/anthropic-releases-opus-4-6-with-new-agent-teams/",
+      "snippet": null,
+      "source": "techcrunch.com",
+      "category": "ai_industry",
+      "fetched_at": "2026-02-08T00:05:03.373Z"
     }
   ],
   "kr": [
@@ -302,6 +310,76 @@
       "source": "MBN",
       "category": "finance_main",
       "published_at": "2026-02-08 19:51:08"
+    },
+    {
+      "title": "“투자 안하면 벼락거지라는데”…‘금 한 돈 100만원 시대’ 똑똑한 금·은·동 투자법 [투자360]",
+      "url": "https://finance.naver.com/news/news_read.naver?article_id=0002597710&office_id=016&mode=mainnews&type=&date=2026-02-08&page=1",
+      "source": "헤럴드경제",
+      "category": "finance_main",
+      "published_at": "2026-02-08 19:40:12"
+    },
+    {
+      "title": "빗썸 오지급 사태 '일파만파'...\"내부통제 점검\"",
+      "url": "https://finance.naver.com/news/news_read.naver?article_id=0001241015&office_id=215&mode=mainnews&type=&date=2026-02-08&page=1",
+      "source": "한국경제TV",
+      "category": "finance_main",
+      "published_at": "2026-02-08 18:58:03"
+    },
+    {
+      "title": "‘2배 베팅’ 몰리는 개미... 1월에만 15만명 가세",
+      "url": "https://finance.naver.com/news/news_read.naver?article_id=0005475173&office_id=014&mode=mainnews&type=&date=2026-02-08&page=1",
+      "source": "파이낸셜뉴스",
+      "category": "finance_main",
+      "published_at": "2026-02-08 18:54:27"
+    },
+    {
+      "title": "부모 따라…레버리지·곱버스 투자하는 10대 3배 늘었다",
+      "url": "https://finance.naver.com/news/news_read.naver?article_id=0005475165&office_id=014&mode=mainnews&type=&date=2026-02-08&page=1",
+      "source": "파이낸셜뉴스",
+      "category": "finance_main",
+      "published_at": "2026-02-08 18:53:22"
+    },
+    {
+      "title": "\"장 좋아도 불안해\"…VIX 콜옵션 투자 급증",
+      "url": "https://finance.naver.com/news/news_read.naver?article_id=0005475146&office_id=014&mode=mainnews&type=&date=2026-02-08&page=1",
+      "source": "파이낸셜뉴스",
+      "category": "finance_main",
+      "published_at": "2026-02-08 18:39:23"
+    },
+    {
+      "title": "코스피 흔들려도 상승 베팅…개인 '초단기 빚투' 역대최대",
+      "url": "https://finance.naver.com/news/news_read.naver?article_id=0005475141&office_id=014&mode=mainnews&type=&date=2026-02-08&page=1",
+      "source": "파이낸셜뉴스",
+      "category": "finance_main",
+      "published_at": "2026-02-08 18:39:14"
+    },
+    {
+      "title": "사모펀드 투자문턱 확 낮췄다... 한달도 안돼 판매 400억 육박 [이런 펀드 어때요?]",
+      "url": "https://finance.naver.com/news/news_read.naver?article_id=0005475137&office_id=014&mode=mainnews&type=&date=2026-02-08&page=1",
+      "source": "파이낸셜뉴스",
+      "category": "finance_main",
+      "published_at": "2026-02-08 18:38:25"
+    },
+    {
+      "title": "금융·고배당 테마 강세… 美 AI·미래기술 ETF는 '출렁' [ETF 스퀘어]",
+      "url": "https://finance.naver.com/news/news_read.naver?article_id=0005475135&office_id=014&mode=mainnews&type=&date=2026-02-08&page=1",
+      "source": "파이낸셜뉴스",
+      "category": "finance_main",
+      "published_at": "2026-02-08 18:38:21"
+    },
+    {
+      "title": "60대 가장 \"집 사려는 아들에게 증여세 없이 5억 빌려줄 수 있을까\" [세무 재테크 Q&A]",
+      "url": "https://finance.naver.com/news/news_read.naver?article_id=0005475134&office_id=014&mode=mainnews&type=&date=2026-02-08&page=1",
+      "source": "파이낸셜뉴스",
+      "category": "finance_main",
+      "published_at": "2026-02-08 18:38:19"
+    },
+    {
+      "title": "\"모든 거래소 내부통제 점검\"…금융당국, 빗썸 사태에 연이틀 점검회의",
+      "url": "https://finance.naver.com/news/news_read.naver?article_id=0003057456&office_id=119&mode=mainnews&type=&date=2026-02-08&page=1",
+      "source": "데일리안",
+      "category": "finance_main",
+      "published_at": "2026-02-08 18:36:12"
     },
     {
       "title": "Bitcoin and Ether Drop Exposes Risks for Treasuries, ETFs, and Crypto Miners",
