@@ -1,0 +1,122 @@
+{
+  "date": "2026-02-02",
+  "quotes": [
+    {
+      "symbol": "AAPL",
+      "name": "Apple",
+      "category": "tech",
+      "price": null,
+      "change_percent": null,
+      "volume": null,
+      "captured_at": null
+    },
+    {
+      "symbol": "MSFT",
+      "name": "Microsoft",
+      "category": "tech",
+      "price": null,
+      "change_percent": null,
+      "volume": null,
+      "captured_at": null
+    },
+    {
+      "symbol": "GOOGL",
+      "name": "Alphabet",
+      "category": "tech",
+      "price": null,
+      "change_percent": null,
+      "volume": null,
+      "captured_at": null
+    },
+    {
+      "symbol": "AMZN",
+      "name": "Amazon",
+      "category": "tech",
+      "price": null,
+      "change_percent": null,
+      "volume": null,
+      "captured_at": null
+    },
+    {
+      "symbol": "NVDA",
+      "name": "NVIDIA",
+      "category": "tech",
+      "price": null,
+      "change_percent": null,
+      "volume": null,
+      "captured_at": null
+    },
+    {
+      "symbol": "TSLA",
+      "name": "Tesla",
+      "category": "tech",
+      "price": null,
+      "change_percent": null,
+      "volume": null,
+      "captured_at": null
+    },
+    {
+      "symbol": "META",
+      "name": "Meta",
+      "category": "tech",
+      "price": null,
+      "change_percent": null,
+      "volume": null,
+      "captured_at": null
+    },
+    {
+      "symbol": "AMD",
+      "name": "AMD",
+      "category": "tech",
+      "price": null,
+      "change_percent": null,
+      "volume": null,
+      "captured_at": null
+    },
+    {
+      "symbol": "PLTR",
+      "name": "Palantir",
+      "category": "tech",
+      "price": null,
+      "change_percent": null,
+      "volume": null,
+      "captured_at": null
+    },
+    {
+      "symbol": "COIN",
+      "name": "Coinbase",
+      "category": "crypto",
+      "price": null,
+      "change_percent": null,
+      "volume": null,
+      "captured_at": null
+    },
+    {
+      "symbol": "^GSPC",
+      "name": "S&P 500",
+      "category": "index",
+      "price": null,
+      "change_percent": null,
+      "volume": null,
+      "captured_at": null
+    },
+    {
+      "symbol": "^IXIC",
+      "name": "NASDAQ",
+      "category": "index",
+      "price": null,
+      "change_percent": null,
+      "volume": null,
+      "captured_at": null
+    },
+    {
+      "symbol": "^DJI",
+      "name": "Dow Jones",
+      "category": "index",
+      "price": null,
+      "change_percent": null,
+      "volume": null,
+      "captured_at": null
+    }
+  ]
+}
