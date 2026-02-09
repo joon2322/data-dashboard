@@ -1,122 +1,25 @@
 {
   "date": "2026-02-08",
   "quotes": [
-    {
-      "symbol": "AAPL",
-      "name": "Apple",
-      "category": "tech",
-      "price": 278.12,
-      "change_percent": 0.8,
-      "volume": 50050812,
-      "captured_at": "2026-02-08 15:01:11"
-    },
-    {
-      "symbol": "MSFT",
-      "name": "Microsoft",
-      "category": "tech",
-      "price": 401.14,
-      "change_percent": 1.9,
-      "volume": 52425974,
-      "captured_at": "2026-02-08 15:01:14"
-    },
-    {
-      "symbol": "GOOGL",
-      "name": "Alphabet",
-      "category": "tech",
-      "price": 322.86,
-      "change_percent": -2.53,
-      "volume": 56142146,
-      "captured_at": "2026-02-08 15:01:13"
-    },
-    {
-      "symbol": "AMZN",
-      "name": "Amazon",
-      "category": "tech",
-      "price": 210.32,
-      "change_percent": -5.55,
-      "volume": 179383581,
-      "captured_at": "2026-02-08 15:01:12"
-    },
-    {
-      "symbol": "NVDA",
-      "name": "NVIDIA",
-      "category": "tech",
-      "price": 185.41,
-      "change_percent": 7.87,
-      "volume": 223337250,
-      "captured_at": "2026-02-08 15:01:15"
-    },
-    {
-      "symbol": "TSLA",
-      "name": "Tesla",
-      "category": "tech",
-      "price": 411.11,
-      "change_percent": 3.5,
-      "volume": 60591652,
-      "captured_at": "2026-02-08 15:01:15"
-    },
-    {
-      "symbol": "META",
-      "name": "Meta",
-      "category": "tech",
-      "price": 661.46,
-      "change_percent": -1.31,
-      "volume": 12258652,
-      "captured_at": "2026-02-08 15:01:14"
-    },
-    {
-      "symbol": "AMD",
-      "name": "AMD",
-      "category": "tech",
-      "price": 208.44,
-      "change_percent": 8.28,
-      "volume": 42026554,
-      "captured_at": "2026-02-08 15:01:12"
-    },
-    {
-      "symbol": "PLTR",
-      "name": "Palantir",
-      "category": "tech",
-      "price": 135.9,
-      "change_percent": 4.53,
-      "volume": 61314225,
-      "captured_at": "2026-02-08 15:01:15"
-    },
-    {
-      "symbol": "COIN",
-      "name": "Coinbase",
-      "category": "crypto",
-      "price": 165.12,
-      "change_percent": 13,
-      "volume": 19549756,
-      "captured_at": "2026-02-08 15:01:13"
-    },
-    {
-      "symbol": "^GSPC",
-      "name": "S&P 500",
-      "category": "index",
-      "price": 6932.3,
-      "change_percent": 1.97,
-      "volume": 3835601000,
-      "captured_at": "2026-02-08 15:01:16"
-    },
-    {
-      "symbol": "^IXIC",
-      "name": "NASDAQ",
-      "category": "index",
-      "price": 23031.213,
-      "change_percent": 2.18,
-      "volume": 7360103000,
-      "captured_at": "2026-02-08 15:01:17"
-    },
-    {
-      "symbol": "^DJI",
-      "name": "Dow Jones",
-      "category": "index",
-      "price": 50115.67,
-      "change_percent": 2.47,
-      "volume": 772919440,
-      "captured_at": "2026-02-08 15:01:16"
-    }
-  ]
+    { "symbol": "AAPL", "name": "Apple", "category": "tech", "price": 278.12, "change_percent": 0.8, "volume": 50050812, "captured_at": "2026-02-08 15:01:11" },
+    { "symbol": "MSFT", "name": "Microsoft", "category": "tech", "price": 401.14, "change_percent": 1.9, "volume": 52425974, "captured_at": "2026-02-08 15:01:14" },
+    { "symbol": "GOOGL", "name": "Alphabet", "category": "tech", "price": 322.86, "change_percent": -2.53, "volume": 56142146, "captured_at": "2026-02-08 15:01:13" },
+    { "symbol": "AMZN", "name": "Amazon", "category": "tech", "price": 210.32, "change_percent": -5.55, "volume": 179383581, "captured_at": "2026-02-08 15:01:12" },
+    { "symbol": "NVDA", "name": "NVIDIA", "category": "tech", "price": 185.41, "change_percent": 7.87, "volume": 223337250, "captured_at": "2026-02-08 15:01:15" },
+    { "symbol": "TSLA", "name": "Tesla", "category": "tech", "price": 411.11, "change_percent": 3.5, "volume": 60591652, "captured_at": "2026-02-08 15:01:15" },
+    { "symbol": "META", "name": "Meta", "category": "tech", "price": 661.46, "change_percent": -1.31, "volume": 12258652, "captured_at": "2026-02-08 15:01:14" },
+    { "symbol": "AMD", "name": "AMD", "category": "tech", "price": 208.44, "change_percent": 8.28, "volume": 42026554, "captured_at": "2026-02-08 15:01:12" },
+    { "symbol": "PLTR", "name": "Palantir", "category": "tech", "price": 135.9, "change_percent": 4.53, "volume": 61314225, "captured_at": "2026-02-08 15:01:15" },
+    { "symbol": "COIN", "name": "Coinbase", "category": "crypto", "price": 165.12, "change_percent": 13, "volume": 19549756, "captured_at": "2026-02-08 15:01:13" },
+    { "symbol": "^GSPC", "name": "S&P 500", "category": "index", "price": 6932.3, "change_percent": 1.97, "volume": 3835601000, "captured_at": "2026-02-08 15:01:16" },
+    { "symbol": "^IXIC", "name": "NASDAQ", "category": "index", "price": 23031.213, "change_percent": 2.18, "volume": 7360103000, "captured_at": "2026-02-08 15:01:17" },
+    { "symbol": "^DJI", "name": "Dow Jones", "category": "index", "price": 50115.67, "change_percent": 2.47, "volume": 772919440, "captured_at": "2026-02-08 15:01:16" }
+  ],
+  "analysis": {
+    "summary_kr": "미국 증시 전반 강세 마감. 기술주 중심으로 반등하며 S&P 500 +1.97%, 나스닥 +2.18% 상승. COIN, AMD, NVDA가 큰 폭 상승한 반면 AMZN은 실적 부진으로 -5.55% 하락.",
+    "key_drivers": ["기술주 반등", "고용지표 호조", "AMZN 실적 실망"],
+    "outlook": "다음 주 CPI 발표를 앞두고 변동성 확대 예상. 기술주 모멘텀은 유지될 가능성.",
+    "sentiment": "bullish",
+    "jarvis_take": "전반적으로 긍정적이나, AMZN 급락은 빅테크 실적에 대한 시장의 높은 기대치를 보여줌. 선택적 매수 전략이 유효해 보임."
+  }
 }

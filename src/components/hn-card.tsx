@@ -27,6 +27,17 @@ export function HnCard({ post }: HnCardProps) {
         >
           {post.title}
         </a>
+        {post.summary_kr && (
+          <p className="mt-1 text-xs leading-relaxed text-text-tertiary">
+            {post.summary_kr}
+          </p>
+        )}
+        {post.why_important && (
+          <p className="mt-1 flex items-start gap-1.5 text-xs italic leading-relaxed text-accent/70">
+            <span className="shrink-0 pt-px">🤖</span>
+            <span>{post.why_important}</span>
+          </p>
+        )}
         <div className="mt-1 flex items-center gap-3 text-xs text-text-tertiary">
           <span>{post.author}</span>
           <span>{post.posted_at}</span>

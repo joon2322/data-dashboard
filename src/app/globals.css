@@ -19,21 +19,53 @@
   --color-text-secondary: #9ca3af;
   --color-text-tertiary: #6b7280;
 
-  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --color-sentiment-bullish: #22c55e;
+  --color-sentiment-bearish: #ef4444;
+  --color-sentiment-neutral: #6b7280;
+
+  --font-sans: var(--font-geist), "Pretendard Variable", "Pretendard", ui-sans-serif, system-ui, sans-serif;
   --font-mono: "JetBrains Mono", ui-monospace, monospace;
+}
+
+/* Light theme overrides */
+.light {
+  --color-base: #f8f9fc;
+  --color-surface: #ffffff;
+  --color-surface-hover: #f0f1f5;
+  --color-surface-active: #e5e7ed;
+  --color-border: #e0e2ea;
+  --color-border-subtle: #ecedf2;
+
+  --color-accent: #0a9e80;
+  --color-accent-dim: #078a6e;
+  --color-accent-glow: rgba(10, 158, 128, 0.1);
+
+  --color-text-primary: #111827;
+  --color-text-secondary: #4b5563;
+  --color-text-tertiary: #9ca3af;
 }
 
 *,
 *::before,
 *::after {
   scrollbar-width: thin;
-  scrollbar-color: #1e1e2a transparent;
+  scrollbar-color: var(--color-border) transparent;
+}
+
+html {
+  color-scheme: dark;
+}
+
+html.light {
+  color-scheme: light;
 }
 
 body {
   background: var(--color-base);
   color: var(--color-text-primary);
   font-family: var(--font-sans);
+  word-break: keep-all;
+  overflow-wrap: break-word;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }

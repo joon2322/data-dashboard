@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import { useTheme } from "next-themes";
 
 interface BriefingViewerProps {
   amHtml: string | null;
@@ -11,6 +12,8 @@ export function BriefingViewer({ amHtml, pmHtml }: BriefingViewerProps) {
   const hasAm = amHtml !== null;
   const hasPm = pmHtml !== null;
   const [tab, setTab] = useState<"am" | "pm">(hasPm ? "pm" : "am");
+  const { theme } = useTheme();
+  const isDark = theme !== "light";
 
   if (!hasAm && !hasPm) {
     return (
@@ -57,7 +60,7 @@ export function BriefingViewer({ amHtml, pmHtml }: BriefingViewerProps) {
         <div className="overflow-hidden rounded-xl border border-border">
           <iframe
             srcDoc={currentHtml}
-            className="h-[80vh] w-full border-0 bg-[#0c0c14]"
+            className={`h-[80vh] w-full border-0 ${isDark ? "bg-[#0c0c14]" : "bg-white"}`}
             title={`${tab.toUpperCase()} Briefing`}
             sandbox="allow-same-origin"
           />

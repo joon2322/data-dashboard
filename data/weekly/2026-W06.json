@@ -1,0 +1,27 @@
+{
+  "week": "2026-W06",
+  "date_range": { "start": "2026-02-03", "end": "2026-02-09" },
+  "title": "AI 에이전트 본격화 & 빅테크 실적 분화",
+  "summary_kr": "이번 주는 AI 에이전트 도구들의 본격적인 시장 진입과 빅테크 실적 분화가 핵심 테마였습니다. Claude Code Fast Mode 출시, Grok 4.20의 Alpha Arena 성과 등 AI 도구 경쟁이 심화되었고, AMZN 실적 부진 vs NVDA/AMD 강세로 빅테크 내 희비가 엇갈렸습니다.",
+  "key_events": [
+    { "title": "Claude Code Fast Mode 출시", "detail": "Anthropic이 Claude Code에 빠른 모드를 추가하며 개발자 생산성 도구 경쟁 본격화", "category": "dev", "date": "2026-02-07" },
+    { "title": "AMZN 실적 부진", "detail": "아마존 주가 -5.55% 급락. 클라우드 성장 둔화 우려", "category": "market", "date": "2026-02-08" },
+    { "title": "COIN +13% 급등", "detail": "크립토 규제 완화 기대감으로 Coinbase 주가 급등", "category": "market", "date": "2026-02-08" }
+  ],
+  "market_recap": {
+    "best_performers": [
+      { "symbol": "COIN", "change_percent": 13.0 },
+      { "symbol": "AMD", "change_percent": 8.28 },
+      { "symbol": "NVDA", "change_percent": 7.87 }
+    ],
+    "worst_performers": [
+      { "symbol": "AMZN", "change_percent": -5.55 },
+      { "symbol": "GOOGL", "change_percent": -2.53 },
+      { "symbol": "META", "change_percent": -1.31 }
+    ]
+  },
+  "top_themes": ["AI 에이전트 도구 경쟁", "빅테크 실적 분화", "크립토 변동성"],
+  "analysis": "AI 에이전트 도구가 프로토타입에서 프로덕션 단계로 전환되는 명확한 신호가 포착됨. 모델 자체보다 워크플로우와 도구 통합이 핵심 경쟁력이 되는 추세. 빅테크 내에서도 AI 수혜 정도에 따라 주가 분화가 뚜렷해지고 있음.",
+  "outlook": "다음 주 CPI 발표(2/12)가 최대 변수. AI 섹터는 모멘텀 유지 예상되나 밸류에이션 부담은 있음.",
+  "jarvis_take": "AI 에이전트 생태계가 빠르게 성숙하고 있어 관련 종목(PLTR, AMD, NVDA)에 대한 관심을 유지할 필요가 있음. 다만 AMZN 사례처럼 시장의 기대치가 매우 높아 실적 서프라이즈 없이는 상승이 어려운 구간."
+}

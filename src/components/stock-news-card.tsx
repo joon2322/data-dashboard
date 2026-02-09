@@ -1,4 +1,5 @@
 import type { StockArticle } from "@/lib/types";
+import { ImpactBadge } from "@/components/sentiment-badge";
 
 interface StockNewsCardProps {
   article: StockArticle;
@@ -21,6 +22,7 @@ export function StockNewsCard({ article }: StockNewsCardProps) {
         <span className="rounded-md bg-surface-hover px-2 py-0.5 text-xs text-text-tertiary">
           {article.source}
         </span>
+        {article.impact && <ImpactBadge impact={article.impact} />}
         {article.published_at && (
           <span className="text-xs text-text-tertiary">
             {new Date(article.published_at).toLocaleDateString("en-US", {
@@ -32,9 +34,20 @@ export function StockNewsCard({ article }: StockNewsCardProps) {
           </span>
         )}
       </div>
-      {article.summary && (
+      {article.summary_kr && (
+        <p className="mt-2 text-xs leading-relaxed text-text-tertiary">
+          {article.summary_kr}
+        </p>
+      )}
+      {!article.summary_kr && article.summary && (
         <p className="mt-2 text-xs leading-relaxed text-text-tertiary">
           {article.summary}
+        </p>
+      )}
+      {article.analysis && (
+        <p className="mt-2 flex items-start gap-1.5 text-xs italic leading-relaxed text-accent/70">
+          <span className="shrink-0 pt-px">🤖</span>
+          <span>{article.analysis}</span>
         </p>
       )}
     </article>

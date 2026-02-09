@@ -1,245 +1,29 @@
 {
   "date": "2026-02-08",
   "articles": [
-    {
-      "symbol": "PLTR",
-      "title": "Why Palantir Technologies (PLTR) Is Down 7.3% After Surging AI Adoption And New Cognizant Partnership – And What's Next",
-      "url": "https://finance.yahoo.com/news/why-palantir-technologies-pltr-down-120711362.html",
-      "source": "Simply Wall St.",
-      "summary": null,
-      "published_at": "2026-02-08T12:07:11.000Z"
-    },
-    {
-      "symbol": "PLTR",
-      "title": "Palantir, (PLTR) Cognizant Partner to Accelerate AI-Driven Healthcare Modernization",
-      "url": "https://finance.yahoo.com/news/palantir-pltr-cognizant-partner-accelerate-102057335.html",
-      "source": "Insider Monkey",
-      "summary": null,
-      "published_at": "2026-02-08T10:20:57.000Z"
-    },
-    {
-      "symbol": "AMD",
-      "title": "Here's How Micron Technology, AMD, and Nvidia Could Help This Magnificent ETF Turn $500 Per Month Into $1 Million",
-      "url": "https://finance.yahoo.com/m/cbe3b00b-552c-3c73-96ab-c2fcf36b1dab/here%27s-how-micron-technology%2C.html",
-      "source": "Motley Fool",
-      "summary": null,
-      "published_at": "2026-02-08T11:12:00.000Z"
-    },
-    {
-      "symbol": "AMD",
-      "title": "AMD Supply Strain Highlights Growing Role In Global AI Data Centers",
-      "url": "https://finance.yahoo.com/news/amd-supply-strain-highlights-growing-100623347.html",
-      "source": "Simply Wall St.",
-      "summary": null,
-      "published_at": "2026-02-08T10:06:23.000Z"
-    },
-    {
-      "symbol": "TSLA",
-      "title": "Elon Musk's Tesla Reignites Roadster Hype With New Trademark Filings",
-      "url": "https://finance.yahoo.com/news/elon-musks-tesla-reignites-roadster-123102546.html",
-      "source": "Benzinga",
-      "summary": null,
-      "published_at": "2026-02-08T12:31:02.000Z"
-    },
-    {
-      "symbol": "TSLA",
-      "title": "Can Living on $4K a Year Really Work? A Look at Extreme Frugality and FIRE Strategies",
-      "url": "https://finance.yahoo.com/m/12ff1f69-3c31-3689-91bf-3ff9392775fb/can-living-on-%244k-a-year.html",
-      "source": "Investopedia",
-      "summary": null,
-      "published_at": "2026-02-08T12:10:00.000Z"
-    },
-    {
-      "symbol": "META",
-      "title": "Meta’s multi-million-dollar Super Bowl ads may not just be about its smart glasses—but about selling Wall Street on Zuckerberg’s AI future",
-      "url": "https://finance.yahoo.com/news/meta-multi-million-dollar-super-120300436.html",
-      "source": "Fortune",
-      "summary": null,
-      "published_at": "2026-02-08T12:03:00.000Z"
-    },
-    {
-      "symbol": "AMZN",
-      "title": "2 Top Stocks Long-Term Investors Should Buy in February",
-      "url": "https://finance.yahoo.com/m/c4df9ee7-f767-39b3-9c69-2526db148ab5/2-top-stocks-long-term.html",
-      "source": "Motley Fool",
-      "summary": null,
-      "published_at": "2026-02-08T13:55:00.000Z"
-    },
-    {
-      "symbol": "NVDA",
-      "title": "3 Top Dow Jones Dividend Stocks to Buy for Passive Income in 2026",
-      "url": "https://finance.yahoo.com/m/b14dcc86-04f0-378d-8877-688dcbf612db/3-top-dow-jones-dividend.html",
-      "source": "Motley Fool",
-      "summary": null,
-      "published_at": "2026-02-08T14:45:00.000Z"
-    },
-    {
-      "symbol": "NVDA",
-      "title": "The Most Undervalued AI Stock on Wall Street Right Now (It Will Shock You)",
-      "url": "https://finance.yahoo.com/m/df490e2d-b120-373d-be33-cbb5f8ed4a2b/the-most-undervalued-ai-stock.html",
-      "source": "Motley Fool",
-      "summary": null,
-      "published_at": "2026-02-08T14:25:00.000Z"
-    },
-    {
-      "symbol": "MSFT",
-      "title": "Advanced Micro Devices (AMD) Stock Just Plunged. Buy the Dip, or Run for the Hills?",
-      "url": "https://finance.yahoo.com/m/1fd23bcb-3544-3f36-b8d1-2d127a5fce5b/advanced-micro-devices-%28amd%29.html",
-      "source": "Motley Fool",
-      "summary": null,
-      "published_at": "2026-02-08T14:07:00.000Z"
-    },
-    {
-      "symbol": "MSFT",
-      "title": "Dow 50,000 sets table for inflation data, delayed January jobs report: What to watch this week",
-      "url": "https://finance.yahoo.com/news/dow-50000-sets-table-for-inflation-data-delayed-january-jobs-report-what-to-watch-this-week-123826626.html",
-      "source": "Yahoo Finance",
-      "summary": null,
-      "published_at": "2026-02-08T12:38:26.000Z"
-    },
-    {
-      "symbol": "MSFT",
-      "title": "1 Reason Microsoft Stock Could Outperform the Market in 2026",
-      "url": "https://finance.yahoo.com/m/026ec900-1b0c-38db-bcc0-5caca60ca4b3/1-reason-microsoft-stock.html",
-      "source": "Motley Fool",
-      "summary": null,
-      "published_at": "2026-02-08T12:35:00.000Z"
-    },
-    {
-      "symbol": "GOOGL",
-      "title": "Amazon Defends Massive AI Spending, Says New AWS Capacity Being Monetized Quickly: Andy Jassy Sees Very 'Unusual' Opportunity",
-      "url": "https://finance.yahoo.com/news/amazon-defends-massive-ai-spending-143139992.html",
-      "source": "Benzinga",
-      "summary": null,
-      "published_at": "2026-02-08T14:31:39.000Z"
-    },
-    {
-      "symbol": "GOOGL",
-      "title": "Why I am still taking these tech stocks to task",
-      "url": "https://finance.yahoo.com/news/why-i-am-still-taking-these-tech-stocks-to-task-133012952.html",
-      "source": "Yahoo Finance",
-      "summary": null,
-      "published_at": "2026-02-08T13:30:12.000Z"
-    },
-    {
-      "symbol": "AAPL",
-      "title": "Dow Jones Futures Due; Apple, Boeing, These AI Stocks Are Buys. But Market Is Still Divided.",
-      "url": "https://finance.yahoo.com/m/981503ee-3a91-3e34-a07b-308dadbf6a2a/dow-jones-futures-due%3B-apple%2C.html",
-      "source": "Investor's Business Daily",
-      "summary": null,
-      "published_at": "2026-02-08T13:57:38.000Z"
-    },
-    {
-      "symbol": "AAPL",
-      "title": "2 of the Safest Buffett Stocks Investors Can Buy in 2026",
-      "url": "https://finance.yahoo.com/m/0c01614d-9b3d-31a8-98ed-45bf65a326b9/2-of-the-safest-buffett.html",
-      "source": "Motley Fool",
-      "summary": null,
-      "published_at": "2026-02-08T13:05:00.000Z"
-    },
-    {
-      "symbol": "AAPL",
-      "title": "JPMorgan Chase (JPM) Is Up 5.4% After Winning Apple Card Issuance From Goldman Sachs",
-      "url": "https://finance.yahoo.com/news/jpmorgan-chase-jpm-5-4-130334454.html",
-      "source": "Simply Wall St.",
-      "summary": null,
-      "published_at": "2026-02-08T13:03:34.000Z"
-    },
-    {
-      "symbol": "TSLA",
-      "title": "1 Warning Sign for Tesla Stock Investors in 2026",
-      "url": "https://finance.yahoo.com/m/286fa6eb-0d09-335b-bc6b-0842ec9e2311/1-warning-sign-for-tesla.html",
-      "source": "Motley Fool",
-      "summary": null,
-      "published_at": "2026-02-08T03:35:00.000Z"
-    },
-    {
-      "symbol": "META",
-      "title": "Corning Rallies As Meta Deal And Project Vault Shape Growth Story",
-      "url": "https://finance.yahoo.com/news/corning-rallies-meta-deal-project-041347001.html",
-      "source": "Simply Wall St.",
-      "summary": null,
-      "published_at": "2026-02-08T04:13:47.000Z"
-    },
-    {
-      "symbol": "NVDA",
-      "title": "Here’s What UBS and Truist Are Saying About Advanced Micro Devices (AMD)",
-      "url": "https://finance.yahoo.com/news/ubs-truist-saying-advanced-micro-084853231.html",
-      "source": "Insider Monkey",
-      "summary": null,
-      "published_at": "2026-02-08T08:48:53.000Z"
-    },
-    {
-      "symbol": "NVDA",
-      "title": "What Does the Street Think About NVIDIA Corporation (NVDA)?",
-      "url": "https://finance.yahoo.com/news/does-street-think-nvidia-corporation-084845834.html",
-      "source": "Insider Monkey",
-      "summary": null,
-      "published_at": "2026-02-08T08:48:45.000Z"
-    },
-    {
-      "symbol": "NVDA",
-      "title": "Missed Your RMD? You May Still Be Able to Avoid a Penalty.",
-      "url": "https://finance.yahoo.com/m/18bcf584-11cd-388e-8ad9-6db0992f6a17/missed-your-rmd%3F-you-may.html",
-      "source": "Motley Fool",
-      "summary": null,
-      "published_at": "2026-02-08T08:22:00.000Z"
-    },
-    {
-      "symbol": "AAPL",
-      "title": "Will Taking Over Apple's Credit Card Business Boost JPMorgan Chase Stock?",
-      "url": "https://finance.yahoo.com/m/ae5d7288-1917-310b-a325-adc636589bfc/will-taking-over-apple%27s.html",
-      "source": "Motley Fool",
-      "summary": null,
-      "published_at": "2026-02-08T04:50:00.000Z"
-    },
-    {
-      "symbol": "MSFT",
-      "title": "Barclays Remains Bullish on Microsoft Corporation (MSFT)",
-      "url": "https://finance.yahoo.com/news/barclays-remains-bullish-microsoft-corporation-084843308.html",
-      "source": "Insider Monkey",
-      "summary": null,
-      "published_at": "2026-02-08T08:48:43.000Z"
-    },
-    {
-      "symbol": "MSFT",
-      "title": "Think AWS Is Losing To Azure and Google Cloud? You Need To Hear This Quote From Amazon CEO Andy Jassy",
-      "url": "https://finance.yahoo.com/m/7bdbb4fc-dca9-3bcb-bd8e-aba58705b583/think-aws-is-losing-to-azure.html",
-      "source": "Motley Fool",
-      "summary": null,
-      "published_at": "2026-02-08T04:50:00.000Z"
-    },
-    {
-      "symbol": "MSFT",
-      "title": "The Hidden Gem AI Networking Stock That Could Own the Next 5 Years",
-      "url": "https://finance.yahoo.com/m/02e923b8-9018-37a8-a1ec-53a8f0d5915a/the-hidden-gem-ai-networking.html",
-      "source": "Motley Fool",
-      "summary": null,
-      "published_at": "2026-02-08T03:50:00.000Z"
-    },
-    {
-      "symbol": "AMD",
-      "title": "Intel, AMD Warn China Customers Of Months-Long CPU Delays",
-      "url": "https://finance.yahoo.com/news/intel-amd-warn-china-customers-213138002.html",
-      "source": "Benzinga",
-      "summary": null,
-      "published_at": "2026-02-07T21:31:38.000Z"
-    },
-    {
-      "symbol": "TSLA",
-      "title": "Tesla Puts Its Money Where Its Mouth Is in the Biggest Way Possible",
-      "url": "https://finance.yahoo.com/m/71982871-f86e-3bf2-a8f6-db7ec7027eea/tesla-puts-its-money-where.html",
-      "source": "Motley Fool",
-      "summary": null,
-      "published_at": "2026-02-07T21:50:00.000Z"
-    },
-    {
-      "symbol": "TSLA",
-      "title": "Elon Musk warns the U.S. is ‘1,000% going to go bankrupt’ unless AI and robotics save the economy from crushing debt",
-      "url": "https://finance.yahoo.com/news/elon-musk-warns-u-1-184828930.html",
-      "source": "Fortune",
-      "summary": null,
-      "published_at": "2026-02-07T18:48:28.000Z"
-    }
-  ]
+    { "symbol": "PLTR", "title": "Why Palantir Technologies (PLTR) Is Down 7.3% After Surging AI Adoption And New Cognizant Partnership – And What's Next", "url": "https://finance.yahoo.com/news/why-palantir-technologies-pltr-down-120711362.html", "source": "Simply Wall St.", "summary": null, "published_at": "2026-02-08T12:07:11.000Z", "summary_kr": "Palantir가 AI 채택 급증과 Cognizant 파트너십 발표 후 7.3% 하락한 이유 분석.", "impact": "negative" },
+    { "symbol": "PLTR", "title": "Palantir, (PLTR) Cognizant Partner to Accelerate AI-Driven Healthcare Modernization", "url": "https://finance.yahoo.com/news/palantir-pltr-cognizant-partner-accelerate-102057335.html", "source": "Insider Monkey", "summary": null, "published_at": "2026-02-08T10:20:57.000Z", "summary_kr": "Palantir와 Cognizant이 AI 기반 의료 현대화 가속을 위해 파트너십 체결.", "impact": "positive" },
+    { "symbol": "AMD", "title": "Here's How Micron Technology, AMD, and Nvidia Could Help This Magnificent ETF Turn $500 Per Month Into $1 Million", "url": "https://finance.yahoo.com/m/cbe3b00b-552c-3c73-96ab-c2fcf36b1dab/here%27s-how-micron-technology%2C.html", "source": "Motley Fool", "summary": null, "published_at": "2026-02-08T11:12:00.000Z", "summary_kr": "Micron, AMD, Nvidia가 포함된 ETF의 장기 투자 가능성 분석.", "impact": "positive" },
+    { "symbol": "AMD", "title": "AMD Supply Strain Highlights Growing Role In Global AI Data Centers", "url": "https://finance.yahoo.com/news/amd-supply-strain-highlights-growing-100623347.html", "source": "Simply Wall St.", "summary": null, "published_at": "2026-02-08T10:06:23.000Z", "summary_kr": "AMD 공급 부족이 글로벌 AI 데이터센터에서의 역할 확대를 시사.", "impact": "positive" },
+    { "symbol": "TSLA", "title": "Elon Musk's Tesla Reignites Roadster Hype With New Trademark Filings", "url": "https://finance.yahoo.com/news/elon-musks-tesla-reignites-roadster-123102546.html", "source": "Benzinga", "summary": null, "published_at": "2026-02-08T12:31:02.000Z", "summary_kr": "테슬라가 새로운 상표 출원으로 로드스터 기대감을 재점화.", "impact": "positive" },
+    { "symbol": "TSLA", "title": "Can Living on $4K a Year Really Work? A Look at Extreme Frugality and FIRE Strategies", "url": "https://finance.yahoo.com/m/12ff1f69-3c31-3689-91bf-3ff9392775fb/can-living-on-%244k-a-year.html", "source": "Investopedia", "summary": null, "published_at": "2026-02-08T12:10:00.000Z" },
+    { "symbol": "META", "title": "Meta's multi-million-dollar Super Bowl ads may not just be about its smart glasses—but about selling Wall Street on Zuckerberg's AI future", "url": "https://finance.yahoo.com/news/meta-multi-million-dollar-super-120300436.html", "source": "Fortune", "summary": null, "published_at": "2026-02-08T12:03:00.000Z", "summary_kr": "Meta의 슈퍼볼 광고가 스마트 글래스뿐 아니라 AI 미래를 월스트리트에 어필하는 전략.", "impact": "positive" },
+    { "symbol": "AMZN", "title": "2 Top Stocks Long-Term Investors Should Buy in February", "url": "https://finance.yahoo.com/m/c4df9ee7-f767-39b3-9c69-2526db148ab5/2-top-stocks-long-term.html", "source": "Motley Fool", "summary": null, "published_at": "2026-02-08T13:55:00.000Z", "summary_kr": "2월에 장기 투자자들이 매수해야 할 2개 종목 추천.", "impact": "positive" },
+    { "symbol": "NVDA", "title": "3 Top Dow Jones Dividend Stocks to Buy for Passive Income in 2026", "url": "https://finance.yahoo.com/m/b14dcc86-04f0-378d-8877-688dcbf612db/3-top-dow-jones-dividend.html", "source": "Motley Fool", "summary": null, "published_at": "2026-02-08T14:45:00.000Z", "summary_kr": "2026년 패시브 인컴을 위한 Dow Jones 배당주 3선.", "impact": "neutral" },
+    { "symbol": "NVDA", "title": "The Most Undervalued AI Stock on Wall Street Right Now (It Will Shock You)", "url": "https://finance.yahoo.com/m/df490e2d-b120-373d-be33-cbb5f8ed4a2b/the-most-undervalued-ai-stock.html", "source": "Motley Fool", "summary": null, "published_at": "2026-02-08T14:25:00.000Z", "summary_kr": "월스트리트에서 가장 저평가된 AI 주식 분석.", "impact": "positive" },
+    { "symbol": "MSFT", "title": "Advanced Micro Devices (AMD) Stock Just Plunged. Buy the Dip, or Run for the Hills?", "url": "https://finance.yahoo.com/m/1fd23bcb-3544-3f36-b8d1-2d127a5fce5b/advanced-micro-devices-%28amd%29.html", "source": "Motley Fool", "summary": null, "published_at": "2026-02-08T14:07:00.000Z" },
+    { "symbol": "MSFT", "title": "Dow 50,000 sets table for inflation data, delayed January jobs report: What to watch this week", "url": "https://finance.yahoo.com/news/dow-50000-sets-table-for-inflation-data-delayed-january-jobs-report-what-to-watch-this-week-123826626.html", "source": "Yahoo Finance", "summary": null, "published_at": "2026-02-08T12:38:26.000Z" },
+    { "symbol": "MSFT", "title": "1 Reason Microsoft Stock Could Outperform the Market in 2026", "url": "https://finance.yahoo.com/m/026ec900-1b0c-38db-bcc0-5caca60ca4b3/1-reason-microsoft-stock.html", "source": "Motley Fool", "summary": null, "published_at": "2026-02-08T12:35:00.000Z", "summary_kr": "Microsoft가 2026년 시장을 아웃퍼폼할 수 있는 이유.", "impact": "positive" },
+    { "symbol": "GOOGL", "title": "Amazon Defends Massive AI Spending, Says New AWS Capacity Being Monetized Quickly: Andy Jassy Sees Very 'Unusual' Opportunity", "url": "https://finance.yahoo.com/news/amazon-defends-massive-ai-spending-143139992.html", "source": "Benzinga", "summary": null, "published_at": "2026-02-08T14:31:39.000Z" },
+    { "symbol": "GOOGL", "title": "Why I am still taking these tech stocks to task", "url": "https://finance.yahoo.com/news/why-i-am-still-taking-these-tech-stocks-to-task-133012952.html", "source": "Yahoo Finance", "summary": null, "published_at": "2026-02-08T13:30:12.000Z" },
+    { "symbol": "AAPL", "title": "Dow Jones Futures Due; Apple, Boeing, These AI Stocks Are Buys. But Market Is Still Divided.", "url": "https://finance.yahoo.com/m/981503ee-3a91-3e34-a07b-308dadbf6a2a/dow-jones-futures-due%3B-apple%2C.html", "source": "Investor's Business Daily", "summary": null, "published_at": "2026-02-08T13:57:38.000Z" },
+    { "symbol": "AAPL", "title": "2 of the Safest Buffett Stocks Investors Can Buy in 2026", "url": "https://finance.yahoo.com/m/0c01614d-9b3d-31a8-98ed-45bf65a326b9/2-of-the-safest-buffett.html", "source": "Motley Fool", "summary": null, "published_at": "2026-02-08T13:05:00.000Z" },
+    { "symbol": "AAPL", "title": "JPMorgan Chase (JPM) Is Up 5.4% After Winning Apple Card Issuance From Goldman Sachs", "url": "https://finance.yahoo.com/news/jpmorgan-chase-jpm-5-4-130334454.html", "source": "Simply Wall St.", "summary": null, "published_at": "2026-02-08T13:03:34.000Z" },
+    { "symbol": "TSLA", "title": "1 Warning Sign for Tesla Stock Investors in 2026", "url": "https://finance.yahoo.com/m/286fa6eb-0d09-335b-bc6b-0842ec9e2311/1-warning-sign-for-tesla.html", "source": "Motley Fool", "summary": null, "published_at": "2026-02-08T03:35:00.000Z", "summary_kr": "2026년 테슬라 주식 투자자를 위한 경고 신호 분석.", "impact": "negative" },
+    { "symbol": "META", "title": "Corning Rallies As Meta Deal And Project Vault Shape Growth Story", "url": "https://finance.yahoo.com/news/corning-rallies-meta-deal-project-041347001.html", "source": "Simply Wall St.", "summary": null, "published_at": "2026-02-08T04:13:47.000Z" }
+  ],
+  "analysis": {
+    "summary_kr": "AI 관련 종목 뉴스가 대부분을 차지. PLTR의 Cognizant 파트너십, AMD의 공급 부족, NVDA의 저평가 분석 등이 주요 토픽. 전반적으로 AI 수혜주에 대한 긍정적 시각이 우세.",
+    "sentiment": "bullish"
+  }
 }

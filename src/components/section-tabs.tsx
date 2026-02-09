@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { SECTIONS } from "@/lib/types";
+import { DAILY_SECTIONS } from "@/lib/types";
 
 interface SectionTabsProps {
   date: string;
@@ -12,25 +12,25 @@ export function SectionTabs({ date }: SectionTabsProps) {
   const pathname = usePathname();
 
   return (
-    <div className="flex gap-1 overflow-x-auto border-b border-border-subtle pb-px">
-      {SECTIONS.map((s) => {
-        const href = `/${date}${s.href}`;
+    <div className="-mx-4 flex gap-1 overflow-x-auto px-4 pb-px sm:mx-0 sm:px-0">
+      {DAILY_SECTIONS.map((s) => {
+        const href = `/daily/${date}${s.href}`;
         const isActive =
           s.href === ""
-            ? pathname === `/${date}`
-            : pathname === `/${date}${s.href}`;
+            ? pathname === `/daily/${date}`
+            : pathname === `/daily/${date}${s.href}`;
 
         return (
           <Link
             key={s.key}
             href={href}
-            className={`shrink-0 rounded-t-lg px-3 py-2 text-sm font-medium transition-colors ${
+            className={`shrink-0 rounded-lg px-3 py-2 text-sm font-medium transition-colors ${
               isActive
-                ? "border-b-2 border-accent bg-surface text-accent"
+                ? "bg-accent/10 text-accent"
                 : "text-text-tertiary hover:bg-surface-hover hover:text-text-secondary"
             }`}
           >
-            {s.label}
+            {s.labelKr ?? s.label}
           </Link>
         );
       })}

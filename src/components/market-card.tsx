@@ -9,7 +9,7 @@ export function MarketCard({ quote }: MarketCardProps) {
   const isUp = quote.change_percent >= 0;
 
   return (
-    <div className="rounded-xl border border-border bg-surface p-4 transition-colors hover:border-border/80 hover:bg-surface-hover">
+    <div className="rounded-xl border border-border bg-surface p-4 transition-all hover:border-border/80 hover:bg-surface-hover hover:shadow-md hover:shadow-accent/5">
       <div className="flex items-start justify-between">
         <div>
           <p className="text-sm font-bold text-text-primary">{quote.symbol}</p>

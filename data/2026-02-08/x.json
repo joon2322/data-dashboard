@@ -1,55 +1,14 @@
 {
   "date": "2026-02-08",
   "posts": [
-    {
-      "id": "2020202496547844312",
-      "username": "elonmusk",
-      "text": "True. \n\nOnce the solar energy generation to robot manufacturing to chip fabrication to AI loop is closed, conventional currency will just get in the way. \n\nJust wattage and tonnage will matter, not dollars.",
-      "created_at": "2026-02-07T18:26:23.000Z",
-      "source_type": "elon_tweets",
-      "like_count": 51753,
-      "retweet_count": 6370,
-      "url": null
-    },
-    {
-      "id": "2020286078822060370",
-      "username": "elonmusk",
-      "text": "Great work by the @Grok Imagine team!",
-      "created_at": "2026-02-07T23:58:30.000Z",
-      "source_type": "elon_tweets",
-      "like_count": 945,
-      "retweet_count": 135,
-      "url": null
-    },
-    {
-      "id": "2020213124448575698",
-      "username": "elonmusk",
-      "text": "RT @DonaldJTrumpJr: Agreed. Now do “Gender Affirming Care” on minors. I’ll wait.",
-      "created_at": "2026-02-07T19:08:37.000Z",
-      "source_type": "elon_tweets",
-      "like_count": 0,
-      "retweet_count": 4280,
-      "url": null
-    },
-    {
-      "id": "2020202757995766163",
-      "username": "elonmusk",
-      "text": "RT @DC_Draino: Reid Hoffman hit the Epstein Trifecta:\n\nPedo Island\nWexner townhouse\nNew Mexico Ranch\n\nHow is he not being criminally invest…",
-      "created_at": "2026-02-07T18:27:25.000Z",
-      "source_type": "elon_tweets",
-      "like_count": 0,
-      "retweet_count": 2741,
-      "url": null
-    },
-    {
-      "id": "2020201068177817889",
-      "username": "elonmusk",
-      "text": "RT @XFreeze: Grok 4.20 is absolutely crushing Alpha Arena\n\nIn just 10 days, returns jumped from around 12% to nearly 35%, maintaining the t…",
-      "created_at": "2026-02-07T18:20:42.000Z",
-      "source_type": "elon_tweets",
-      "like_count": 0,
-      "retweet_count": 533,
-      "url": null
-    }
-  ]
+    { "id": "2020202496547844312", "username": "elonmusk", "text": "True. \n\nOnce the solar energy generation to robot manufacturing to chip fabrication to AI loop is closed, conventional currency will just get in the way. \n\nJust wattage and tonnage will matter, not dollars.", "created_at": "2026-02-07T18:26:23.000Z", "source_type": "elon_tweets", "like_count": 51753, "retweet_count": 6370, "url": null, "summary_kr": "태양광 에너지 → 로봇 제조 → 칩 제작 → AI의 순환 루프가 닫히면 기존 화폐는 마찰이 될 것. 와트와 톤만이 중요해질 것이라는 주장.", "analysis": "에너지-제조-AI의 자급자족 루프에 대한 장기적 비전. 현실화까지는 시간이 필요하나 방향성은 주목할 만함.", "relevance": "high" },
+    { "id": "2020286078822060370", "username": "elonmusk", "text": "Great work by the @Grok Imagine team!", "created_at": "2026-02-07T23:58:30.000Z", "source_type": "elon_tweets", "like_count": 945, "retweet_count": 135, "url": null, "summary_kr": "Grok Imagine 팀에 대한 칭찬. xAI의 이미지 생성 능력 강화 시사.", "relevance": "low" },
+    { "id": "2020213124448575698", "username": "elonmusk", "text": "RT @DonaldJTrumpJr: Agreed. Now do \"Gender Affirming Care\" on minors. I'll wait.", "created_at": "2026-02-07T19:08:37.000Z", "source_type": "elon_tweets", "like_count": 0, "retweet_count": 4280, "url": null, "summary_kr": "정치적 리트윗. 시장 관련성 낮음.", "relevance": "low" },
+    { "id": "2020202757995766163", "username": "elonmusk", "text": "RT @DC_Draino: Reid Hoffman hit the Epstein Trifecta:\n\nPedo Island\nWexner townhouse\nNew Mexico Ranch\n\nHow is he not being criminally invest…", "created_at": "2026-02-07T18:27:25.000Z", "source_type": "elon_tweets", "like_count": 0, "retweet_count": 2741, "url": null, "summary_kr": "Reid Hoffman 관련 정치적 리트윗.", "relevance": "low" },
+    { "id": "2020201068177817889", "username": "elonmusk", "text": "RT @XFreeze: Grok 4.20 is absolutely crushing Alpha Arena\n\nIn just 10 days, returns jumped from around 12% to nearly 35%, maintaining the t…", "created_at": "2026-02-07T18:20:42.000Z", "source_type": "elon_tweets", "like_count": 0, "retweet_count": 533, "url": null, "summary_kr": "Grok 4.20이 Alpha Arena에서 10일 만에 수익률 12% → 35% 달성. AI 트레이딩 성과 강조.", "analysis": "xAI의 금융 분야 AI 활용이 주목할 만한 성과를 보이고 있음. 검증이 필요하지만 AI 트레이딩의 가능성을 시사.", "relevance": "high" }
+  ],
+  "analysis": {
+    "summary_kr": "Elon Musk의 에너지-AI 순환 루프 비전과 Grok 4.20의 트레이딩 성과가 주요 포스트. 정치적 리트윗 비중도 높음.",
+    "sentiment": "neutral"
+  }
 }
