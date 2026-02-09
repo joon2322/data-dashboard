@@ -1,5 +1,127 @@
 {
   "date": "2026-02-09",
-  "us": [],
-  "kr": []
+  "us": [
+    {
+      "title": "Bitcoin ETFs Stabilize as BlackRock Leads Inflows After Volatile Week - Cointribune",
+      "url": "https://www.cointribune.com/en/bitcoin-etfs-stabilize-as-blackrock-leads-inflows-after-volatile-week/",
+      "snippet": null,
+      "source": "www.cointribune.com",
+      "category": "crypto_market",
+      "fetched_at": "2026-02-09T09:04:49.816Z"
+    },
+    {
+      "title": "BitMine defies the crash with a new massive purchase of Ethereum",
+      "url": "https://www.cointribune.com/en/bitmine-defies-the-crash-with-a-new-massive-purchase-of-ethereum/",
+      "snippet": null,
+      "source": "www.cointribune.com",
+      "category": "crypto_market",
+      "fetched_at": "2026-02-09T09:04:49.816Z"
+    },
+    {
+      "title": "Top Crypto Market Events to Watch This Week | CoinGape",
+      "url": "https://coingape.com/trending/top-crypto-market-events-to-watch-this-week/",
+      "snippet": null,
+      "source": "coingape.com",
+      "category": "crypto_market",
+      "fetched_at": "2026-02-09T09:04:49.816Z"
+    },
+    {
+      "title": "Crypto Market Struggles As Extreme Fear Hits Bitcoin And Ethereum",
+      "url": "https://blockchainreporter.net/crypto-market-struggles-as-extreme-fear-hits-bitcoin-and-ethereum/",
+      "snippet": null,
+      "source": "blockchainreporter.net",
+      "category": "crypto_market",
+      "fetched_at": "2026-02-09T09:04:49.816Z"
+    },
+    {
+      "title": "Trend Research Exits ETH Market Fueling Speculations",
+      "url": "https://blockchainreporter.net/trend-research-exits-eth-market-fueling-speculations/",
+      "snippet": null,
+      "source": "blockchainreporter.net",
+      "category": "crypto_market",
+      "fetched_at": "2026-02-09T09:04:49.816Z"
+    },
+    {
+      "title": "Claude Code Just Got Faster: Here's How to Set It Up (With Examples) - DEV Community",
+      "url": "https://dev.to/rakesh1002/claude-code-just-got-faster-heres-how-to-set-it-up-with-examples-166",
+      "snippet": null,
+      "source": "dev.to",
+      "category": "dev_tools",
+      "fetched_at": "2026-02-09T06:01:49.529Z"
+    }
+  ],
+  "kr": [
+    {
+      "title": "“이럴 수가…반토막 됐다” 비트코인, 3년 만에 ‘최악의 한주’ - 헤럴드경제",
+      "url": "https://biz.heraldcorp.com/article/10672081",
+      "snippet": null,
+      "source": "biz.heraldcorp.com",
+      "category": "crypto_market",
+      "fetched_at": "2026-02-09T09:04:49.816Z"
+    },
+    {
+      "title": "“가상자산 거래소 내부통제 전면점검”⋯금융당국, ‘빗썸 오지급 사태’ 긴급회의 - 이투데이",
+      "url": "https://www.etoday.co.kr/news/view/2554327",
+      "snippet": null,
+      "source": "www.etoday.co.kr",
+      "category": "crypto_market",
+      "fetched_at": "2026-02-09T09:04:49.816Z"
+    },
+    {
+      "title": "‘60조원 유령 비트코인’ 사태, 장부상 수량에 의존하는 거래소 구조가 불렀다",
+      "url": "https://www.hani.co.kr/arti/economy/finance/1243911.html",
+      "snippet": null,
+      "source": "www.hani.co.kr",
+      "category": "crypto_market",
+      "fetched_at": "2026-02-09T09:04:49.816Z"
+    },
+    {
+      "title": "‘빗썸 60조 오지급’, 8년 전 삼성증권 ‘유령 주식’ 사건 판박이",
+      "url": "https://www.hani.co.kr/arti/economy/economy_general/1243884.html",
+      "snippet": null,
+      "source": "www.hani.co.kr",
+      "category": "crypto_market",
+      "fetched_at": "2026-02-09T09:04:49.816Z"
+    },
+    {
+      "title": "빗썸 ‘비트코인 횡재’ 매도자들, 삼성증권 ‘유령 주식’ 판박이 처벌 가능성",
+      "url": "https://www.4th.kr/news/articleView.html?idxno=2107116",
+      "snippet": null,
+      "source": "www.4th.kr",
+      "category": "crypto_market",
+      "fetched_at": "2026-02-09T09:04:49.817Z"
+    },
+    {
+      "title": "앤트로픽의 새로운 AI 모델 버전인 클로드 오푸스 4.6에서 특히 새롭게 추가된 기능은 무엇인가요?",
+      "url": "https://xpert.digital/ko/claude-opus-4-6/",
+      "snippet": null,
+      "source": "xpert.digital",
+      "category": "dev_tools",
+      "fetched_at": "2026-02-09T06:01:49.529Z"
+    },
+    {
+      "title": "Anthropic, 코딩 없이 파일과 함께 작동하는 Claude 데스크톱 에이전트 'Cowork' 출시",
+      "url": "https://ekhbary.com/news/anthropic-%EC%BD%94%EB%94%A9-%EC%97%86%EC%9D%B4-%ED%8C%8C%EC%9D%BC%EA%B3%BC-%ED%95%A8%EA%BB%98-%EC%9E%91%EB%8F%99%ED%95%98%EB%8A%94-claude-%EB%8D%B0%EC%8A%A4%ED%81%AC%ED%86%B1-%EC%97%90%EC%9D%B4%EC%A0%84%ED%8A%B8-cowork-%EC%B6%9C%EC%8B%9C-587-11.html",
+      "snippet": null,
+      "source": "ekhbary.com",
+      "category": "dev_tools",
+      "fetched_at": "2026-02-09T06:01:49.529Z"
+    },
+    {
+      "title": "Anthropic's new Claude Fast Mode trades your wallet for speed at a steep 6x markup",
+      "url": "https://the-decoder.com/anthropics-new-claude-fast-mode-trades-your-wallet-for-speed-at-a-steep-6x-markup/",
+      "snippet": null,
+      "source": "the-decoder.com",
+      "category": "dev_tools",
+      "fetched_at": "2026-02-09T06:01:49.529Z"
+    },
+    {
+      "title": "Tesla Officially Updates Free FSD Transfer Policy — Here's The Last Date For Placing Orders To Be Eligible - Tesla (NASDAQ:TSLA) - Benzinga",
+      "url": "https://www.benzinga.com/markets/tech/26/02/50469709/tesla-officially-updates-free-fsd-transfer-policy-heres-the-last-date-for-placing-orders-to-be-eligible",
+      "snippet": null,
+      "source": null,
+      "category": "elon_spacex_tesla",
+      "fetched_at": "2026-02-09T03:03:39.919Z"
+    }
+  ]
 }

@@ -1,4 +1,221 @@
 {
   "date": "2026-02-09",
-  "posts": []
+  "posts": [
+    {
+      "id": 46941603,
+      "title": "Claude’s C Compiler vs. GCC",
+      "url": "https://harshanu.space/en/tech/ccc-vs-gcc/",
+      "score": 214,
+      "author": "unchar1",
+      "comments": 175,
+      "posted_at": "2026-02-09 04:30:38"
+    },
+    {
+      "id": 46939593,
+      "title": "AI makes the easy part easier and the hard part harder",
+      "url": "https://www.blundergoat.com/articles/ai-makes-the-easy-part-easier-and-the-hard-part-harder",
+      "score": 154,
+      "author": "weaksauce",
+      "comments": 128,
+      "posted_at": "2026-02-08 23:13:34"
+    },
+    {
+      "id": 46938903,
+      "title": "Shifts in U.S. Social Media Use, 2020–2024: Decline, Fragmentation, Polarization (2025)",
+      "url": "https://arxiv.org/abs/2510.25417",
+      "score": 139,
+      "author": "vinnyglennon",
+      "comments": 136,
+      "posted_at": "2026-02-08 21:52:28"
+    },
+    {
+      "id": 46941640,
+      "title": "TSMC to make advanced AI semiconductors in Japan",
+      "url": "https://apnews.com/article/semiconductors-tsmc-japan-taiwan-ai-11256f2bfde73ca23d08331ad138d6d5",
+      "score": 130,
+      "author": "dev_tty01",
+      "comments": 73,
+      "posted_at": "2026-02-09 04:38:14"
+    },
+    {
+      "id": 46938398,
+      "title": "More Mac malware from Google search",
+      "url": "https://eclecticlight.co/2026/01/30/more-malware-from-google-search/",
+      "score": 99,
+      "author": "kristianp",
+      "comments": 61,
+      "posted_at": "2026-02-08 20:52:55"
+    },
+    {
+      "id": 46938280,
+      "title": "Apple XNU: Clutch Scheduler",
+      "url": "https://github.com/apple-oss-distributions/xnu/blob/main/doc/scheduler/sched_clutch_edge.md",
+      "score": 90,
+      "author": "tosh",
+      "comments": 14,
+      "posted_at": "2026-02-08 20:38:55"
+    },
+    {
+      "id": 46937696,
+      "title": "Ask HN: What are you working on? (February 2026)",
+      "url": "https://news.ycombinator.com/item?id=46937696",
+      "score": 83,
+      "author": "david927",
+      "comments": 245,
+      "posted_at": "2026-02-08 19:35:55"
+    },
+    {
+      "id": 46941882,
+      "title": "Nobody knows how the whole system works",
+      "url": "https://surfingcomplexity.blog/2026/02/08/nobody-knows-how-the-whole-system-works/",
+      "score": 57,
+      "author": "azhenley",
+      "comments": 38,
+      "posted_at": "2026-02-09 05:28:15"
+    },
+    {
+      "id": 46939187,
+      "title": "Reverse Engineering the Prom for the SGI O2",
+      "url": "https://mattst88.com/blog/2026/02/08/Reverse_Engineering_the_PROM_for_the_SGI_O2/",
+      "score": 50,
+      "author": "mattst88",
+      "comments": 12,
+      "posted_at": "2026-02-08 22:25:25"
+    },
+    {
+      "id": 46938511,
+      "title": "Art of Roads in Games",
+      "url": "https://sandboxspirit.com/blog/art-of-roads-in-games/",
+      "score": 48,
+      "author": "linolevan",
+      "comments": 8,
+      "posted_at": "2026-02-08 21:05:24"
+    },
+    {
+      "id": 46885841,
+      "title": "Custom Firmware for the MZ-RH1 – Ready for Testing",
+      "url": "https://sir68k.re/posts/rh1-firmware-available/",
+      "score": 43,
+      "author": "jimbauwens",
+      "comments": 12,
+      "posted_at": "2026-02-04 13:57:39"
+    },
+    {
+      "id": 46941850,
+      "title": "A tough labor market for white-collar workers has turned recruiting upside down",
+      "url": "https://www.wsj.com/lifestyle/careers/job-hunters-are-so-desperate-that-theyre-paying-to-get-recruited-44891ac2",
+      "score": 40,
+      "author": "KnuthIsGod",
+      "comments": 24,
+      "posted_at": "2026-02-09 05:23:37"
+    },
+    {
+      "id": 46889710,
+      "title": "LispE: Lisp Interpreter with Pattern Programming and Lazy Evaluation",
+      "url": "https://github.com/naver/lispe",
+      "score": 40,
+      "author": "PaulHoule",
+      "comments": 1,
+      "posted_at": "2026-02-04 18:34:29"
+    },
+    {
+      "id": 46907651,
+      "title": "Show HN: Horizons – OSS agent execution engine",
+      "url": "https://github.com/synth-laboratories/Horizons",
+      "score": 36,
+      "author": "JoshPurtell",
+      "comments": 5,
+      "posted_at": "2026-02-06 00:58:31"
+    },
+    {
+      "id": 46938958,
+      "title": "Stop Generating, Start Thinking",
+      "url": "https://localghost.dev/blog/stop-generating-start-thinking/",
+      "score": 35,
+      "author": "frizlab",
+      "comments": 8,
+      "posted_at": "2026-02-08 21:58:19"
+    },
+    {
+      "id": 46932444,
+      "title": "Quartz Crystals",
+      "url": "https://www.pa3fwm.nl/technotes/tn13a.html",
+      "score": 34,
+      "author": "gtsnexp",
+      "comments": 4,
+      "posted_at": "2026-02-08 08:26:36"
+    },
+    {
+      "id": 46939312,
+      "title": "Show HN: A custom font that displays Cistercian numerals using ligatures",
+      "url": "https://bobbiec.github.io/cistercian-font.html",
+      "score": 26,
+      "author": "bobbiechen",
+      "comments": 2,
+      "posted_at": "2026-02-08 22:39:46"
+    },
+    {
+      "id": 46939685,
+      "title": "Every book recommended on the Odd Lots Discord",
+      "url": "https://odd-lots-books.netlify.app/",
+      "score": 22,
+      "author": "muggermuch",
+      "comments": 5,
+      "posted_at": "2026-02-08 23:27:59"
+    },
+    {
+      "id": 46900447,
+      "title": "Cooking with glasses",
+      "url": "https://macwright.com/2025/09/21/cooking-with-glasses",
+      "score": 22,
+      "author": "surprisetalk",
+      "comments": 6,
+      "posted_at": "2026-02-05 15:07:32"
+    },
+    {
+      "id": 46883307,
+      "title": "Ktkit: A Kotlin toolkit for building server applications with Ktor",
+      "url": "https://github.com/smyrgeorge/ktkit",
+      "score": 15,
+      "author": "smyrgeorge",
+      "comments": 2,
+      "posted_at": "2026-02-04 08:56:20"
+    },
+    {
+      "id": 46932826,
+      "title": "(Golang) Self referential functions and the design of options",
+      "url": "https://commandcenter.blogspot.com/2014/01/self-referential-functions-and-design.html",
+      "score": 5,
+      "author": "hambes",
+      "comments": 1,
+      "posted_at": "2026-02-08 09:41:29"
+    },
+    {
+      "id": 46892105,
+      "title": "Lessons from BF-Tree: Building a Concurrent Larger-Than-Memory Index in Rust",
+      "url": "https://zhihanz.github.io/posts/bf-tree-rust-implementation/",
+      "score": 5,
+      "author": "zhihanz",
+      "comments": 0,
+      "posted_at": "2026-02-04 21:32:48"
+    },
+    {
+      "id": 46899833,
+      "title": "Werewolf Vflex Adapter Review",
+      "url": "https://hagensieker.com/2026/02/05/werewolf-vflex-adapter-review/",
+      "score": 3,
+      "author": "geerlingguy",
+      "comments": 0,
+      "posted_at": "2026-02-05 14:14:11"
+    },
+    {
+      "id": 46939298,
+      "title": "Toma (YC W24) Is Hiring Founding Engineers",
+      "url": "https://www.ycombinator.com/companies/toma/jobs/oONUnCf-founding-engineer-ai-products",
+      "score": 1,
+      "author": "anthonykrivonos",
+      "comments": 0,
+      "posted_at": "2026-02-08 22:38:14"
+    }
+  ]
 }

@@ -5,118 +5,118 @@
       "symbol": "AAPL",
       "name": "Apple",
       "category": "tech",
-      "price": null,
-      "change_percent": null,
-      "volume": null,
-      "captured_at": null
+      "price": 278.12,
+      "change_percent": 0.8,
+      "volume": 50453414,
+      "captured_at": "2026-02-09 09:02:09"
     },
     {
       "symbol": "MSFT",
       "name": "Microsoft",
       "category": "tech",
-      "price": null,
-      "change_percent": null,
-      "volume": null,
-      "captured_at": null
+      "price": 401.14,
+      "change_percent": 1.9,
+      "volume": 53515311,
+      "captured_at": "2026-02-09 09:02:12"
     },
     {
       "symbol": "GOOGL",
       "name": "Alphabet",
       "category": "tech",
-      "price": null,
-      "change_percent": null,
-      "volume": null,
-      "captured_at": null
+      "price": 322.86,
+      "change_percent": -2.53,
+      "volume": 56380484,
+      "captured_at": "2026-02-09 09:02:11"
     },
     {
       "symbol": "AMZN",
       "name": "Amazon",
       "category": "tech",
-      "price": null,
-      "change_percent": null,
-      "volume": null,
-      "captured_at": null
+      "price": 210.32,
+      "change_percent": -5.55,
+      "volume": 179210851,
+      "captured_at": "2026-02-09 09:02:10"
     },
     {
       "symbol": "NVDA",
       "name": "NVIDIA",
       "category": "tech",
-      "price": null,
-      "change_percent": null,
-      "volume": null,
-      "captured_at": null
+      "price": 185.41,
+      "change_percent": 7.87,
+      "volume": 231346241,
+      "captured_at": "2026-02-09 09:02:13"
     },
     {
       "symbol": "TSLA",
       "name": "Tesla",
       "category": "tech",
-      "price": null,
-      "change_percent": null,
-      "volume": null,
-      "captured_at": null
+      "price": 411.11,
+      "change_percent": 3.5,
+      "volume": 62677144,
+      "captured_at": "2026-02-09 09:02:14"
     },
     {
       "symbol": "META",
       "name": "Meta",
       "category": "tech",
-      "price": null,
-      "change_percent": null,
-      "volume": null,
-      "captured_at": null
+      "price": 661.46,
+      "change_percent": -1.31,
+      "volume": 12258652,
+      "captured_at": "2026-02-09 09:02:12"
     },
     {
       "symbol": "AMD",
       "name": "AMD",
       "category": "tech",
-      "price": null,
-      "change_percent": null,
-      "volume": null,
-      "captured_at": null
+      "price": 208.44,
+      "change_percent": 8.28,
+      "volume": 42026554,
+      "captured_at": "2026-02-09 09:02:10"
     },
     {
       "symbol": "PLTR",
       "name": "Palantir",
       "category": "tech",
-      "price": null,
-      "change_percent": null,
-      "volume": null,
-      "captured_at": null
+      "price": 135.9,
+      "change_percent": 4.53,
+      "volume": 62661425,
+      "captured_at": "2026-02-09 09:02:13"
     },
     {
       "symbol": "COIN",
       "name": "Coinbase",
       "category": "crypto",
-      "price": null,
-      "change_percent": null,
-      "volume": null,
-      "captured_at": null
+      "price": 165.12,
+      "change_percent": 13,
+      "volume": 19776132,
+      "captured_at": "2026-02-09 09:02:11"
     },
     {
       "symbol": "^GSPC",
       "name": "S&P 500",
       "category": "index",
-      "price": null,
-      "change_percent": null,
-      "volume": null,
-      "captured_at": null
+      "price": 6932.3,
+      "change_percent": 1.97,
+      "volume": 3842633000,
+      "captured_at": "2026-02-09 09:02:14"
     },
     {
       "symbol": "^IXIC",
       "name": "NASDAQ",
       "category": "index",
-      "price": null,
-      "change_percent": null,
-      "volume": null,
-      "captured_at": null
+      "price": 23031.213,
+      "change_percent": 2.18,
+      "volume": 7360103000,
+      "captured_at": "2026-02-09 09:02:15"
     },
     {
       "symbol": "^DJI",
       "name": "Dow Jones",
       "category": "index",
-      "price": null,
-      "change_percent": null,
-      "volume": null,
-      "captured_at": null
+      "price": 50115.67,
+      "change_percent": 2.47,
+      "volume": 775497873,
+      "captured_at": "2026-02-09 09:02:14"
     }
   ]
 }

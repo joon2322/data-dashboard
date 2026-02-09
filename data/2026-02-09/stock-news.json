@@ -1,4 +1,165 @@
 {
   "date": "2026-02-09",
-  "articles": []
+  "articles": [
+    {
+      "symbol": "PLTR",
+      "title": "Palantir Technologies’s Q4 Earnings Call: Our Top 5 Analyst Questions",
+      "url": "https://finance.yahoo.com/news/palantir-technologies-q4-earnings-call-053104745.html",
+      "source": "StockStory",
+      "summary": null,
+      "published_at": "2026-02-09T05:31:04.000Z"
+    },
+    {
+      "symbol": "AMD",
+      "title": "OVHcloud unveils Bare Metal 2026 line-up powered by the latest AMD processors",
+      "url": "https://finance.yahoo.com/news/ovhcloud-unveils-bare-metal-2026-082400351.html",
+      "source": "GlobeNewswire",
+      "summary": null,
+      "published_at": "2026-02-09T08:24:00.000Z"
+    },
+    {
+      "symbol": "NVDA",
+      "title": "The Best Artificial Intelligence ETF to Invest $1,000 in Right Now",
+      "url": "https://finance.yahoo.com/m/085ed96c-1319-3b6d-a74a-68f3208cd566/the-best-artificial.html",
+      "source": "Motley Fool",
+      "summary": null,
+      "published_at": "2026-02-09T08:53:00.000Z"
+    },
+    {
+      "symbol": "NVDA",
+      "title": "Billionaires Buy 2 AI Stocks Up 970% and 2,000% Since Early 2023 (Hint: Not Nvidia or Broadcom)",
+      "url": "https://finance.yahoo.com/m/f1f966f8-49e8-35f2-8e3d-392ad19912ab/billionaires-buy-2-ai-stocks.html",
+      "source": "Motley Fool",
+      "summary": null,
+      "published_at": "2026-02-09T08:50:00.000Z"
+    },
+    {
+      "symbol": "GOOGL",
+      "title": "TotalEnergies to provide solar power to Google's Texas data centres",
+      "url": "https://finance.yahoo.com/news/totalenergies-solar-power-googles-texas-083134406.html",
+      "source": "Reuters",
+      "summary": null,
+      "published_at": "2026-02-09T08:31:34.000Z"
+    },
+    {
+      "symbol": "GOOGL",
+      "title": "Crypto Ads Make Super Bowl Comeback in 2026: Here's What Happened Last Time",
+      "url": "https://finance.yahoo.com/m/b405e8e9-1445-34c4-b84c-865a5f67e120/crypto-ads-make-super-bowl.html",
+      "source": "CCN",
+      "summary": null,
+      "published_at": "2026-02-09T07:58:41.000Z"
+    },
+    {
+      "symbol": "GOOGL",
+      "title": "Heard on the Street Friday Recap: Blue-Chip Rally",
+      "url": "https://finance.yahoo.com/m/baee3670-1f9f-3214-b049-2afa823ec899/heard-on-the-street-friday.html",
+      "source": "The Wall Street Journal",
+      "summary": null,
+      "published_at": "2026-02-09T07:17:59.000Z"
+    },
+    {
+      "symbol": "MSFT",
+      "title": "Just How Big Is the AI Spending Spree?",
+      "url": "https://finance.yahoo.com/m/a9e95ce9-6214-30e4-ba90-11fc6717e631/just-how-big-is-the-ai.html",
+      "source": "The Wall Street Journal",
+      "summary": null,
+      "published_at": "2026-02-09T07:45:01.000Z"
+    },
+    {
+      "symbol": "MSFT",
+      "title": "3 Unprofitable Stocks We Think Twice About",
+      "url": "https://finance.yahoo.com/news/3-unprofitable-stocks-think-twice-044128497.html",
+      "source": "StockStory",
+      "summary": null,
+      "published_at": "2026-02-09T04:41:28.000Z"
+    },
+    {
+      "symbol": "AAPL",
+      "title": "OpenAI denies rumors of scrapped Super Bowl ad featuring AI device",
+      "url": "https://finance.yahoo.com/m/737cf554-6e30-3f44-8d7b-2db6ed4e8028/openai-denies-rumors-of.html",
+      "source": "Investing.com",
+      "summary": null,
+      "published_at": "2026-02-09T06:30:24.000Z"
+    },
+    {
+      "symbol": "AMD",
+      "title": "Is Micron the New Nvidia?",
+      "url": "https://finance.yahoo.com/m/dd29006e-8e12-36c6-afc3-f1042305bbc3/is-micron-the-new-nvidia%3F.html",
+      "source": "Motley Fool",
+      "summary": null,
+      "published_at": "2026-02-08T23:45:00.000Z"
+    },
+    {
+      "symbol": "PLTR",
+      "title": "Is Palantir Technologies Still a Millionaire Maker Stock?",
+      "url": "https://finance.yahoo.com/m/a127b964-ebdc-3bff-8dfb-20238fdf7b9b/is-palantir-technologies.html",
+      "source": "Motley Fool",
+      "summary": null,
+      "published_at": "2026-02-09T01:20:00.000Z"
+    },
+    {
+      "symbol": "TSLA",
+      "title": "Tesla Eyes US Solar Cell Expansion, Musk Targets 100-Gigawatt Power Push For AI Data Centers",
+      "url": "https://finance.yahoo.com/news/tesla-eyes-us-solar-cell-233111250.html",
+      "source": "Benzinga",
+      "summary": null,
+      "published_at": "2026-02-08T23:31:11.000Z"
+    },
+    {
+      "symbol": "META",
+      "title": "Meta Platforms (META) Child Safety Lawsuit Proceeds as AI Data Center Deal Advances",
+      "url": "https://finance.yahoo.com/news/meta-platforms-meta-child-safety-211551491.html",
+      "source": "Insider Monkey",
+      "summary": null,
+      "published_at": "2026-02-08T21:15:51.000Z"
+    },
+    {
+      "symbol": "AMZN",
+      "title": "AT&T Amazon Cloud And Satellite Deals Reframe Fiber And Broadband Story",
+      "url": "https://finance.yahoo.com/news/t-amazon-cloud-satellite-deals-020751306.html",
+      "source": "Simply Wall St.",
+      "summary": null,
+      "published_at": "2026-02-09T02:07:51.000Z"
+    },
+    {
+      "symbol": "NVDA",
+      "title": "Australian AI infrastructure developer Firmus lands $10 billion debt package from Blackstone, Coatue",
+      "url": "https://finance.yahoo.com/news/australian-ai-infrastructure-developer-firmus-020348869.html",
+      "source": "Reuters",
+      "summary": null,
+      "published_at": "2026-02-09T02:03:48.000Z"
+    },
+    {
+      "symbol": "NVDA",
+      "title": "Digital Realty Debuts NVIDIA Certification for Liquid Cooled Data Center in Japan",
+      "url": "https://finance.yahoo.com/news/digital-realty-debuts-nvidia-certification-020000016.html",
+      "source": "GlobeNewswire",
+      "summary": null,
+      "published_at": "2026-02-09T02:00:00.000Z"
+    },
+    {
+      "symbol": "MSFT",
+      "title": "Stock market today: Dow, S&P 500, Nasdaq futures rise with Wall Street looking to continue Dow 50,000 rally",
+      "url": "https://finance.yahoo.com/news/live/stock-market-today-dow-sp-500-nasdaq-futures-rise-with-wall-street-looking-to-continue-dow-50000-rally-001401347.html",
+      "source": "Yahoo Finance",
+      "summary": null,
+      "published_at": "2026-02-09T00:14:01.000Z"
+    },
+    {
+      "symbol": "GOOGL",
+      "title": "Jim Cramer Says 'I Will Defend Amazon' After $200 Billion Spending Plan Triggers Selloff, Calls Google 'The Prize'",
+      "url": "https://finance.yahoo.com/news/jim-cramer-says-defend-amazon-213217623.html",
+      "source": "Benzinga",
+      "summary": null,
+      "published_at": "2026-02-08T21:32:17.000Z"
+    },
+    {
+      "symbol": "AAPL",
+      "title": "Dow Jones Futures Rise; Dow Above 50K With Apple, Boeing, These AI Stocks New Buys. But Market Is Still Divided.",
+      "url": "https://finance.yahoo.com/m/981503ee-3a91-3e34-a07b-308dadbf6a2a/dow-jones-futures-rise%3B-dow.html",
+      "source": "Investor's Business Daily",
+      "summary": null,
+      "published_at": "2026-02-09T02:54:34.000Z"
+    }
+  ]
 }
