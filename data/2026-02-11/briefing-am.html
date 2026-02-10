@@ -1,0 +1,525 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Daily Briefing</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700;900&family=DM+Serif+Display:ital@0;1&family=JetBrains+Mono:wght@400;500&display=swap');
+
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  body {
+    background: #0c0c14;
+    color: #c8c8d4;
+    font-family: 'Noto Sans KR', -apple-system, sans-serif;
+    font-size: 15px;
+    line-height: 1.65;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  .wrapper {
+    max-width: 840px;
+    margin: 0 auto;
+    padding: 0;
+  }
+
+  /* ─── HEADER ─── */
+  .header {
+    padding: 40px 24px 28px;
+    border-bottom: 1px solid rgba(255,255,255,0.04);
+  }
+
+  .header-label {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 11px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: #5a5a72;
+    margin-bottom: 6px;
+  }
+
+  .header-title {
+    font-family: 'DM Serif Display', serif;
+    font-size: 32px;
+    font-weight: 400;
+    color: #ededf0;
+    line-height: 1.2;
+    margin-bottom: 8px;
+  }
+
+  .header-meta {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 12px;
+    color: #444460;
+    display: flex;
+    gap: 16px;
+    flex-wrap: wrap;
+  }
+
+  .header-meta span {
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+  }
+
+  /* ─── TL;DR HERO ─── */
+  .tldr {
+    margin: 24px 16px 0;
+    padding: 28px 24px 24px;
+    background: linear-gradient(135deg, #161628 0%, #1a1530 50%, #161628 100%);
+    border: 1px solid rgba(120, 100, 255, 0.12);
+    border-radius: 16px;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .tldr::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 2px;
+    background: linear-gradient(90deg, transparent, #6c5ce7, #a29bfe, #6c5ce7, transparent);
+  }
+
+  .tldr-badge {
+    display: inline-block;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 10px;
+    font-weight: 500;
+    letter-spacing: 2.5px;
+    text-transform: uppercase;
+    color: #a29bfe;
+    background: rgba(108, 92, 231, 0.1);
+    padding: 4px 12px;
+    border-radius: 100px;
+    margin-bottom: 16px;
+    border: 1px solid rgba(108, 92, 231, 0.15);
+  }
+
+  .tldr-list {
+    list-style: none;
+    padding: 0;
+  }
+
+  .tldr-item {
+    position: relative;
+    padding: 12px 0 12px 20px;
+    font-size: 15.5px;
+    line-height: 1.7;
+    color: #dddde8;
+    font-weight: 400;
+  }
+
+  .tldr-item + .tldr-item {
+    border-top: 1px solid rgba(255,255,255,0.03);
+  }
+
+  .tldr-item::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background: #6c5ce7;
+    box-shadow: 0 0 8px rgba(108, 92, 231, 0.4);
+  }
+
+  .tldr-item strong {
+    color: #ededf0;
+    font-weight: 700;
+  }
+
+  .tldr-item em {
+    font-style: normal;
+    color: #a29bfe;
+    font-weight: 500;
+  }
+
+  /* ─── SECTION COMMON ─── */
+  .section {
+    padding: 28px 24px 20px;
+    border-bottom: 1px solid rgba(255,255,255,0.03);
+  }
+
+  .section-header {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 16px;
+  }
+
+  .section-icon {
+    width: 28px;
+    height: 28px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+    flex-shrink: 0;
+  }
+
+  .section-title {
+    font-family: 'DM Serif Display', serif;
+    font-size: 18px;
+    color: #ededf0;
+    font-weight: 400;
+  }
+
+  .section-count {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 10px;
+    color: #555570;
+    margin-left: auto;
+    letter-spacing: 0.5px;
+  }
+
+  /* ─── NEWS ITEMS ─── */
+  .news-item {
+    padding: 10px 0;
+    display: flex;
+    gap: 12px;
+    align-items: flex-start;
+  }
+
+  .news-item + .news-item {
+    border-top: 1px solid rgba(255,255,255,0.025);
+  }
+
+  .news-bullet {
+    flex-shrink: 0;
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
+    margin-top: 10px;
+    background: #3a3a52;
+  }
+
+  .news-content {
+    flex: 1;
+    min-width: 0;
+  }
+
+  .news-headline {
+    font-size: 14.5px;
+    color: #d0d0dc;
+    line-height: 1.6;
+    font-weight: 400;
+  }
+
+  .news-headline strong {
+    color: #ededf0;
+    font-weight: 600;
+  }
+
+  .news-sources {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 10.5px;
+    color: #3d3d55;
+    margin-top: 3px;
+    line-height: 1.4;
+  }
+
+  .news-sources a {
+    color: #3d3d55;
+    text-decoration: none;
+    transition: color 0.15s;
+  }
+
+  .news-sources a:hover {
+    color: #6c5ce7;
+  }
+
+  /* ─── X / ELON SECTION ─── */
+  .x-section .section-icon {
+    background: rgba(255, 255, 255, 0.06);
+    color: #e0e0e0;
+  }
+
+  .x-post {
+    padding: 10px 0;
+    display: flex;
+    gap: 12px;
+    align-items: flex-start;
+  }
+
+  .x-post + .x-post {
+    border-top: 1px solid rgba(255,255,255,0.025);
+  }
+
+  .x-marker {
+    flex-shrink: 0;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 10px;
+    color: #555570;
+    width: 18px;
+    text-align: center;
+    margin-top: 3px;
+  }
+
+  .x-text {
+    font-size: 14.5px;
+    color: #d0d0dc;
+    line-height: 1.6;
+  }
+
+  .x-text strong {
+    color: #ededf0;
+    font-weight: 600;
+  }
+
+  .x-text .quote {
+    color: #8a8aa0;
+    font-style: italic;
+  }
+
+  /* Context chain - inline subtle */
+  .context-inline {
+    margin-top: 14px;
+    padding: 12px 16px;
+    background: rgba(255,255,255,0.02);
+    border-radius: 10px;
+    border-left: 2px solid rgba(255,255,255,0.06);
+  }
+
+  .context-label {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 10px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    color: #444460;
+    margin-bottom: 8px;
+  }
+
+  .context-item {
+    font-size: 13px;
+    color: #666680;
+    line-height: 1.55;
+    padding: 2px 0;
+  }
+
+  .context-item + .context-item {
+    margin-top: 2px;
+  }
+
+  /* ─── US/EN NEWS ─── */
+  .us-section .section-icon {
+    background: rgba(45, 120, 240, 0.08);
+    color: #5b9aff;
+  }
+
+  .us-section .news-bullet {
+    background: #2d4a7a;
+  }
+
+  /* ─── KR NEWS ─── */
+  .kr-section .section-icon {
+    background: rgba(0, 180, 130, 0.08);
+    color: #34d399;
+  }
+
+  .kr-section .news-bullet {
+    background: #1a6650;
+  }
+
+  /* ─── DEV / GITHUB ─── */
+  .dev-section .section-icon {
+    background: rgba(255, 160, 50, 0.08);
+    color: #f59e42;
+  }
+
+  .dev-section .news-bullet {
+    background: #6b4a1a;
+  }
+
+  .dev-tag {
+    display: inline-block;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 10px;
+    color: #f59e42;
+    background: rgba(255, 160, 50, 0.06);
+    padding: 1px 7px;
+    border-radius: 4px;
+    margin-right: 4px;
+    vertical-align: middle;
+  }
+
+  /* ─── FOOTER / DATA HEALTH ─── */
+  .footer {
+    padding: 20px 24px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 8px;
+    border-top: 1px solid rgba(255,255,255,0.03);
+  }
+
+  .health-row {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    flex-wrap: wrap;
+  }
+
+  .health-pill {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 10px;
+    letter-spacing: 0.5px;
+    color: #34d399;
+    background: rgba(52, 211, 153, 0.06);
+    padding: 3px 10px;
+    border-radius: 100px;
+    border: 1px solid rgba(52, 211, 153, 0.08);
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+  }
+
+  .health-pill::before {
+    content: '';
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
+    background: #34d399;
+  }
+
+  .health-pill.warn {
+    color: #f59e42;
+    background: rgba(245, 158, 66, 0.06);
+    border-color: rgba(245, 158, 66, 0.08);
+  }
+
+  .health-pill.warn::before {
+    background: #f59e42;
+  }
+
+  .footer-note {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 10px;
+    color: #333348;
+    letter-spacing: 0.3px;
+  }
+
+  /* ─── MOBILE ─── */
+  @media (max-width: 480px) {
+    .header { padding: 28px 18px 20px; }
+    .header-title { font-size: 26px; }
+    .tldr { margin: 16px 10px 0; padding: 22px 18px 20px; }
+    .tldr-item { font-size: 14.5px; }
+    .section { padding: 22px 18px 16px; }
+    .footer { padding: 16px 18px; }
+    .news-headline { font-size: 14px; }
+    .x-text { font-size: 14px; }
+  }
+</style>
+</head>
+<body>
+<div class="wrapper">
+  <div class="header">
+    <div class="header-label">AM BRIEFING</div>
+    <div class="header-title">AM 브리핑 (미국 장 마감)</div>
+    <div class="header-meta">
+      <span>2026-02-11 (수)</span>
+      <span style="color:#333348;">|</span>
+      <span>윈도우: 2026-02-10 18:00 → 2026-02-11 06:00 (KST)</span>
+      <span style="color:#333348;">|</span>
+      <span>생성: 06:40 KST</span>
+    </div>
+  </div>
+
+  <div class="tldr">
+    <div class="tldr-badge">TL;DR</div>
+    <ul class="tldr-list">
+      <li class="tldr-item"><strong>시장(미국 종가)</strong> 관심종목 변동 상위: <em>COIN ▼ -2.8%</em>, <em>PLTR ▼ -2.4%</em>, <em>TSLA ▲ +1.9%</em></li>
+      <li class="tldr-item"><strong>AI 산업</strong> Runway, <em>$315M</em> 투자 유치(기업가치 <em>$5.3B</em>)</li>
+      <li class="tldr-item"><strong>X / Elon</strong> X 신기능 언급 + Starship Super Heavy 테스트 공유</li>
+    </ul>
+  </div>
+
+  <div class="section x-section">
+    <div class="section-header">
+      <div class="section-icon">&#x1D54F;</div>
+      <div class="section-title">X / Elon</div>
+      <div class="section-count">6 posts</div>
+    </div>
+
+    <div class="x-post"><div class="x-marker">E1</div><div class="x-text"><strong>New features on 𝕏!</strong><div class="news-sources">@elonmusk · <a href="https://x.com/elonmusk/status/2021303784073277749" target="_blank" rel="noopener">link</a></div></div></div>
+    <div class="x-post"><div class="x-marker">E2</div><div class="x-text"><strong>Starship Super Heavy testing</strong><div class="news-sources">@elonmusk · <a href="https://x.com/elonmusk/status/2021279420590538949" target="_blank" rel="noopener">link</a></div></div></div>
+    <div class="x-post"><div class="x-marker">E3</div><div class="x-text"><strong>“Most of the child victims were turned into traffickers…”</strong><div class="news-sources">@elonmusk · <a href="https://x.com/elonmusk/status/2021224999126798619" target="_blank" rel="noopener">link</a></div></div></div>
+
+    <div class="x-post"><div class="x-marker">R1</div><div class="x-text"><strong>At close: 🥗🥗🥗</strong><div class="news-sources">@unusual_whales · <a href="https://x.com/unusual_whales/status/2021328532761346220" target="_blank" rel="noopener">link</a></div></div></div>
+    <div class="x-post"><div class="x-marker">R2</div><div class="x-text"><strong>정치인 투자(ICH R) 수익률 언급</strong><div class="news-sources">@unusual_whales · <a href="https://x.com/unusual_whales/status/2021318755406708955" target="_blank" rel="noopener">link</a></div></div></div>
+    <div class="x-post"><div class="x-marker">R3</div><div class="x-text"><strong>데이터센터 건설 ‘일시 중단’ 법안 확산</strong><div class="news-sources">@unusual_whales · <a href="https://x.com/unusual_whales/status/2021196701240000653" target="_blank" rel="noopener">link</a></div></div></div>
+
+    <div class="context-inline"><div class="context-label">Context</div><div class="context-item">slot: 0600_KST · rotation: unusual_whales</div></div>
+  </div>
+
+  <div class="section us-section">
+    <div class="section-header"><div class="section-icon">EN</div><div class="section-title">US / EN News</div><div class="section-count">5 items</div></div>
+    <div class="news-item"><div class="news-bullet"></div><div class="news-content"><div class="news-headline"><strong>AI 스타트업 투자 과열로 ‘불균형 딜’ 증가</strong> (Bloomberg)</div><div class="news-sources"><a href="https://www.bloomberg.com/news/newsletters/2026-02-09/ai-investment-demand-spurs-rise-of-multi-tranche-fundraising-rounds" target="_blank" rel="noopener">bloomberg.com</a></div></div></div>
+    <div class="news-item"><div class="news-bullet"></div><div class="news-content"><div class="news-headline"><strong>Runway, $315M 투자 유치(기업가치 $5.3B)</strong> (TechCrunch)</div><div class="news-sources"><a href="https://techcrunch.com/2026/02/10/ai-video-startup-runway-raises-315m-at-5-3b-valuation-eyes-more-capable-world-models/" target="_blank" rel="noopener">techcrunch.com</a></div></div></div>
+    <div class="news-item"><div class="news-bullet"></div><div class="news-content"><div class="news-headline"><strong>AI 관련 매도 흐름이 금융주까지 확산</strong> (Reuters)</div><div class="news-sources"><a href="https://www.reuters.com/business/us-brokerages-fall-ai-driven-rout-extends-financials-2026-02-10/" target="_blank" rel="noopener">reuters.com</a></div></div></div>
+    <div class="news-item"><div class="news-bullet"></div><div class="news-content"><div class="news-headline"><strong>빅테크 AI 지출 확대가 투자자 불안을 자극</strong> (CNBC)</div><div class="news-sources"><a href="https://www.cnbc.com/2026/02/09/ai-spending-is-spooking-investors-but-history-shows-thats-when-you-want-to-buy-.html" target="_blank" rel="noopener">cnbc.com</a></div></div></div>
+    <div class="news-item"><div class="news-bullet"></div><div class="news-content"><div class="news-headline"><strong>OpenAI 수익화/사업성 관측</strong> (Business Insider)</div><div class="news-sources"><a href="https://www.businessinsider.com/openai-profitability-analyst-investor-opinions-funding-ipo-2026-2" target="_blank" rel="noopener">businessinsider.com</a></div></div></div>
+  </div>
+
+  <div class="section kr-section">
+    <div class="section-header"><div class="section-icon">KR</div><div class="section-title">KR News</div><div class="section-count">5 items</div></div>
+    <div class="news-item"><div class="news-bullet"></div><div class="news-content"><div class="news-headline"><strong>한국거래소, AI 전환 관련 스타트업 인수</strong></div><div class="news-sources"><a href="https://www.mk.co.kr/news/stock/11958862" target="_blank" rel="noopener">mk.co.kr</a></div></div></div>
+    <div class="news-item"><div class="news-bullet"></div><div class="news-content"><div class="news-headline"><strong>AI·디지털 스타트업에 1,441억 투입(K-글로벌)</strong></div><div class="news-sources"><a href="https://www.finance-scope.com/article/view/scp202602100020" target="_blank" rel="noopener">finance-scope.com</a></div></div></div>
+    <div class="news-item"><div class="news-bullet"></div><div class="news-content"><div class="news-headline"><strong>앤트로픽 ‘클로드 오퍼스 4.6’ 관련 기사</strong></div><div class="news-sources"><a href="https://www.job-post.co.kr/news/articleView.html?idxno=206596" target="_blank" rel="noopener">job-post.co.kr</a></div></div></div>
+    <div class="news-item"><div class="news-bullet"></div><div class="news-content"><div class="news-headline"><strong>미 빅테크의 대규모 AI 투자 조명</strong></div><div class="news-sources"><a href="https://www.etoday.co.kr/news/view/2555199" target="_blank" rel="noopener">etoday.co.kr</a></div></div></div>
+    <div class="news-item"><div class="news-bullet"></div><div class="news-content"><div class="news-headline"><strong>AI 에이전트 보안 리스크 기사</strong></div><div class="news-sources"><a href="https://www.ekoreanews.co.kr/news/articleView.html?idxno=84471" target="_blank" rel="noopener">ekoreanews.co.kr</a></div></div></div>
+  </div>
+
+  <div class="section dev-section">
+    <div class="section-header"><div class="section-icon">&lt;/&gt;</div><div class="section-title">Dev / GitHub Radar</div><div class="section-count">4 items</div></div>
+    <div class="news-item"><div class="news-bullet"></div><div class="news-content"><div class="news-headline"><span class="dev-tag">GitHub</span><strong>code-yeongyu/oh-my-opencode</strong> — @marlon-costa-dc has signed the CLA (#1726)</div><div class="news-sources"><a href="https://github.com/code-yeongyu/oh-my-opencode/commit/687cc2386f21c7e091bb97eb5585a6a36f105585" target="_blank" rel="noopener">commit</a></div></div></div>
+    <div class="news-item"><div class="news-bullet"></div><div class="news-content"><div class="news-headline"><span class="dev-tag">GitHub</span><strong>anthropics/claude-code</strong> — chore: Update CHANGELOG.md</div><div class="news-sources"><a href="https://github.com/anthropics/claude-code/commit/19bb071fe024c1398d3f0a4b3ada25007cf5182c" target="_blank" rel="noopener">commit</a></div></div></div>
+    <div class="news-item"><div class="news-bullet"></div><div class="news-content"><div class="news-headline"><span class="dev-tag">GitHub</span><strong>openai/openai-python</strong> — release: 2.20.0</div><div class="news-sources"><a href="https://github.com/openai/openai-python/commit/f2d096fe978a1fe67f58351ddbfa0d38f3d723b9" target="_blank" rel="noopener">commit</a></div></div></div>
+    <div class="news-item"><div class="news-bullet"></div><div class="news-content"><div class="news-headline"><span class="dev-tag">GitHub</span><strong>vercel/ai</strong> — Version Packages (#12401)</div><div class="news-sources"><a href="https://github.com/vercel/ai/commit/574d73fc4b88c5dfd4ba141e7ab7e39b63a2d871" target="_blank" rel="noopener">commit</a></div></div></div>
+  </div>
+
+  <div class="section">
+    <div class="section-header"><div class="section-icon" style="background:rgba(200,200,255,0.06);color:#a29bfe;">$</div><div class="section-title">Market (US Close)</div><div class="section-count">지수 3 + 관심 5</div></div>
+    <div class="news-item"><div class="news-bullet"></div><div class="news-content"><div class="news-headline"><strong>S&amp;P 500</strong> 6941.81 · <strong>▼ -0.3%</strong></div><div class="news-sources">^GSPC</div></div></div>
+    <div class="news-item"><div class="news-bullet"></div><div class="news-content"><div class="news-headline"><strong>NASDAQ</strong> 23102.47 · <strong>▼ -0.6%</strong></div><div class="news-sources">^IXIC</div></div></div>
+    <div class="news-item"><div class="news-bullet"></div><div class="news-content"><div class="news-headline"><strong>Dow Jones</strong> 50188.14 · <strong>▲ +0.1%</strong></div><div class="news-sources">^DJI</div></div></div>
+    <div style="height:10px"></div>
+    <div class="news-item"><div class="news-bullet"></div><div class="news-content"><div class="news-headline"><strong>COIN</strong> 162.51 · <strong>▼ -2.8%</strong></div><div class="news-sources">관심종목 | 변동률(절대값) 상위</div></div></div>
+    <div class="news-item"><div class="news-bullet"></div><div class="news-content"><div class="news-headline"><strong>PLTR</strong> 139.51 · <strong>▼ -2.4%</strong></div><div class="news-sources">관심종목 | 변동률(절대값) 상위</div></div></div>
+    <div class="news-item"><div class="news-bullet"></div><div class="news-content"><div class="news-headline"><strong>TSLA</strong> 425.21 · <strong>▲ +1.9%</strong></div><div class="news-sources">관심종목 | 변동률(절대값) 상위</div></div></div>
+    <div class="news-item"><div class="news-bullet"></div><div class="news-content"><div class="news-headline"><strong>GOOGL</strong> 318.58 · <strong>▼ -1.8%</strong></div><div class="news-sources">관심종목 | 변동률(절대값) 상위</div></div></div>
+    <div class="news-item"><div class="news-bullet"></div><div class="news-content"><div class="news-headline"><strong>AMD</strong> 213.57 · <strong>▼ -1.1%</strong></div><div class="news-sources">관심종목 | 변동률(절대값) 상위</div></div></div>
+    <div class="news-sources" style="margin-top:12px;">source: close_watchlist.json (US close)</div>
+  </div>
+
+  <div class="section">
+    <div class="section-header"><div class="section-icon" style="background:rgba(255,255,255,0.04);color:#c8c8d4;">HN</div><div class="section-title">Hacker News (Top)</div><div class="section-count">3 items</div></div>
+    <div class="news-item"><div class="news-bullet"></div><div class="news-content"><div class="news-headline"><strong>I miss thinking hard</strong></div><div class="news-sources"><a href="https://www.jernesto.com/articles/thinking_hard" target="_blank" rel="noopener">link</a> · 1225 / 674</div></div></div>
+    <div class="news-item"><div class="news-bullet"></div><div class="news-content"><div class="news-headline"><strong>France dumps Zoom and Teams as Europe seeks digital autonomy from the US</strong></div><div class="news-sources"><a href="https://apnews.com/article/europe-digital-sovereignty-big-tech-9f5388b68a0648514cebc8d92f682060" target="_blank" rel="noopener">link</a> · 1127 / 583</div></div></div>
+    <div class="news-item"><div class="news-bullet"></div><div class="news-content"><div class="news-headline"><strong>Data centers in space makes no sense</strong></div><div class="news-sources"><a href="https://civai.org/blog/space-data-centers" target="_blank" rel="noopener">link</a> · 1056 / 1240</div></div></div>
+  </div>
+
+  <div class="footer">
+    <div class="health-row">
+      <span class="health-pill">x: ok</span>
+      <span class="health-pill">news: ok</span>
+      <span class="health-pill">github: ok</span>
+      <span class="health-pill">market: ok</span>
+      <span class="health-pill">hn: ok</span>
+      <span class="health-pill">gmail: ok (unread 3)</span>
+    </div>
+    <div class="footer-note">Data Health: latest ok slot=0600_KST · window 18:00→06:00 KST · generated 06:40 KST</div>
+  </div>
+</div>
+</body>
+</html>
