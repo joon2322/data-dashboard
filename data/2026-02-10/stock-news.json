@@ -1,4 +1,245 @@
 {
   "date": "2026-02-10",
-  "articles": []
+  "articles": [
+    {
+      "symbol": "META",
+      "title": "EU top court refers WhatsApp's fight against EU privacy watchdog back to lower tribunal",
+      "url": "https://finance.yahoo.com/news/eu-top-court-refers-whatsapps-085607408.html",
+      "source": "Reuters",
+      "summary": null,
+      "published_at": "2026-02-10T08:56:07.000Z"
+    },
+    {
+      "symbol": "META",
+      "title": "1 Top Growth Stock to Buy in February",
+      "url": "https://finance.yahoo.com/m/17c0227c-30a8-340f-8184-85922ca734a9/1-top-growth-stock-to-buy-in.html",
+      "source": "Motley Fool",
+      "summary": null,
+      "published_at": "2026-02-10T05:26:00.000Z"
+    },
+    {
+      "symbol": "NVDA",
+      "title": "Why ConocoPhillips Rallied Double-Digits in January",
+      "url": "https://finance.yahoo.com/m/8c686138-b5e0-315e-b328-96e120e57902/why-conocophillips-rallied.html",
+      "source": "Motley Fool",
+      "summary": null,
+      "published_at": "2026-02-10T08:35:00.000Z"
+    },
+    {
+      "symbol": "NVDA",
+      "title": "Cisco unveils new AI networking chip, taking on Broadcom and Nvidia",
+      "url": "https://finance.yahoo.com/news/cisco-unveils-ai-networking-chip-083353229.html",
+      "source": "Reuters",
+      "summary": null,
+      "published_at": "2026-02-10T08:33:53.000Z"
+    },
+    {
+      "symbol": "TSLA",
+      "title": "Tesla Officially Updates Free FSD Transfer Policy — Here's The Last Date For Placing Orders To Be Eligible",
+      "url": "https://finance.yahoo.com/news/tesla-officially-updates-free-fsd-043116112.html",
+      "source": "Benzinga",
+      "summary": null,
+      "published_at": "2026-02-10T04:31:16.000Z"
+    },
+    {
+      "symbol": "TSLA",
+      "title": "Tesla is left out of latest White House Trade deal",
+      "url": "https://finance.yahoo.com/m/5453cbef-76bb-3657-a3c0-a7c2660a08a1/tesla-is-left-out-of-latest.html",
+      "source": "TheStreet",
+      "summary": null,
+      "published_at": "2026-02-10T04:07:00.000Z"
+    },
+    {
+      "symbol": "GOOGL",
+      "title": "This Could Be One of the Best Tech Stocks to Hold for the Next 10 Years",
+      "url": "https://finance.yahoo.com/m/cce7f066-0f9b-3a4c-af5e-7d36b7a21a78/this-could-be-one-of-the-best.html",
+      "source": "Motley Fool",
+      "summary": null,
+      "published_at": "2026-02-10T08:03:00.000Z"
+    },
+    {
+      "symbol": "GOOGL",
+      "title": "Alibaba Pushes Into Robotics AI With Open-Source ‘RynnBrain’",
+      "url": "https://finance.yahoo.com/news/alibaba-pushes-robotics-ai-open-065326706.html",
+      "source": "Bloomberg",
+      "summary": null,
+      "published_at": "2026-02-10T06:53:26.000Z"
+    },
+    {
+      "symbol": "AMZN",
+      "title": "Amazon device debuts new feature that's dividing people",
+      "url": "https://finance.yahoo.com/m/75e76a27-403d-3c25-8a2a-995ca3d86703/amazon-device-debuts-new.html",
+      "source": "TheStreet",
+      "summary": null,
+      "published_at": "2026-02-10T03:33:00.000Z"
+    },
+    {
+      "symbol": "AAPL",
+      "title": "1 Unstoppable Stock To Buy Before It Joins Nvidia, Apple, Alphabet, and Microsoft in the $3 Trillion Club",
+      "url": "https://finance.yahoo.com/m/f45b1e80-56d3-37a4-b23f-358a8d37a25f/1-unstoppable-stock-to-buy.html",
+      "source": "Motley Fool",
+      "summary": null,
+      "published_at": "2026-02-10T08:22:00.000Z"
+    },
+    {
+      "symbol": "AAPL",
+      "title": "Memory Chip Squeeze Widens Gap Between Market Winners and Losers",
+      "url": "https://finance.yahoo.com/news/memory-chip-crunch-ripples-markets-023002147.html",
+      "source": "Bloomberg",
+      "summary": null,
+      "published_at": "2026-02-10T07:20:03.000Z"
+    },
+    {
+      "symbol": "AAPL",
+      "title": "This Stock Is Up 10,650% in 20 Years. Can It Go Even Higher?",
+      "url": "https://finance.yahoo.com/m/ede404c7-4bc4-3a5a-8be1-6343ec8ef1f4/this-stock-is-up-10%2C650%25-in.html",
+      "source": "Motley Fool",
+      "summary": null,
+      "published_at": "2026-02-10T06:40:00.000Z"
+    },
+    {
+      "symbol": "MSFT",
+      "title": "Ralph Haupter Joins Warburg Pincus as an External Senior Advisor",
+      "url": "https://finance.yahoo.com/news/ralph-haupter-joins-warburg-pincus-080000524.html",
+      "source": "Business Wire",
+      "summary": null,
+      "published_at": "2026-02-10T08:00:00.000Z"
+    },
+    {
+      "symbol": "MSFT",
+      "title": "CAPEX & Cash Flow: The Bull Case for AI Infrastructure Stocks",
+      "url": "https://finance.yahoo.com/news/capex-cash-flow-bull-case-034900933.html",
+      "source": "Zacks",
+      "summary": null,
+      "published_at": "2026-02-10T03:49:00.000Z"
+    },
+    {
+      "symbol": "COIN",
+      "title": "Coinbase Deepens Crypto ISAC Ties As Valuation And Earnings Questions Linger",
+      "url": "https://finance.yahoo.com/news/coinbase-deepens-crypto-isac-ties-011140149.html",
+      "source": "Simply Wall St.",
+      "summary": null,
+      "published_at": "2026-02-10T01:11:40.000Z"
+    },
+    {
+      "symbol": "PLTR",
+      "title": "Time to Avoid AI Stocks? Or Are They a Once-in-a-Decade Buying Opportunity?",
+      "url": "https://finance.yahoo.com/m/6e00e914-1439-3be3-9761-efb52eefec8d/time-to-avoid-ai-stocks%3F-or.html",
+      "source": "Motley Fool",
+      "summary": null,
+      "published_at": "2026-02-10T00:30:00.000Z"
+    },
+    {
+      "symbol": "PLTR",
+      "title": "Stock Market Today, Feb. 9: Oracle Climbs on AI Optimism Despite Software Sector Weakness",
+      "url": "https://finance.yahoo.com/m/19527dc5-677d-3217-ad40-161786ca9ff1/stock-market-today%2C-feb.-9%3A.html",
+      "source": "Motley Fool",
+      "summary": null,
+      "published_at": "2026-02-09T22:22:34.000Z"
+    },
+    {
+      "symbol": "PLTR",
+      "title": "As Palantir Bets on 61% Revenue Growth in 2026, Should You Buy Palantir Stock?",
+      "url": "https://finance.yahoo.com/m/797b6a49-bbc1-373e-ae58-d47e6c3acb71/as-palantir-bets-on-61%25.html",
+      "source": "Barchart",
+      "summary": null,
+      "published_at": "2026-02-09T22:09:58.000Z"
+    },
+    {
+      "symbol": "META",
+      "title": "EU Antitrust Pressure On Meta And What It Means For WhatsApp AI",
+      "url": "https://finance.yahoo.com/news/eu-antitrust-pressure-meta-means-231444871.html",
+      "source": "Simply Wall St.",
+      "summary": null,
+      "published_at": "2026-02-09T23:14:44.000Z"
+    },
+    {
+      "symbol": "META",
+      "title": "Alphabet's debt raise fuels forecasts for record year in corporate bond sales",
+      "url": "https://finance.yahoo.com/news/alphabets-debt-raise-fuels-forecasts-220057088.html",
+      "source": "Reuters",
+      "summary": null,
+      "published_at": "2026-02-09T22:00:57.000Z"
+    },
+    {
+      "symbol": "META",
+      "title": "Alphabet Embarks on Global Bond Spree to Fund Record Spending",
+      "url": "https://finance.yahoo.com/news/alphabet-looks-raise-15-billion-133028283.html",
+      "source": "Bloomberg",
+      "summary": null,
+      "published_at": "2026-02-09T21:45:12.000Z"
+    },
+    {
+      "symbol": "AMD",
+      "title": "AMD's Growth Rate is Declining. Should Investors Be Worried?",
+      "url": "https://finance.yahoo.com/m/410f8fc1-0c55-38ec-a413-4f92e5b1001d/amd%27s-growth-rate-is.html",
+      "source": "Motley Fool",
+      "summary": null,
+      "published_at": "2026-02-09T22:20:00.000Z"
+    },
+    {
+      "symbol": "AMD",
+      "title": "Nvidia Stock Pops. It Should Benefit From OpenAI Spending, Analyst Says.",
+      "url": "https://finance.yahoo.com/m/5ec022f5-000e-356e-9c03-14beeacac693/nvidia-stock-pops.-it-should.html",
+      "source": "Barrons.com",
+      "summary": null,
+      "published_at": "2026-02-09T21:22:00.000Z"
+    },
+    {
+      "symbol": "NVDA",
+      "title": "Should You Buy Costco Stock Before March 5?",
+      "url": "https://finance.yahoo.com/m/961c0d51-8e6a-3494-af46-1e16a89050ea/should-you-buy-costco-stock.html",
+      "source": "Motley Fool",
+      "summary": null,
+      "published_at": "2026-02-10T01:50:00.000Z"
+    },
+    {
+      "symbol": "NVDA",
+      "title": "Want More Retirement Income? Hang On to This Investment.",
+      "url": "https://finance.yahoo.com/m/6851a7e9-8cc5-3a44-b3a2-243eb3f690d8/want-more-retirement-income%3F.html",
+      "source": "Motley Fool",
+      "summary": null,
+      "published_at": "2026-02-10T01:38:00.000Z"
+    },
+    {
+      "symbol": "NVDA",
+      "title": "Is Bitcoin a No-Brainer Buy at Less Than $75,000?",
+      "url": "https://finance.yahoo.com/m/a4595fdf-df7d-3674-8d82-78168a0711ac/is-bitcoin-a-no-brainer-buy.html",
+      "source": "Motley Fool",
+      "summary": null,
+      "published_at": "2026-02-10T01:20:00.000Z"
+    },
+    {
+      "symbol": "TSLA",
+      "title": "Elon Musk Admits It Would Take 'Staggeringly Enormous Amount Of Work For Tesla Valuation To Hit $100 Trillion: 'I'm Just Saying…'",
+      "url": "https://finance.yahoo.com/news/elon-musk-admits-staggeringly-enormous-023110347.html",
+      "source": "Benzinga",
+      "summary": null,
+      "published_at": "2026-02-10T02:31:10.000Z"
+    },
+    {
+      "symbol": "TSLA",
+      "title": "CORRECTING and REPLACING Backed by OpenAI, Tesla, and SpaceX Investors, Midas Is Building Mathematical Infrastructure to Secure AI Systems",
+      "url": "https://finance.yahoo.com/news/backed-openai-tesla-spacex-investors-130000334.html",
+      "source": "Business Wire",
+      "summary": null,
+      "published_at": "2026-02-10T02:21:00.000Z"
+    },
+    {
+      "symbol": "GOOGL",
+      "title": "Alphabet Bets Big on 100 Years of Debt",
+      "url": "https://finance.yahoo.com/video/alphabet-bets-big-100-years-023109393.html",
+      "source": "Bloomberg",
+      "summary": null,
+      "published_at": "2026-02-10T02:31:09.000Z"
+    },
+    {
+      "symbol": "GOOGL",
+      "title": "Review & Preview: A Broadening Bull",
+      "url": "https://finance.yahoo.com/m/77a40c05-1035-32cd-8297-0e4288da0c76/review-%26-preview%3A-a.html",
+      "source": "Barrons.com",
+      "summary": null,
+      "published_at": "2026-02-10T00:55:00.000Z"
+    }
+  ]
 }

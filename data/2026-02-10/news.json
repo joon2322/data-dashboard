@@ -1,5 +1,191 @@
 {
   "date": "2026-02-10",
-  "us": [],
-  "kr": []
+  "us": [
+    {
+      "title": "Starship Booster 19 survives the cryo test, Flight 12 updates from Starbase - Tesla Oracle",
+      "url": "https://www.teslaoracle.com/2026/02/09/starship-booster-19-survives-the-cryo-test-flight-12-updates-from-starbase/",
+      "snippet": null,
+      "source": "www.teslaoracle.com",
+      "category": "elon_spacex_tesla",
+      "fetched_at": "2026-02-10T09:07:08.964Z"
+    },
+    {
+      "title": "NASA, SpaceX Adjust Crew-12 Launch Date Due to Weather - NASA",
+      "url": "https://www.nasa.gov/blogs/spacestation/2026/02/09/nasa-spacex-adjust-crew-12-launch-date-due-to-weather/",
+      "snippet": null,
+      "source": "www.nasa.gov",
+      "category": "elon_spacex_tesla",
+      "fetched_at": "2026-02-10T09:07:08.964Z"
+    },
+    {
+      "title": "Elon Musk Slams 'Clown's Analysis' of Tesla, SpaceX's Government Help - Business Insider",
+      "url": "https://www.businessinsider.com/elon-musk-tesla-spacex-government-subsidies-space-transport-ev-regulation-2026-2",
+      "snippet": null,
+      "source": "www.businessinsider.com",
+      "category": "elon_spacex_tesla",
+      "fetched_at": "2026-02-10T09:07:08.964Z"
+    },
+    {
+      "title": "Tesla Bets $20B on AI and Robotics Pivot",
+      "url": "https://www.gurufocus.com/news/8598927/tesla-bets-20b-on-ai-and-robotics-pivot",
+      "snippet": null,
+      "source": "www.gurufocus.com",
+      "category": "elon_spacex_tesla",
+      "fetched_at": "2026-02-10T09:07:08.964Z"
+    },
+    {
+      "title": "Launch Preview: Vulcan to launch USSF-87, SpaceX to launch Crew-12 to ISS - NASASpaceFlight.com",
+      "url": "https://www.nasaspaceflight.com/2026/02/launch-preview-020926/",
+      "snippet": null,
+      "source": "www.nasaspaceflight.com",
+      "category": "elon_spacex_tesla",
+      "fetched_at": "2026-02-10T09:07:08.964Z"
+    },
+    {
+      "title": "Former Cohere execs Sara Hooker and Sudip Roy secure $50 million seed round for their new startup Adaption Labs | Fortune",
+      "url": "https://fortune.com/2026/02/04/adaption-labs-50-million-seed-funding-emergence-captial-sara-hooker-sudip-roy-ai-models-that-learn-on-the-fly/",
+      "snippet": null,
+      "source": "fortune.com",
+      "category": "ai_industry",
+      "fetched_at": "2026-02-10T06:02:07.503Z"
+    },
+    {
+      "title": "Global VC Investment Surged In January, With U.S. Dominating Funding, But A Pair Of AI Model IPOs In China",
+      "url": "https://news.crunchbase.com/ai/global-vc-investment-surged-us-ai-dominated-january-2026/",
+      "snippet": null,
+      "source": "news.crunchbase.com",
+      "category": "ai_industry",
+      "fetched_at": "2026-02-10T06:02:07.503Z"
+    },
+    {
+      "title": "Capgemini and Google Cloud expand strategic partnership to accelerate AI adoption at scale by providing trusted and secure sovereign solutions - Capgemini",
+      "url": "https://www.capgemini.com/news/press-releases/capgemini-and-google-cloud-expand-strategic-partnership-to-accelerate-ai-adoption-at-scale-by-providing-trusted-and-secure-sovereign-solutions/",
+      "snippet": null,
+      "source": "www.capgemini.com",
+      "category": "ai_industry",
+      "fetched_at": "2026-02-10T06:02:07.503Z"
+    },
+    {
+      "title": "Workato Accelerates Enterprise AI Adoption with Launch of Production-Ready Model Context Protocol Servers | FinancialContent",
+      "url": "https://www.financialcontent.com/article/bizwire-2026-2-5-workato-accelerates-enterprise-ai-adoption-with-launch-of-production-ready-model-context-protocol-servers",
+      "snippet": null,
+      "source": "www.financialcontent.com",
+      "category": "ai_industry",
+      "fetched_at": "2026-02-10T06:02:07.503Z"
+    },
+    {
+      "title": "White House to Host Stablecoin Meeting on Feb 10: What’s to Expect For Crypto Market? | CoinGape",
+      "url": "https://coingape.com/trending/white-house-to-host-stablecoin-meeting-on-feb-10-whats-to-expect-for-crypto-market/",
+      "snippet": null,
+      "source": null,
+      "category": "crypto_market",
+      "fetched_at": "2026-02-10T00:06:49.908Z"
+    },
+    {
+      "title": "Bitcoin and XRP Price Prediction as China Calls on Banks to Sell US Treasuries",
+      "url": "https://coingape.com/markets/bitcoin-and-xrp-price-prediction-as-china-calls-on-banks-to-sell-us-treasuries/",
+      "snippet": null,
+      "source": null,
+      "category": "crypto_market",
+      "fetched_at": "2026-02-10T00:06:49.908Z"
+    },
+    {
+      "title": "Why is Crypto Market Up Today (Feb 9)",
+      "url": "https://coingape.com/why-is-crypto-market-up-today-feb-9/",
+      "snippet": null,
+      "source": null,
+      "category": "crypto_market",
+      "fetched_at": "2026-02-10T00:06:49.908Z"
+    },
+    {
+      "title": "Bernstein Downplays Bitcoin Bear Market Jitters, Predicts Rally To $150k This Year",
+      "url": "https://coingape.com/bernstein-downplays-bitcoin-bear-market-jitters-predicts-rally-to-150k-this-year/",
+      "snippet": null,
+      "source": null,
+      "category": "crypto_market",
+      "fetched_at": "2026-02-10T00:06:49.908Z"
+    },
+    {
+      "title": "Ether Slides in Bitcoin’s Shadow as Investors Pull Out in Droves - Bloomberg",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-09/ether-slides-in-bitcoin-s-shadow-as-investors-pull-out-in-droves",
+      "snippet": null,
+      "source": null,
+      "category": "crypto_market",
+      "fetched_at": "2026-02-10T00:06:49.908Z"
+    },
+    {
+      "title": "Historic progress in cryptocurrency and blockchain as Binance and UAE lead the way | The National",
+      "url": "https://www.thenationalnews.com/in-focus/2026/02/09/historic-progress-in-cryptocurrency-and-blockchain-as-binance-and-uae-lead-the-way/",
+      "snippet": null,
+      "source": null,
+      "category": "crypto_market",
+      "fetched_at": "2026-02-10T00:06:49.909Z"
+    },
+    {
+      "title": "FinancialContent - Bullish (BLSH) Ignites the Institutional Crypto Market as Revenue Surges 70% on Derivatives Dominance",
+      "url": "https://markets.financialcontent.com/stocks/article/marketminute-2026-2-9-bullish-blsh-ignites-the-institutional-crypto-market-as-revenue-surges-70-on-derivatives-dominance",
+      "snippet": null,
+      "source": null,
+      "category": "crypto_market",
+      "fetched_at": "2026-02-10T00:06:49.909Z"
+    }
+  ],
+  "kr": [
+    {
+      "title": "미래에셋 CFO \"스페이스X 엑시트 고민 아직…자사주 소각시 자본금 4천500억 줄어\"",
+      "url": "https://news.einfomax.co.kr/news/articleView.html?idxno=4397990",
+      "snippet": null,
+      "source": "news.einfomax.co.kr",
+      "category": "elon_spacex_tesla",
+      "fetched_at": "2026-02-10T09:07:08.964Z"
+    },
+    {
+      "title": "스페이스X·xAI 합병…'선견지명 투자' 미래에셋증권 사상 최고가[핫종목] - 뉴스1",
+      "url": "https://www.news1.kr/finance/market-exr/6060035",
+      "snippet": null,
+      "source": "www.news1.kr",
+      "category": "elon_spacex_tesla",
+      "fetched_at": "2026-02-10T09:07:08.964Z"
+    },
+    {
+      "title": "\"로봇 관절 만든다\" LG 한마디에…300% 뛰던 로봇주가 떤다 | 중앙일보",
+      "url": "https://www.joongang.co.kr/article/25403564",
+      "snippet": null,
+      "source": "www.joongang.co.kr",
+      "category": "elon_spacex_tesla",
+      "fetched_at": "2026-02-10T09:07:08.964Z"
+    },
+    {
+      "title": "네이버 D2SF, AI 스타트업 두 곳에 신규 투자 단행 - 글로벌이코노믹",
+      "url": "https://www.g-enews.com/article/ICT/2026/02/2026020513535954463d7a510102_1",
+      "snippet": null,
+      "source": "www.g-enews.com",
+      "category": "ai_industry",
+      "fetched_at": "2026-02-10T06:02:07.503Z"
+    },
+    {
+      "title": "일레븐랩스, 5억 달러 투자 유치.. \"기업가치 110억 달러 평가\"",
+      "url": "https://www.venturesquare.net/1037468",
+      "snippet": null,
+      "source": "www.venturesquare.net",
+      "category": "ai_industry",
+      "fetched_at": "2026-02-10T06:02:07.503Z"
+    },
+    {
+      "title": "전력 덜 잡아먹고 가성비까지 … 피지컬AI 맞춤 반도체 눈길 - 매일경제",
+      "url": "https://www.mk.co.kr/news/business/11958051",
+      "snippet": null,
+      "source": "www.mk.co.kr",
+      "category": "ai_industry",
+      "fetched_at": "2026-02-10T06:02:07.503Z"
+    },
+    {
+      "title": "비트마인, 지난주 이더리움 4만613개 추가 매수…보유량 432만개 돌파",
+      "url": "https://bloomingbit.io/feed/news/105742",
+      "snippet": null,
+      "source": null,
+      "category": "crypto_market",
+      "fetched_at": "2026-02-10T00:06:49.909Z"
+    }
+  ]
 }
