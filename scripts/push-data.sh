@@ -27,19 +27,12 @@ if [ "$SKIP_ANALYZE" != "1" ]; then
         fi
     fi
 
-    # Monthly analysis: run on last day of month or 1st of next month
+    # Monthly analysis: run only on the 1st, analyzing previous month
     DOM=$(date -d "$DATE" +%d 2>/dev/null || date -j -f "%Y-%m-%d" "$DATE" +%d 2>/dev/null || echo "")
-    NEXT_DOM=$(date -d "$DATE + 1 day" +%d 2>/dev/null || echo "")
-    if [ "$NEXT_DOM" = "01" ] || [ "$DOM" = "01" ]; then
-        if [ "$DOM" = "01" ]; then
-            # 1st of month: analyze previous month
-            MONTH=$(date -d "$DATE - 1 day" +%Y-%m 2>/dev/null || echo "")
-        else
-            # Last day of month: analyze current month
-            MONTH=$(date -d "$DATE" +%Y-%m 2>/dev/null || echo "")
-        fi
+    if [ "$DOM" = "01" ]; then
+        MONTH=$(date -d "$DATE - 1 day" +%Y-%m 2>/dev/null || date -j -v-1d -f "%Y-%m-%d" "$DATE" +%Y-%m 2>/dev/null || echo "")
         if [ -n "$MONTH" ]; then
-            echo "Month boundary detected — running monthly analysis for $MONTH..."
+            echo "1st of month — running monthly analysis for $MONTH..."
             FORCE=1 node "${REPO_DIR}/scripts/analyze-monthly.js" "$MONTH" || echo "Monthly analysis failed (non-fatal)"
         fi
     fi
