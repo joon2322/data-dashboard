@@ -133,4 +133,28 @@ export function hasEnhancedData(date: string): boolean {
   return !!market?.analysis;
 }
 
+export function getLatestDateWithData(): string | null {
+  const dates = getAvailableDates();
+  
+  for (const date of dates) {
+    const news = getNewsData(date);
+    const hn = getHnData(date);
+    const x = getXData(date);
+    const stockNews = getStockNewsData(date);
+    
+    const newsCount = (news?.us?.length ?? 0) + (news?.kr?.length ?? 0);
+    const hnCount = hn?.posts?.length ?? 0;
+    const xCount = x?.posts?.length ?? 0;
+    const stockNewsCount = stockNews?.articles?.length ?? 0;
+    
+    const totalItems = newsCount + hnCount + xCount + stockNewsCount;
+    
+    if (totalItems > 0) {
+      return date;
+    }
+  }
+  
+  return dates.length > 0 ? dates[0] : null;
+}
+
 export { formatNumber, formatPrice, formatPercent } from "./format";

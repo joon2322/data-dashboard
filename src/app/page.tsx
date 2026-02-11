@@ -5,6 +5,7 @@ import {
   getAvailableMonths,
   getMarketData,
   getStructuredBriefing,
+  getLatestDateWithData,
   formatPrice,
   formatPercent,
 } from "@/lib/data";
@@ -31,7 +32,7 @@ export default function Home() {
   const dates = getAvailableDates();
   const weeks = getAvailableWeeks();
   const months = getAvailableMonths();
-  const latestDate = dates[0];
+  const latestDate = getLatestDateWithData() ?? dates[0];
 
   if (!latestDate) {
     return (
