@@ -48,8 +48,9 @@ export default async function OverviewPage({ params }: OverviewPageProps) {
   const indices = market?.quotes.filter((q) => q.category === "index") ?? [];
   const topMovers = market
     ? [...market.quotes]
+        .filter((q) => q.price != null)
         .sort(
-          (a, b) => Math.abs(b.change_percent) - Math.abs(a.change_percent)
+          (a, b) => Math.abs(b.change_percent ?? 0) - Math.abs(a.change_percent ?? 0)
         )
         .slice(0, 4)
     : [];
@@ -128,7 +129,7 @@ export default async function OverviewPage({ params }: OverviewPageProps) {
           <SectionHeader href={`/daily/${date}/market`}>주요 지수</SectionHeader>
           <div className="grid grid-cols-1 gap-3 sm:grid-cols-3">
             {indices.map((q) => {
-              const isUp = q.change_percent >= 0;
+              const isUp = (q.change_percent ?? 0) >= 0;
               return (
                 <div
                   key={q.symbol}

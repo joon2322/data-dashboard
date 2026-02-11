@@ -47,7 +47,8 @@ export default function Home() {
   const indices = market?.quotes.filter((q) => q.category === "index") ?? [];
   const allQuotes = market?.quotes ?? [];
   const topMovers = [...allQuotes]
-    .sort((a, b) => Math.abs(b.change_percent) - Math.abs(a.change_percent))
+    .filter((q) => q.price != null)
+    .sort((a, b) => Math.abs(b.change_percent ?? 0) - Math.abs(a.change_percent ?? 0))
     .slice(0, 4);
 
   return (
@@ -117,7 +118,7 @@ export default function Home() {
           <SectionHeader href={`/daily/${latestDate}/market`}>시장 현황</SectionHeader>
           <div className="grid grid-cols-1 gap-3 sm:grid-cols-3">
             {indices.map((q) => {
-              const isUp = q.change_percent >= 0;
+              const isUp = (q.change_percent ?? 0) >= 0;
               return (
                 <div key={q.symbol} className="rounded-xl border border-border bg-surface p-4 transition-all hover:shadow-md hover:shadow-accent/5 sm:p-5">
                   <p className="text-xs text-text-tertiary">{q.name}</p>
