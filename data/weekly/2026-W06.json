@@ -1,27 +1,88 @@
 {
   "week": "2026-W06",
-  "date_range": { "start": "2026-02-03", "end": "2026-02-09" },
-  "title": "AI 에이전트 본격화 & 빅테크 실적 분화",
-  "summary_kr": "이번 주는 AI 에이전트 도구들의 본격적인 시장 진입과 빅테크 실적 분화가 핵심 테마였습니다. Claude Code Fast Mode 출시, Grok 4.20의 Alpha Arena 성과 등 AI 도구 경쟁이 심화되었고, AMZN 실적 부진 vs NVDA/AMD 강세로 빅테크 내 희비가 엇갈렸습니다.",
+  "date_range": {
+    "start": "2026-02-02",
+    "end": "2026-02-08"
+  },
+  "summary_kr": "이번 주는 AI 기술의 급속한 발전과 크립토 시장의 불확실성이 주요 이슈로 부각되었습니다. 비트코인 ETF의 자금 유출과 AI 에이전트 도구의 발전이 시장에 큰 영향을 미쳤습니다. 또한, 테슬라와 스페이스X의 기술 발전이 주목받으며, AI와 소프트웨어 산업의 협력이 강조되었습니다.",
   "key_events": [
-    { "title": "Claude Code Fast Mode 출시", "detail": "Anthropic이 Claude Code에 빠른 모드를 추가하며 개발자 생산성 도구 경쟁 본격화", "category": "dev", "date": "2026-02-07" },
-    { "title": "AMZN 실적 부진", "detail": "아마존 주가 -5.55% 급락. 클라우드 성장 둔화 우려", "category": "market", "date": "2026-02-08" },
-    { "title": "COIN +13% 급등", "detail": "크립토 규제 완화 기대감으로 Coinbase 주가 급등", "category": "market", "date": "2026-02-08" }
+    {
+      "title": "AI 기반 코딩 도구 Xcode 26.3 MCP Tools 발표",
+      "detail": "AI 코딩 도구의 발전이 소프트웨어 엔지니어링 경제에 미치는 영향을 분석.",
+      "category": "news",
+      "date": "2026-02-05"
+    },
+    {
+      "title": "비트코인 ETF 자금 유출",
+      "detail": "비트코인이 5억 달러 이상의 자금 유출을 경험하며 가격 하락.",
+      "category": "market",
+      "date": "2026-02-06"
+    },
+    {
+      "title": "스페이스X 스타십 발사 승인",
+      "detail": "FAA가 스타십의 연간 44회 발사와 88회 착륙을 승인.",
+      "category": "news",
+      "date": "2026-02-07"
+    },
+    {
+      "title": "AI 에이전트 도구 Claude Code Fast Mode 출시",
+      "detail": "개발자 생산성 도구 시장의 패러다임 변화가 예상됨.",
+      "category": "dev",
+      "date": "2026-02-08"
+    },
+    {
+      "title": "테슬라 로보택시 수익 전망",
+      "detail": "테슬라의 로보택시 수익이 2035년까지 2,500억 달러에 이를 것으로 예상됨.",
+      "category": "stock",
+      "date": "2026-02-07"
+    }
   ],
   "market_recap": {
+    "start_values": {},
+    "end_values": {
+      "AAPL": 278.12,
+      "MSFT": 401.14,
+      "GOOGL": 322.86,
+      "AMZN": 210.32,
+      "NVDA": 185.41,
+      "TSLA": 411.11,
+      "META": 661.46,
+      "AMD": 208.44,
+      "PLTR": 135.9,
+      "COIN": 165.12,
+      "^GSPC": 6932.3,
+      "^IXIC": 23031.213,
+      "^DJI": 50115.67
+    },
     "best_performers": [
-      { "symbol": "COIN", "change_percent": 13.0 },
-      { "symbol": "AMD", "change_percent": 8.28 },
-      { "symbol": "NVDA", "change_percent": 7.87 }
+      {
+        "symbol": "NVDA",
+        "change_percent": 7.87
+      },
+      {
+        "symbol": "AMD",
+        "change_percent": 8.28
+      }
     ],
     "worst_performers": [
-      { "symbol": "AMZN", "change_percent": -5.55 },
-      { "symbol": "GOOGL", "change_percent": -2.53 },
-      { "symbol": "META", "change_percent": -1.31 }
+      {
+        "symbol": "AMZN",
+        "change_percent": -5.55
+      },
+      {
+        "symbol": "PLTR",
+        "change_percent": -7.3
+      }
     ]
   },
-  "top_themes": ["AI 에이전트 도구 경쟁", "빅테크 실적 분화", "크립토 변동성"],
-  "analysis": "AI 에이전트 도구가 프로토타입에서 프로덕션 단계로 전환되는 명확한 신호가 포착됨. 모델 자체보다 워크플로우와 도구 통합이 핵심 경쟁력이 되는 추세. 빅테크 내에서도 AI 수혜 정도에 따라 주가 분화가 뚜렷해지고 있음.",
-  "outlook": "다음 주 CPI 발표(2/12)가 최대 변수. AI 섹터는 모멘텀 유지 예상되나 밸류에이션 부담은 있음.",
-  "jarvis_take": "AI 에이전트 생태계가 빠르게 성숙하고 있어 관련 종목(PLTR, AMD, NVDA)에 대한 관심을 유지할 필요가 있음. 다만 AMZN 사례처럼 시장의 기대치가 매우 높아 실적 서프라이즈 없이는 상승이 어려운 구간."
+  "top_themes": [
+    "AI 기술 발전",
+    "크립토 시장 변동성",
+    "소프트웨어 협력"
+  ],
+  "analysis": "이번 주 AI 기술이 소프트웨어 산업에서의 협력과 발전을 이끌며 긍정적인 시장 반응을 이끌어냈습니다. 그러나 비트코인 ETF의 자금 유출과 크립토 시장의 불확실성은 투자자들에게 부정적인 신호로 작용했습니다. 테슬라와 스페이스X의 기술 발전은 향후 성장 가능성을 높이며, AI 에이전트 도구의 발전은 개발자 커뮤니티에 큰 영향을 미칠 것으로 보입니다.",
+  "outlook": "다음 주에는 AI 기술의 발전과 크립토 시장의 변동성이 계속해서 시장에 영향을 미칠 것으로 예상됩니다. 특히, AI와 소프트웨어 산업의 협력이 더욱 강화될 가능성이 높으며, 비트코인 가격의 회복 여부가 주목받을 것입니다.",
+  "jarvis_take": "AI 기술의 발전은 분명 긍정적인 신호지만, 크립토 시장의 불확실성은 여전히 투자자들에게 큰 도전 과제가 될 것입니다. 테슬라와 스페이스X의 기술 혁신은 장기적인 성장 가능성을 높이지만, 단기적인 시장 변동성에 주의해야 합니다. AI 에이전트 도구의 발전은 개발자들에게 새로운 기회를 제공할 것이며, 이는 소프트웨어 산업의 패러다임을 변화시킬 것입니다.",
+  "generated_at": "2026-02-08T12:00:00Z",
+  "title": "AI 기술과 크립토 시장의 변동성이 주를 이룬 한 주"
 }
