@@ -7,7 +7,10 @@
       "url": "https://finance.yahoo.com/news/palantir-technologies-q4-earnings-call-053104745.html",
       "source": "StockStory",
       "summary": null,
-      "published_at": "2026-02-09T05:31:04.000Z"
+      "published_at": "2026-02-09T05:31:04.000Z",
+      "summary_kr": "Palantir Technologies의 Q4 실적 발표에서 분석가들이 가장 궁금해하는 질문 5가지를 다루었다.",
+      "impact": "neutral",
+      "analysis": "실적 발표는 투자자들에게 중요한 정보지만, 구체적인 실적 수치나 전망이 언급되지 않아 직접적인 영향은 제한적이다."
     },
     {
       "symbol": "AMD",
@@ -15,7 +18,10 @@
       "url": "https://finance.yahoo.com/news/ovhcloud-unveils-bare-metal-2026-082400351.html",
       "source": "GlobeNewswire",
       "summary": null,
-      "published_at": "2026-02-09T08:24:00.000Z"
+      "published_at": "2026-02-09T08:24:00.000Z",
+      "summary_kr": "OVHcloud가 최신 AMD 프로세서로 구동되는 Bare Metal 2026 라인업을 발표했다.",
+      "impact": "positive",
+      "analysis": "AMD의 최신 기술이 적용된 제품 출시는 시장에서 긍정적인 반응을 이끌어낼 가능성이 높다."
     },
     {
       "symbol": "NVDA",
@@ -23,7 +29,10 @@
       "url": "https://finance.yahoo.com/m/085ed96c-1319-3b6d-a74a-68f3208cd566/the-best-artificial.html",
       "source": "Motley Fool",
       "summary": null,
-      "published_at": "2026-02-09T08:53:00.000Z"
+      "published_at": "2026-02-09T08:53:00.000Z",
+      "summary_kr": "현재 투자하기 좋은 인공지능 ETF에 대한 추천이 나왔다.",
+      "impact": "positive",
+      "analysis": "AI 관련 ETF에 대한 관심이 높아지고 있으며, 이는 관련 기업들의 주가에 긍정적인 영향을 미칠 수 있다."
     },
     {
       "symbol": "NVDA",
@@ -31,7 +40,10 @@
       "url": "https://finance.yahoo.com/m/f1f966f8-49e8-35f2-8e3d-392ad19912ab/billionaires-buy-2-ai-stocks.html",
       "source": "Motley Fool",
       "summary": null,
-      "published_at": "2026-02-09T08:50:00.000Z"
+      "published_at": "2026-02-09T08:50:00.000Z",
+      "summary_kr": "억만장자들이 2023년 초 이후 970%와 2000% 상승한 두 개의 AI 주식을 매수했다.",
+      "impact": "positive",
+      "analysis": "억만장자들의 투자 결정은 시장의 신뢰를 반영하며, 해당 주식들의 추가 상승 가능성을 높인다."
     },
     {
       "symbol": "GOOGL",
@@ -39,7 +51,10 @@
       "url": "https://finance.yahoo.com/news/totalenergies-solar-power-googles-texas-083134406.html",
       "source": "Reuters",
       "summary": null,
-      "published_at": "2026-02-09T08:31:34.000Z"
+      "published_at": "2026-02-09T08:31:34.000Z",
+      "summary_kr": "TotalEnergies가 Google's Texas 데이터 센터에 태양광 전력을 공급하기로 했다.",
+      "impact": "positive",
+      "analysis": "지속 가능한 에너지 솔루션을 통한 협력은 Google의 ESG 전략에 긍정적인 영향을 미칠 것으로 보인다."
     },
     {
       "symbol": "GOOGL",
@@ -47,7 +62,10 @@
       "url": "https://finance.yahoo.com/m/b405e8e9-1445-34c4-b84c-865a5f67e120/crypto-ads-make-super-bowl.html",
       "source": "CCN",
       "summary": null,
-      "published_at": "2026-02-09T07:58:41.000Z"
+      "published_at": "2026-02-09T07:58:41.000Z",
+      "summary_kr": "2026년 슈퍼볼에서 암호화폐 광고가 돌아온다.",
+      "impact": "neutral",
+      "analysis": "과거의 경험을 바탕으로 암호화폐 광고의 효과가 불확실하므로, 시장에 미치는 영향은 제한적일 수 있다."
     },
     {
       "symbol": "GOOGL",
@@ -55,7 +73,10 @@
       "url": "https://finance.yahoo.com/m/baee3670-1f9f-3214-b049-2afa823ec899/heard-on-the-street-friday.html",
       "source": "The Wall Street Journal",
       "summary": null,
-      "published_at": "2026-02-09T07:17:59.000Z"
+      "published_at": "2026-02-09T07:17:59.000Z",
+      "summary_kr": "블루칩 주식들이 상승세를 보이고 있다.",
+      "impact": "positive",
+      "analysis": "블루칩 주식의 상승은 시장의 전반적인 신뢰를 반영하며, 투자자들에게 긍정적인 신호로 작용할 수 있다."
     },
     {
       "symbol": "MSFT",
@@ -63,7 +84,10 @@
       "url": "https://finance.yahoo.com/m/a9e95ce9-6214-30e4-ba90-11fc6717e631/just-how-big-is-the-ai.html",
       "source": "The Wall Street Journal",
       "summary": null,
-      "published_at": "2026-02-09T07:45:01.000Z"
+      "published_at": "2026-02-09T07:45:01.000Z",
+      "summary_kr": "AI에 대한 지출이 급증하고 있다는 분석이 나왔다.",
+      "impact": "positive",
+      "analysis": "AI 관련 기업들의 성장 가능성을 높이며, 이는 해당 기업들의 주가 상승으로 이어질 수 있다."
     },
     {
       "symbol": "MSFT",
@@ -71,7 +95,10 @@
       "url": "https://finance.yahoo.com/news/3-unprofitable-stocks-think-twice-044128497.html",
       "source": "StockStory",
       "summary": null,
-      "published_at": "2026-02-09T04:41:28.000Z"
+      "published_at": "2026-02-09T04:41:28.000Z",
+      "summary_kr": "수익성이 없는 주식에 대한 재고가 필요하다는 의견이 제기되었다.",
+      "impact": "bearish",
+      "analysis": "수익성이 없는 주식에 대한 경계는 투자자들에게 부정적인 신호로 작용할 수 있다."
     },
     {
       "symbol": "AAPL",
@@ -79,7 +106,10 @@
       "url": "https://finance.yahoo.com/m/737cf554-6e30-3f44-8d7b-2db6ed4e8028/openai-denies-rumors-of.html",
       "source": "Investing.com",
       "summary": null,
-      "published_at": "2026-02-09T06:30:24.000Z"
+      "published_at": "2026-02-09T06:30:24.000Z",
+      "summary_kr": "OpenAI가 슈퍼볼 광고를 취소했다는 루머를 부인했다.",
+      "impact": "neutral",
+      "analysis": "광고 취소 여부가 시장에 미치는 영향은 크지 않을 것으로 보인다."
     },
     {
       "symbol": "AMD",
@@ -87,7 +117,10 @@
       "url": "https://finance.yahoo.com/m/dd29006e-8e12-36c6-afc3-f1042305bbc3/is-micron-the-new-nvidia%3F.html",
       "source": "Motley Fool",
       "summary": null,
-      "published_at": "2026-02-08T23:45:00.000Z"
+      "published_at": "2026-02-08T23:45:00.000Z",
+      "summary_kr": "Micron이 새로운 Nvidia로 부각되고 있다는 분석이 나왔다.",
+      "impact": "positive",
+      "analysis": "Micron의 성장 가능성이 높아지면서, 투자자들의 관심이 집중될 수 있다."
     },
     {
       "symbol": "PLTR",
@@ -95,7 +128,10 @@
       "url": "https://finance.yahoo.com/m/a127b964-ebdc-3bff-8dfb-20238fdf7b9b/is-palantir-technologies.html",
       "source": "Motley Fool",
       "summary": null,
-      "published_at": "2026-02-09T01:20:00.000Z"
+      "published_at": "2026-02-09T01:20:00.000Z",
+      "summary_kr": "Palantir Technologies가 여전히 부유한 투자자들에게 매력적인 주식인지에 대한 논의가 이어지고 있다.",
+      "impact": "neutral",
+      "analysis": "Palantir의 미래 성장 가능성에 대한 불확실성이 있어, 투자자들의 신중한 접근이 필요하다."
     },
     {
       "symbol": "TSLA",
@@ -103,7 +139,10 @@
       "url": "https://finance.yahoo.com/news/tesla-eyes-us-solar-cell-233111250.html",
       "source": "Benzinga",
       "summary": null,
-      "published_at": "2026-02-08T23:31:11.000Z"
+      "published_at": "2026-02-08T23:31:11.000Z",
+      "summary_kr": "Tesla가 미국에서 태양광 셀 확장을 계획하고 있으며, Musk는 AI 데이터 센터를 위한 100기가와트 전력 목표를 세웠다.",
+      "impact": "positive",
+      "analysis": "Tesla의 태양광 셀 확장은 지속 가능한 에너지 시장에서의 입지를 강화할 것으로 기대된다."
     },
     {
       "symbol": "META",
@@ -111,7 +150,10 @@
       "url": "https://finance.yahoo.com/news/meta-platforms-meta-child-safety-211551491.html",
       "source": "Insider Monkey",
       "summary": null,
-      "published_at": "2026-02-08T21:15:51.000Z"
+      "published_at": "2026-02-08T21:15:51.000Z",
+      "summary_kr": "Meta Platforms가 아동 안전 소송을 진행 중이며, AI 데이터 센터 거래가 진행되고 있다.",
+      "impact": "neutral",
+      "analysis": "소송의 진행 상황은 기업 이미지에 영향을 미칠 수 있으나, 현재로서는 큰 시장 영향은 없을 것으로 보인다."
     },
     {
       "symbol": "AMZN",
@@ -119,7 +161,10 @@
       "url": "https://finance.yahoo.com/news/t-amazon-cloud-satellite-deals-020751306.html",
       "source": "Simply Wall St.",
       "summary": null,
-      "published_at": "2026-02-09T02:07:51.000Z"
+      "published_at": "2026-02-09T02:07:51.000Z",
+      "summary_kr": "AT&T와 Amazon의 클라우드 및 위성 거래가 광섬유 및 브로드밴드 이야기를 재구성하고 있다.",
+      "impact": "positive",
+      "analysis": "이러한 거래는 두 기업의 시장 경쟁력을 높이는 데 기여할 것으로 예상된다."
     },
     {
       "symbol": "NVDA",
@@ -127,7 +172,10 @@
       "url": "https://finance.yahoo.com/news/australian-ai-infrastructure-developer-firmus-020348869.html",
       "source": "Reuters",
       "summary": null,
-      "published_at": "2026-02-09T02:03:48.000Z"
+      "published_at": "2026-02-09T02:03:48.000Z",
+      "summary_kr": "호주 AI 인프라 개발업체 Firmus가 Blackstone과 Coatue로부터 100억 달러의 부채 패키지를 확보했다.",
+      "impact": "positive",
+      "analysis": "대규모 자금 조달은 Firmus의 성장 가능성을 높이며, AI 시장에서의 입지를 강화할 수 있다."
     },
     {
       "symbol": "NVDA",
@@ -135,7 +183,10 @@
       "url": "https://finance.yahoo.com/news/digital-realty-debuts-nvidia-certification-020000016.html",
       "source": "GlobeNewswire",
       "summary": null,
-      "published_at": "2026-02-09T02:00:00.000Z"
+      "published_at": "2026-02-09T02:00:00.000Z",
+      "summary_kr": "Digital Realty가 일본에서 액체 냉각 데이터 센터를 위한 NVIDIA 인증을 발표했다.",
+      "impact": "positive",
+      "analysis": "NVIDIA와의 협력은 Digital Realty의 기술적 우위를 강화하고, 고객 유치에 긍정적인 영향을 미칠 수 있다."
     },
     {
       "symbol": "MSFT",
@@ -143,7 +194,10 @@
       "url": "https://finance.yahoo.com/news/live/stock-market-today-dow-sp-500-nasdaq-futures-rise-with-wall-street-looking-to-continue-dow-50000-rally-001401347.html",
       "source": "Yahoo Finance",
       "summary": null,
-      "published_at": "2026-02-09T00:14:01.000Z"
+      "published_at": "2026-02-09T00:14:01.000Z",
+      "summary_kr": "오늘 주식 시장에서 다우, S&P 500, 나스닥 선물이 상승세를 보이고 있다.",
+      "impact": "positive",
+      "analysis": "전반적인 시장 상승은 투자자들에게 긍정적인 신호로 작용하며, 추가적인 투자 유입을 기대할 수 있다."
     },
     {
       "symbol": "GOOGL",
@@ -151,7 +205,10 @@
       "url": "https://finance.yahoo.com/news/jim-cramer-says-defend-amazon-213217623.html",
       "source": "Benzinga",
       "summary": null,
-      "published_at": "2026-02-08T21:32:17.000Z"
+      "published_at": "2026-02-08T21:32:17.000Z",
+      "summary_kr": "Jim Cramer가 아마존을 방어하며 구글을 '상'으로 언급했다.",
+      "impact": "neutral",
+      "analysis": "Cramer의 발언은 시장의 의견을 반영하지만, 직접적인 투자 결정에 큰 영향을 미치지 않을 것으로 보인다."
     },
     {
       "symbol": "AAPL",
@@ -159,7 +216,14 @@
       "url": "https://finance.yahoo.com/m/981503ee-3a91-3e34-a07b-308dadbf6a2a/dow-jones-futures-rise%3B-dow.html",
       "source": "Investor's Business Daily",
       "summary": null,
-      "published_at": "2026-02-09T02:54:34.000Z"
+      "published_at": "2026-02-09T02:54:34.000Z",
+      "summary_kr": "다우지수가 50,000을 넘어서며 애플, 보잉, AI 주식들이 새로운 매수 대상으로 떠오르고 있다.",
+      "impact": "positive",
+      "analysis": "주식 시장의 상승세는 AI 관련 주식에 대한 투자자들의 관심을 더욱 높일 것으로 예상된다."
     }
-  ]
+  ],
+  "analysis": {
+    "summary_kr": "오늘 종목 뉴스는 AI 관련 기업들의 긍정적인 소식과 함께 전반적인 시장 상승세를 반영하고 있다.",
+    "jarvis_take": "AI 기술의 발전과 관련 기업들의 성장은 앞으로도 지속될 것으로 보이며, 투자자들은 이러한 트렌드를 주목해야 한다. 특히, AI 관련 ETF와 주식은 매력적인 투자처가 될 수 있다."
+  }
 }

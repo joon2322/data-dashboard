@@ -1,0 +1,97 @@
+{
+  "date": "2026-02-10",
+  "period": "pm",
+  "tldr": [
+    "오늘 시장은 긍정적인 흐름을 보이며 주요 기술주들이 상승세를 이어감.",
+    "Palantir의 5.16% 상승이 주목받고 있으며, S&P 500과 NASDAQ 모두 상승.",
+    "스페이스X와 AI 관련 긍정적인 발전이 뉴스에서 다루어짐."
+  ],
+  "sections": [
+    {
+      "title": "시장",
+      "category": "market",
+      "items": [
+        {
+          "headline": "주요 기술주 상승세",
+          "detail": "MSFT, NVDA, META 등 주요 기술주들이 상승하며 시장 전반에 긍정적인 영향을 미치고 있습니다.",
+          "source": "시장 데이터",
+          "sentiment": "bullish"
+        },
+        {
+          "headline": "Palantir 주가 강세",
+          "detail": "Palantir의 주가는 5.16% 상승하며 투자자들의 관심을 끌고 있습니다.",
+          "source": "시장 데이터",
+          "sentiment": "bullish"
+        }
+      ]
+    },
+    {
+      "title": "X/Elon",
+      "category": "x",
+      "items": [
+        {
+          "headline": "엘론 머스크의 기술 혁신 비전",
+          "detail": "엘론 머스크는 𝕏 Chat의 보안 테스트를 실시하고 모든 코드를 오픈 소스할 것이라고 발표했습니다.",
+          "source": "@elonmusk",
+          "sentiment": "bullish"
+        },
+        {
+          "headline": "스페이스X의 달 여행 계획",
+          "detail": "엘론 머스크는 스페이스X가 누구나 달 여행을 할 수 있는 시스템을 구축할 것이라고 밝혔습니다.",
+          "source": "@elonmusk",
+          "sentiment": "bullish"
+        }
+      ]
+    },
+    {
+      "title": "뉴스",
+      "category": "news",
+      "items": [
+        {
+          "headline": "스페이스X 스타쉽 부스터 테스트 통과",
+          "detail": "스타쉽 부스터 19가 극저온 테스트를 통과하며 플라이트 12에 대한 업데이트가 발표되었습니다.",
+          "source": "뉴스 보도",
+          "sentiment": "bullish"
+        },
+        {
+          "headline": "테슬라 AI 투자 계획",
+          "detail": "테슬라가 AI와 로봇 분야에 200억 달러를 투자할 계획이라고 발표했습니다.",
+          "source": "뉴스 보도",
+          "sentiment": "bullish"
+        }
+      ]
+    },
+    {
+      "title": "종목뉴스",
+      "category": "stock",
+      "items": [
+        {
+          "headline": "Meta와 Tesla의 부정적 소식",
+          "detail": "Meta와 Tesla에 대한 부정적인 소식이 전해지며 주가에 영향을 미칠 가능성이 있습니다.",
+          "source": "종목 뉴스",
+          "sentiment": "bearish"
+        },
+        {
+          "headline": "AI 및 기술 관련 긍정적 전망",
+          "detail": "AI 및 기술 관련 긍정적인 전망이 혼재되어 있어 투자자들의 관심을 끌고 있습니다.",
+          "source": "종목 뉴스",
+          "sentiment": "bullish"
+        }
+      ]
+    },
+    {
+      "title": "해커뉴스",
+      "category": "hn",
+      "items": [
+        {
+          "headline": "AI 윤리 및 커뮤니케이션 플랫폼 논의",
+          "detail": "AI 윤리와 커뮤니케이션 플랫폼 대안, AI 에이전트의 발전에 대한 논의가 활발히 이루어지고 있습니다.",
+          "source": "해커뉴스",
+          "sentiment": "neutral"
+        }
+      ]
+    }
+  ],
+  "jarvis_take": "오늘 시장은 기술주들의 상승세와 스페이스X, AI 관련 긍정적인 뉴스로 인해 강세를 보이고 있습니다. 특히, 엘론 머스크의 비전이 투자자들에게 긍정적인 신호로 작용할 것으로 보입니다.",
+  "generated_at": "2026-02-11T06:38:54.782Z"
+}

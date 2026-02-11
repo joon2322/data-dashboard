@@ -7,7 +7,16 @@
       "snippet": null,
       "source": "www.cointribune.com",
       "category": "crypto_market",
-      "fetched_at": "2026-02-09T09:04:49.816Z"
+      "fetched_at": "2026-02-09T09:04:49.816Z",
+      "summary_kr": "비트코인 ETF가 안정세를 보이며 블랙록이 유입을 주도하고 있다.",
+      "analysis": "비트코인 ETF의 안정화는 시장에 긍정적인 신호로 작용할 수 있으며, 블랙록의 유입은 기관 투자자들의 관심을 반영한다. 그러나 여전히 변동성이 큰 시장이므로 주의가 필요하다.",
+      "sentiment": "bullish",
+      "relevance": "high",
+      "tags": [
+        "비트코인",
+        "ETF",
+        "블랙록"
+      ]
     },
     {
       "title": "BitMine defies the crash with a new massive purchase of Ethereum",
@@ -15,7 +24,16 @@
       "snippet": null,
       "source": "www.cointribune.com",
       "category": "crypto_market",
-      "fetched_at": "2026-02-09T09:04:49.816Z"
+      "fetched_at": "2026-02-09T09:04:49.816Z",
+      "summary_kr": "BitMine이 이더리움을 대규모로 구매하며 시장의 하락세에 저항하고 있다.",
+      "analysis": "이러한 대규모 구매는 BitMine의 자신감을 보여주며, 이더리움의 가격 회복 가능성을 시사한다. 그러나 전체 시장의 불안정성이 여전히 존재하므로 장기적인 관찰이 필요하다.",
+      "sentiment": "bullish",
+      "relevance": "medium",
+      "tags": [
+        "BitMine",
+        "이더리움",
+        "구매"
+      ]
     },
     {
       "title": "Top Crypto Market Events to Watch This Week | CoinGape",
@@ -23,7 +41,16 @@
       "snippet": null,
       "source": "coingape.com",
       "category": "crypto_market",
-      "fetched_at": "2026-02-09T09:04:49.816Z"
+      "fetched_at": "2026-02-09T09:04:49.816Z",
+      "summary_kr": "이번 주 주목해야 할 주요 암호화폐 시장 이벤트를 소개한다.",
+      "analysis": "주요 이벤트들은 투자자들에게 중요한 정보가 될 수 있으며, 시장의 방향성을 결정짓는 요소가 될 수 있다. 따라서 이러한 이벤트에 대한 주의가 필요하다.",
+      "sentiment": "neutral",
+      "relevance": "medium",
+      "tags": [
+        "암호화폐",
+        "이벤트",
+        "시장"
+      ]
     },
     {
       "title": "Crypto Market Struggles As Extreme Fear Hits Bitcoin And Ethereum",
@@ -31,7 +58,16 @@
       "snippet": null,
       "source": "blockchainreporter.net",
       "category": "crypto_market",
-      "fetched_at": "2026-02-09T09:04:49.816Z"
+      "fetched_at": "2026-02-09T09:04:49.816Z",
+      "summary_kr": "비트코인과 이더리움에 극심한 두려움이 감돌며 시장이 어려움을 겪고 있다.",
+      "analysis": "극심한 두려움은 투자자들의 매도 압력을 증가시켜 가격 하락을 초래할 수 있다. 이러한 심리적 요인은 시장의 회복에 부정적인 영향을 미칠 수 있다.",
+      "sentiment": "bearish",
+      "relevance": "high",
+      "tags": [
+        "비트코인",
+        "이더리움",
+        "두려움"
+      ]
     },
     {
       "title": "Trend Research Exits ETH Market Fueling Speculations",
@@ -39,7 +75,16 @@
       "snippet": null,
       "source": "blockchainreporter.net",
       "category": "crypto_market",
-      "fetched_at": "2026-02-09T09:04:49.816Z"
+      "fetched_at": "2026-02-09T09:04:49.816Z",
+      "summary_kr": "트렌드 리서치가 이더리움 시장에서 철수하며 추측을 불러일으키고 있다.",
+      "analysis": "이더리움 시장에서의 철수는 투자자들에게 불안감을 조성할 수 있으며, 이는 가격에 부정적인 영향을 미칠 수 있다. 시장의 신뢰도 저하가 우려된다.",
+      "sentiment": "bearish",
+      "relevance": "medium",
+      "tags": [
+        "이더리움",
+        "철수",
+        "투자자"
+      ]
     },
     {
       "title": "Claude Code Just Got Faster: Here's How to Set It Up (With Examples) - DEV Community",
@@ -47,7 +92,16 @@
       "snippet": null,
       "source": "dev.to",
       "category": "dev_tools",
-      "fetched_at": "2026-02-09T06:01:49.529Z"
+      "fetched_at": "2026-02-09T06:01:49.529Z",
+      "summary_kr": "클로드 코드의 속도가 빨라졌으며 설정 방법과 예시가 소개된다.",
+      "analysis": "기술적 발전은 사용자 경험을 개선할 수 있으며, 이는 개발자들에게 긍정적인 영향을 미칠 것이다. 그러나 시장 반응은 기술의 실제 활용도에 따라 달라질 수 있다.",
+      "sentiment": "neutral",
+      "relevance": "low",
+      "tags": [
+        "클로드 코드",
+        "기술",
+        "개발자"
+      ]
     }
   ],
   "kr": [
@@ -57,7 +111,16 @@
       "snippet": null,
       "source": "biz.heraldcorp.com",
       "category": "crypto_market",
-      "fetched_at": "2026-02-09T09:04:49.816Z"
+      "fetched_at": "2026-02-09T09:04:49.816Z",
+      "summary_kr": "비트코인이 3년 만에 최악의 한 주를 겪었다.",
+      "analysis": "비트코인의 급락은 시장의 신뢰를 크게 흔들 수 있으며, 이는 투자자들의 심리에 부정적인 영향을 미칠 것이다. 향후 회복 여부가 주목된다.",
+      "sentiment": "bearish",
+      "relevance": "high",
+      "tags": [
+        "비트코인",
+        "하락",
+        "시장"
+      ]
     },
     {
       "title": "“가상자산 거래소 내부통제 전면점검”⋯금융당국, ‘빗썸 오지급 사태’ 긴급회의 - 이투데이",
@@ -65,7 +128,16 @@
       "snippet": null,
       "source": "www.etoday.co.kr",
       "category": "crypto_market",
-      "fetched_at": "2026-02-09T09:04:49.816Z"
+      "fetched_at": "2026-02-09T09:04:49.816Z",
+      "summary_kr": "금융당국이 가상자산 거래소 내부 통제를 전면 점검하기로 했다.",
+      "analysis": "내부 통제 점검은 시장의 신뢰성을 높이는 데 기여할 수 있으며, 이는 장기적으로 긍정적인 영향을 미칠 수 있다. 그러나 단기적으로는 불안감을 조성할 수 있다.",
+      "sentiment": "neutral",
+      "relevance": "high",
+      "tags": [
+        "가상자산",
+        "금융당국",
+        "점검"
+      ]
     },
     {
       "title": "‘60조원 유령 비트코인’ 사태, 장부상 수량에 의존하는 거래소 구조가 불렀다",
@@ -73,7 +145,16 @@
       "snippet": null,
       "source": "www.hani.co.kr",
       "category": "crypto_market",
-      "fetched_at": "2026-02-09T09:04:49.816Z"
+      "fetched_at": "2026-02-09T09:04:49.816Z",
+      "summary_kr": "60조원 유령 비트코인 사태가 거래소 구조의 문제를 드러냈다.",
+      "analysis": "이 사건은 거래소의 투명성과 신뢰성에 대한 의문을 제기하며, 시장에 부정적인 영향을 미칠 수 있다. 투자자들은 더욱 신중해야 할 것이다.",
+      "sentiment": "bearish",
+      "relevance": "high",
+      "tags": [
+        "유령 비트코인",
+        "거래소",
+        "문제"
+      ]
     },
     {
       "title": "‘빗썸 60조 오지급’, 8년 전 삼성증권 ‘유령 주식’ 사건 판박이",
@@ -81,7 +162,16 @@
       "snippet": null,
       "source": "www.hani.co.kr",
       "category": "crypto_market",
-      "fetched_at": "2026-02-09T09:04:49.816Z"
+      "fetched_at": "2026-02-09T09:04:49.816Z",
+      "summary_kr": "빗썸의 60조 오지급 사건이 8년 전 삼성증권 사건과 유사하다는 분석이 나왔다.",
+      "analysis": "과거 사례와의 유사성은 투자자들에게 경각심을 불러일으킬 수 있으며, 이는 거래소에 대한 신뢰를 더욱 저하시킬 수 있다.",
+      "sentiment": "bearish",
+      "relevance": "medium",
+      "tags": [
+        "빗썸",
+        "오지급",
+        "삼성증권"
+      ]
     },
     {
       "title": "빗썸 ‘비트코인 횡재’ 매도자들, 삼성증권 ‘유령 주식’ 판박이 처벌 가능성",
@@ -89,7 +179,16 @@
       "snippet": null,
       "source": "www.4th.kr",
       "category": "crypto_market",
-      "fetched_at": "2026-02-09T09:04:49.817Z"
+      "fetched_at": "2026-02-09T09:04:49.817Z",
+      "summary_kr": "빗썸의 비트코인 횡재 매도자들이 삼성증권 유령 주식 사건과 유사한 처벌 가능성에 직면해 있다.",
+      "analysis": "법적 문제는 거래소의 신뢰성에 추가적인 타격을 줄 수 있으며, 이는 시장 전반에 부정적인 영향을 미칠 수 있다. 투자자들은 더욱 신중해야 할 것이다.",
+      "sentiment": "bearish",
+      "relevance": "medium",
+      "tags": [
+        "빗썸",
+        "비트코인",
+        "법적 문제"
+      ]
     },
     {
       "title": "앤트로픽의 새로운 AI 모델 버전인 클로드 오푸스 4.6에서 특히 새롭게 추가된 기능은 무엇인가요?",
@@ -97,7 +196,16 @@
       "snippet": null,
       "source": "xpert.digital",
       "category": "dev_tools",
-      "fetched_at": "2026-02-09T06:01:49.529Z"
+      "fetched_at": "2026-02-09T06:01:49.529Z",
+      "summary_kr": "앤트로픽의 새로운 AI 모델 클로드 오푸스 4.6의 추가 기능이 소개된다.",
+      "analysis": "AI 기술의 발전은 다양한 산업에 긍정적인 영향을 미칠 수 있으며, 이는 시장의 경쟁력을 높일 수 있다. 그러나 실제 활용도에 따라 결과는 달라질 수 있다.",
+      "sentiment": "neutral",
+      "relevance": "low",
+      "tags": [
+        "AI",
+        "앤트로픽",
+        "기술"
+      ]
     },
     {
       "title": "Anthropic, 코딩 없이 파일과 함께 작동하는 Claude 데스크톱 에이전트 'Cowork' 출시",
@@ -105,7 +213,16 @@
       "snippet": null,
       "source": "ekhbary.com",
       "category": "dev_tools",
-      "fetched_at": "2026-02-09T06:01:49.529Z"
+      "fetched_at": "2026-02-09T06:01:49.529Z",
+      "summary_kr": "앤트로픽이 코딩 없이 파일과 함께 작동하는 Claude 데스크톱 에이전트 'Cowork'를 출시했다.",
+      "analysis": "사용자 친화적인 기술은 더 많은 사용자층을 확보할 수 있는 기회를 제공하며, 이는 시장의 성장 가능성을 높일 수 있다.",
+      "sentiment": "bullish",
+      "relevance": "medium",
+      "tags": [
+        "AI",
+        "앤트로픽",
+        "기술"
+      ]
     },
     {
       "title": "Anthropic's new Claude Fast Mode trades your wallet for speed at a steep 6x markup",
@@ -113,7 +230,16 @@
       "snippet": null,
       "source": "the-decoder.com",
       "category": "dev_tools",
-      "fetched_at": "2026-02-09T06:01:49.529Z"
+      "fetched_at": "2026-02-09T06:01:49.529Z",
+      "summary_kr": "앤트로픽의 클로드 패스트 모드가 속도를 높이지만 6배의 가격 인상이 따른다.",
+      "analysis": "속도 향상은 사용자에게 매력적일 수 있으나, 가격 인상은 소비자에게 부담을 줄 수 있다. 이는 시장의 반응을 주의 깊게 살펴봐야 함을 의미한다.",
+      "sentiment": "neutral",
+      "relevance": "medium",
+      "tags": [
+        "AI",
+        "가격",
+        "속도"
+      ]
     },
     {
       "title": "Tesla Officially Updates Free FSD Transfer Policy — Here's The Last Date For Placing Orders To Be Eligible - Tesla (NASDAQ:TSLA) - Benzinga",
@@ -121,7 +247,25 @@
       "snippet": null,
       "source": null,
       "category": "elon_spacex_tesla",
-      "fetched_at": "2026-02-09T03:03:39.919Z"
+      "fetched_at": "2026-02-09T03:03:39.919Z",
+      "summary_kr": "테슬라가 무료 FSD 전환 정책을 업데이트하며 주문 마감일을 발표했다.",
+      "analysis": "정책 업데이트는 소비자들에게 긍정적인 신호로 작용할 수 있으며, 이는 테슬라의 판매 증가로 이어질 가능성이 있다. 그러나 시장의 반응은 경쟁 상황에 따라 달라질 수 있다.",
+      "sentiment": "bullish",
+      "relevance": "medium",
+      "tags": [
+        "테슬라",
+        "FSD",
+        "정책"
+      ]
     }
-  ]
+  ],
+  "analysis": {
+    "summary_kr": "오늘 뉴스는 비트코인과 이더리움의 하락세와 거래소의 신뢰성 문제를 중심으로 진행되고 있다.",
+    "top_themes": [
+      "비트코인",
+      "이더리움",
+      "거래소 신뢰성"
+    ],
+    "jarvis_take": "현재 암호화폐 시장은 극심한 불안정성을 겪고 있으며, 투자자들은 신중한 접근이 필요하다. 기술 발전과 정책 변화는 긍정적인 요소로 작용할 수 있지만, 전반적인 시장 신뢰 회복이 우선되어야 할 것이다."
+  }
 }

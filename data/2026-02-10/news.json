@@ -7,7 +7,15 @@
       "snippet": null,
       "source": "www.teslaoracle.com",
       "category": "elon_spacex_tesla",
-      "fetched_at": "2026-02-10T09:07:08.964Z"
+      "fetched_at": "2026-02-10T09:07:08.964Z",
+      "summary_kr": "스타쉽 부스터 19가 극저온 테스트를 통과했으며, 플라이트 12에 대한 업데이트가 발표됐다.",
+      "analysis": "스타쉽의 성공적인 테스트는 스페이스X의 우주 탐사 계획에 긍정적인 신호로 작용할 수 있다. 이는 향후 발사 일정에 대한 기대감을 높이며, 투자자들에게 신뢰를 줄 것이다.",
+      "sentiment": "bullish",
+      "relevance": "high",
+      "tags": [
+        "스페이스X",
+        "우주탐사"
+      ]
     },
     {
       "title": "NASA, SpaceX Adjust Crew-12 Launch Date Due to Weather - NASA",
@@ -15,7 +23,15 @@
       "snippet": null,
       "source": "www.nasa.gov",
       "category": "elon_spacex_tesla",
-      "fetched_at": "2026-02-10T09:07:08.964Z"
+      "fetched_at": "2026-02-10T09:07:08.964Z",
+      "summary_kr": "NASA와 스페이스X가 Crew-12 발사 날짜를 날씨 문제로 조정했다.",
+      "analysis": "발사 일정의 조정은 우주 임무의 안전성을 우선시하는 긍정적인 결정이다. 그러나 잦은 일정 변경은 투자자들에게 불안감을 줄 수 있다.",
+      "sentiment": "neutral",
+      "relevance": "medium",
+      "tags": [
+        "NASA",
+        "스페이스X"
+      ]
     },
     {
       "title": "Elon Musk Slams 'Clown's Analysis' of Tesla, SpaceX's Government Help - Business Insider",
@@ -23,7 +39,15 @@
       "snippet": null,
       "source": "www.businessinsider.com",
       "category": "elon_spacex_tesla",
-      "fetched_at": "2026-02-10T09:07:08.964Z"
+      "fetched_at": "2026-02-10T09:07:08.964Z",
+      "summary_kr": "일론 머스크가 테슬라와 스페이스X의 정부 지원에 대한 비판을 반박했다.",
+      "analysis": "머스크의 반박은 기업의 독립성을 강조하며, 정부 지원에 대한 부정적인 인식을 불식시키려는 의도로 보인다. 이는 투자자들에게 긍정적인 메시지를 전달할 수 있다.",
+      "sentiment": "bullish",
+      "relevance": "medium",
+      "tags": [
+        "일론 머스크",
+        "테슬라"
+      ]
     },
     {
       "title": "Tesla Bets $20B on AI and Robotics Pivot",
@@ -31,7 +55,15 @@
       "snippet": null,
       "source": "www.gurufocus.com",
       "category": "elon_spacex_tesla",
-      "fetched_at": "2026-02-10T09:07:08.964Z"
+      "fetched_at": "2026-02-10T09:07:08.964Z",
+      "summary_kr": "테슬라가 AI와 로봇 분야에 200억 달러를 투자할 계획이다.",
+      "analysis": "AI와 로봇 기술에 대한 대규모 투자는 테슬라의 미래 성장 가능성을 높이는 중요한 요소로 작용할 것이다. 이는 기술 혁신을 통한 경쟁력 강화를 의미한다.",
+      "sentiment": "bullish",
+      "relevance": "high",
+      "tags": [
+        "테슬라",
+        "AI"
+      ]
     },
     {
       "title": "Launch Preview: Vulcan to launch USSF-87, SpaceX to launch Crew-12 to ISS - NASASpaceFlight.com",
@@ -39,7 +71,15 @@
       "snippet": null,
       "source": "www.nasaspaceflight.com",
       "category": "elon_spacex_tesla",
-      "fetched_at": "2026-02-10T09:07:08.964Z"
+      "fetched_at": "2026-02-10T09:07:08.964Z",
+      "summary_kr": "벌컨 로켓이 USSF-87을 발사하고, 스페이스X가 Crew-12를 ISS로 발사할 예정이다.",
+      "analysis": "두 발사는 미국의 우주력 강화를 위한 중요한 이정표가 될 것이며, 스페이스X의 신뢰성을 더욱 높일 것이다. 이는 우주 산업에 긍정적인 영향을 미칠 것으로 예상된다.",
+      "sentiment": "bullish",
+      "relevance": "high",
+      "tags": [
+        "우주산업",
+        "스페이스X"
+      ]
     },
     {
       "title": "Former Cohere execs Sara Hooker and Sudip Roy secure $50 million seed round for their new startup Adaption Labs | Fortune",
@@ -47,7 +87,15 @@
       "snippet": null,
       "source": "fortune.com",
       "category": "ai_industry",
-      "fetched_at": "2026-02-10T06:02:07.503Z"
+      "fetched_at": "2026-02-10T06:02:07.503Z",
+      "summary_kr": "구형 코헤어의 전 임원들이 새로운 스타트업 아답션 랩스에 5천만 달러의 시드 라운드를 확보했다.",
+      "analysis": "AI 스타트업에 대한 투자 증가가 시장의 성장 가능성을 보여준다. 이는 AI 산업에 대한 신뢰를 높이며, 향후 혁신을 기대할 수 있는 긍정적인 신호다.",
+      "sentiment": "bullish",
+      "relevance": "medium",
+      "tags": [
+        "AI",
+        "스타트업"
+      ]
     },
     {
       "title": "Global VC Investment Surged In January, With U.S. Dominating Funding, But A Pair Of AI Model IPOs In China",
@@ -55,7 +103,15 @@
       "snippet": null,
       "source": "news.crunchbase.com",
       "category": "ai_industry",
-      "fetched_at": "2026-02-10T06:02:07.503Z"
+      "fetched_at": "2026-02-10T06:02:07.503Z",
+      "summary_kr": "1월 글로벌 VC 투자 급증, 미국이 자금 조달에서 우위를 점하고 있으며, 중국의 AI 모델 IPO도 언급됐다.",
+      "analysis": "미국의 VC 투자 증가와 중국의 IPO는 글로벌 AI 시장의 경쟁이 치열해지고 있음을 나타낸다. 이는 투자자들에게 긍정적인 기회를 제공할 수 있다.",
+      "sentiment": "bullish",
+      "relevance": "high",
+      "tags": [
+        "VC 투자",
+        "AI"
+      ]
     },
     {
       "title": "Capgemini and Google Cloud expand strategic partnership to accelerate AI adoption at scale by providing trusted and secure sovereign solutions - Capgemini",
@@ -63,7 +119,15 @@
       "snippet": null,
       "source": "www.capgemini.com",
       "category": "ai_industry",
-      "fetched_at": "2026-02-10T06:02:07.503Z"
+      "fetched_at": "2026-02-10T06:02:07.503Z",
+      "summary_kr": "캡제미니와 구글 클라우드가 AI 채택을 가속화하기 위해 전략적 파트너십을 확대했다.",
+      "analysis": "이 파트너십은 AI 솔루션의 신뢰성과 보안을 강화할 것으로 기대되며, 기업의 AI 도입을 촉진할 것이다. 이는 AI 시장의 성장에 긍정적인 영향을 미칠 수 있다.",
+      "sentiment": "bullish",
+      "relevance": "medium",
+      "tags": [
+        "AI",
+        "클라우드"
+      ]
     },
     {
       "title": "Workato Accelerates Enterprise AI Adoption with Launch of Production-Ready Model Context Protocol Servers | FinancialContent",
@@ -71,7 +135,15 @@
       "snippet": null,
       "source": "www.financialcontent.com",
       "category": "ai_industry",
-      "fetched_at": "2026-02-10T06:02:07.503Z"
+      "fetched_at": "2026-02-10T06:02:07.503Z",
+      "summary_kr": "워크아토가 기업 AI 채택을 가속화하기 위해 생산 준비 완료 모델 컨텍스트 프로토콜 서버를 출시했다.",
+      "analysis": "이러한 기술 혁신은 기업들이 AI를 보다 쉽게 도입할 수 있도록 도와줄 것이다. 이는 AI 산업의 성장에 기여할 것으로 예상된다.",
+      "sentiment": "bullish",
+      "relevance": "medium",
+      "tags": [
+        "AI",
+        "기업"
+      ]
     },
     {
       "title": "White House to Host Stablecoin Meeting on Feb 10: What’s to Expect For Crypto Market? | CoinGape",
@@ -79,7 +151,15 @@
       "snippet": null,
       "source": null,
       "category": "crypto_market",
-      "fetched_at": "2026-02-10T00:06:49.908Z"
+      "fetched_at": "2026-02-10T00:06:49.908Z",
+      "summary_kr": "백악관이 2월 10일 스테이블코인 회의를 개최하며, 암호화폐 시장에 대한 기대가 커지고 있다.",
+      "analysis": "스테이블코인에 대한 논의는 암호화폐 시장의 규제와 안정성을 높일 수 있는 기회를 제공할 것이다. 이는 투자자들에게 긍정적인 신호로 작용할 수 있다.",
+      "sentiment": "bullish",
+      "relevance": "high",
+      "tags": [
+        "암호화폐",
+        "스테이블코인"
+      ]
     },
     {
       "title": "Bitcoin and XRP Price Prediction as China Calls on Banks to Sell US Treasuries",
@@ -87,7 +167,15 @@
       "snippet": null,
       "source": null,
       "category": "crypto_market",
-      "fetched_at": "2026-02-10T00:06:49.908Z"
+      "fetched_at": "2026-02-10T00:06:49.908Z",
+      "summary_kr": "중국이 은행들에게 미국 국채 매각을 촉구하면서 비트코인과 XRP 가격 예측이 주목받고 있다.",
+      "analysis": "중국의 조치는 글로벌 금융 시장에 큰 영향을 미칠 수 있으며, 암호화폐 가격에 변동성을 가져올 수 있다. 이는 투자자들에게 주의가 필요함을 시사한다.",
+      "sentiment": "bearish",
+      "relevance": "medium",
+      "tags": [
+        "비트코인",
+        "XRP"
+      ]
     },
     {
       "title": "Why is Crypto Market Up Today (Feb 9)",
@@ -95,7 +183,15 @@
       "snippet": null,
       "source": null,
       "category": "crypto_market",
-      "fetched_at": "2026-02-10T00:06:49.908Z"
+      "fetched_at": "2026-02-10T00:06:49.908Z",
+      "summary_kr": "암호화폐 시장이 상승세를 보이고 있는 이유에 대한 분석이 진행되고 있다.",
+      "analysis": "시장 상승의 원인은 다양한 요인에 기인할 수 있으며, 투자자들은 이러한 상승세를 지속적으로 주시해야 한다. 이는 긍정적인 시장 심리를 반영한다.",
+      "sentiment": "bullish",
+      "relevance": "medium",
+      "tags": [
+        "암호화폐",
+        "시장분석"
+      ]
     },
     {
       "title": "Bernstein Downplays Bitcoin Bear Market Jitters, Predicts Rally To $150k This Year",
@@ -103,7 +199,15 @@
       "snippet": null,
       "source": null,
       "category": "crypto_market",
-      "fetched_at": "2026-02-10T00:06:49.908Z"
+      "fetched_at": "2026-02-10T00:06:49.908Z",
+      "summary_kr": "번스타인이 비트코인 약세 시장 우려를 완화하며 올해 15만 달러로의 반등을 예측했다.",
+      "analysis": "비트코인에 대한 낙관적인 전망은 투자자들에게 긍정적인 신호를 줄 수 있으며, 시장의 회복 가능성을 시사한다.",
+      "sentiment": "bullish",
+      "relevance": "high",
+      "tags": [
+        "비트코인",
+        "시장예측"
+      ]
     },
     {
       "title": "Ether Slides in Bitcoin’s Shadow as Investors Pull Out in Droves - Bloomberg",
@@ -111,7 +215,15 @@
       "snippet": null,
       "source": null,
       "category": "crypto_market",
-      "fetched_at": "2026-02-10T00:06:49.908Z"
+      "fetched_at": "2026-02-10T00:06:49.908Z",
+      "summary_kr": "이더리움이 비트코인의 그림자에 가려져 투자자들이 대거 이탈하고 있다.",
+      "analysis": "이더리움의 하락은 시장의 불안정을 나타내며, 투자자들이 비트코인으로 몰리는 경향이 보인다. 이는 이더리움에 대한 부정적인 심리를 반영한다.",
+      "sentiment": "bearish",
+      "relevance": "medium",
+      "tags": [
+        "이더리움",
+        "비트코인"
+      ]
     },
     {
       "title": "Historic progress in cryptocurrency and blockchain as Binance and UAE lead the way | The National",
@@ -119,7 +231,15 @@
       "snippet": null,
       "source": null,
       "category": "crypto_market",
-      "fetched_at": "2026-02-10T00:06:49.909Z"
+      "fetched_at": "2026-02-10T00:06:49.909Z",
+      "summary_kr": "바이낸스와 UAE가 암호화폐 및 블록체인 분야에서 역사적인 진전을 이루었다.",
+      "analysis": "이러한 진전은 암호화폐 시장의 신뢰성을 높이며, 글로벌 투자자들에게 긍정적인 신호로 작용할 수 있다.",
+      "sentiment": "bullish",
+      "relevance": "high",
+      "tags": [
+        "암호화폐",
+        "블록체인"
+      ]
     },
     {
       "title": "FinancialContent - Bullish (BLSH) Ignites the Institutional Crypto Market as Revenue Surges 70% on Derivatives Dominance",
@@ -127,7 +247,15 @@
       "snippet": null,
       "source": null,
       "category": "crypto_market",
-      "fetched_at": "2026-02-10T00:06:49.909Z"
+      "fetched_at": "2026-02-10T00:06:49.909Z",
+      "summary_kr": "BLSH가 파생상품 우위를 바탕으로 기관 암호화폐 시장을 활성화하며 수익이 70% 증가했다.",
+      "analysis": "기관 투자자들의 관심이 증가하고 있다는 것은 암호화폐 시장의 성장을 나타내며, 이는 긍정적인 시장 전망을 제시한다.",
+      "sentiment": "bullish",
+      "relevance": "high",
+      "tags": [
+        "암호화폐",
+        "기관투자"
+      ]
     }
   ],
   "kr": [
@@ -137,7 +265,15 @@
       "snippet": null,
       "source": "news.einfomax.co.kr",
       "category": "elon_spacex_tesla",
-      "fetched_at": "2026-02-10T09:07:08.964Z"
+      "fetched_at": "2026-02-10T09:07:08.964Z",
+      "summary_kr": "미래에셋 CFO가 스페이스X 엑시트에 대한 고민을 언급하며 자사주 소각 시 자본금이 4천500억 줄어들 것이라고 밝혔다.",
+      "analysis": "미래에셋의 자본 구조 변화는 투자자들에게 불확실성을 줄 수 있으며, 스페이스X와의 관계에 대한 재조명이 필요하다.",
+      "sentiment": "bearish",
+      "relevance": "medium",
+      "tags": [
+        "미래에셋",
+        "스페이스X"
+      ]
     },
     {
       "title": "스페이스X·xAI 합병…'선견지명 투자' 미래에셋증권 사상 최고가[핫종목] - 뉴스1",
@@ -145,7 +281,15 @@
       "snippet": null,
       "source": "www.news1.kr",
       "category": "elon_spacex_tesla",
-      "fetched_at": "2026-02-10T09:07:08.964Z"
+      "fetched_at": "2026-02-10T09:07:08.964Z",
+      "summary_kr": "스페이스X와 xAI의 합병 소식이 미래에셋증권의 주가를 사상 최고가로 끌어올렸다.",
+      "analysis": "합병 소식은 두 기업의 시너지를 기대하게 하며, 투자자들에게 긍정적인 신호로 작용할 것이다. 이는 주가 상승에 기여할 가능성이 높다.",
+      "sentiment": "bullish",
+      "relevance": "high",
+      "tags": [
+        "스페이스X",
+        "xAI"
+      ]
     },
     {
       "title": "\"로봇 관절 만든다\" LG 한마디에…300% 뛰던 로봇주가 떤다 | 중앙일보",
@@ -153,7 +297,15 @@
       "snippet": null,
       "source": "www.joongang.co.kr",
       "category": "elon_spacex_tesla",
-      "fetched_at": "2026-02-10T09:07:08.964Z"
+      "fetched_at": "2026-02-10T09:07:08.964Z",
+      "summary_kr": "LG가 로봇 관절 개발을 발표하며 로봇주가 급등했다.",
+      "analysis": "LG의 로봇 기술 개발은 산업 전반에 긍정적인 영향을 미칠 수 있으며, 이는 로봇 관련 주식의 상승을 이끌었다.",
+      "sentiment": "bullish",
+      "relevance": "high",
+      "tags": [
+        "LG",
+        "로봇"
+      ]
     },
     {
       "title": "네이버 D2SF, AI 스타트업 두 곳에 신규 투자 단행 - 글로벌이코노믹",
@@ -161,7 +313,15 @@
       "snippet": null,
       "source": "www.g-enews.com",
       "category": "ai_industry",
-      "fetched_at": "2026-02-10T06:02:07.503Z"
+      "fetched_at": "2026-02-10T06:02:07.503Z",
+      "summary_kr": "네이버 D2SF가 AI 스타트업 두 곳에 신규 투자를 단행했다.",
+      "analysis": "AI 스타트업에 대한 투자는 한국의 AI 산업 발전에 기여할 것으로 보이며, 이는 긍정적인 시장 환경을 조성할 수 있다.",
+      "sentiment": "bullish",
+      "relevance": "medium",
+      "tags": [
+        "네이버",
+        "AI"
+      ]
     },
     {
       "title": "일레븐랩스, 5억 달러 투자 유치.. \"기업가치 110억 달러 평가\"",
@@ -169,7 +329,15 @@
       "snippet": null,
       "source": "www.venturesquare.net",
       "category": "ai_industry",
-      "fetched_at": "2026-02-10T06:02:07.503Z"
+      "fetched_at": "2026-02-10T06:02:07.503Z",
+      "summary_kr": "일레븐랩스가 5억 달러 투자 유치를 통해 기업가치가 110억 달러로 평가되었다.",
+      "analysis": "일레븐랩스의 높은 기업가치는 AI 산업의 성장 가능성을 반영하며, 이는 투자자들에게 긍정적인 신호로 작용할 것이다.",
+      "sentiment": "bullish",
+      "relevance": "high",
+      "tags": [
+        "AI",
+        "스타트업"
+      ]
     },
     {
       "title": "전력 덜 잡아먹고 가성비까지 … 피지컬AI 맞춤 반도체 눈길 - 매일경제",
@@ -177,7 +345,15 @@
       "snippet": null,
       "source": "www.mk.co.kr",
       "category": "ai_industry",
-      "fetched_at": "2026-02-10T06:02:07.503Z"
+      "fetched_at": "2026-02-10T06:02:07.503Z",
+      "summary_kr": "피지컬AI 맞춤 반도체가 전력 소비를 줄이고 가성비를 높이고 있다.",
+      "analysis": "효율적인 반도체 기술은 AI와 관련된 산업의 경쟁력을 높일 수 있으며, 이는 긍정적인 시장 반응을 이끌어낼 것이다.",
+      "sentiment": "bullish",
+      "relevance": "medium",
+      "tags": [
+        "AI",
+        "반도체"
+      ]
     },
     {
       "title": "비트마인, 지난주 이더리움 4만613개 추가 매수…보유량 432만개 돌파",
@@ -185,7 +361,24 @@
       "snippet": null,
       "source": null,
       "category": "crypto_market",
-      "fetched_at": "2026-02-10T00:06:49.909Z"
+      "fetched_at": "2026-02-10T00:06:49.909Z",
+      "summary_kr": "비트마인이 지난주 이더리움을 추가 매수하며 보유량이 432만 개를 돌파했다.",
+      "analysis": "비트마인의 이더리움 매수는 시장의 신뢰를 반영하며, 이는 이더리움 가격에 긍정적인 영향을 미칠 수 있다.",
+      "sentiment": "bullish",
+      "relevance": "medium",
+      "tags": [
+        "이더리움",
+        "비트마인"
+      ]
     }
-  ]
+  ],
+  "analysis": {
+    "summary_kr": "오늘 뉴스는 스페이스X, AI, 암호화폐 시장의 긍정적인 발전을 다루고 있다.",
+    "top_themes": [
+      "스페이스X",
+      "AI",
+      "암호화폐"
+    ],
+    "jarvis_take": "전반적으로 오늘 뉴스는 기술과 혁신에 대한 긍정적인 신호를 보내고 있다. 특히 AI와 스페이스X의 발전은 향후 투자자들에게 큰 기회를 제공할 것으로 보인다."
+  }
 }

@@ -7,7 +7,10 @@
       "url": "https://finance.yahoo.com/news/eu-top-court-refers-whatsapps-085607408.html",
       "source": "Reuters",
       "summary": null,
-      "published_at": "2026-02-10T08:56:07.000Z"
+      "published_at": "2026-02-10T08:56:07.000Z",
+      "summary_kr": "유럽연합 최고 법원이 WhatsApp의 EU 개인정보 보호 감시 기관에 대한 소송을 하급 법원으로 되돌렸습니다.",
+      "impact": "negative",
+      "analysis": "이 결정은 Meta의 개인정보 보호 관련 규제에 대한 불확실성을 증가시키며, 장기적으로 기업의 운영에 부정적인 영향을 미칠 수 있습니다."
     },
     {
       "symbol": "META",
@@ -15,7 +18,10 @@
       "url": "https://finance.yahoo.com/m/17c0227c-30a8-340f-8184-85922ca734a9/1-top-growth-stock-to-buy-in.html",
       "source": "Motley Fool",
       "summary": null,
-      "published_at": "2026-02-10T05:26:00.000Z"
+      "published_at": "2026-02-10T05:26:00.000Z",
+      "summary_kr": "모티리 퓰은 2월에 구매할 최고의 성장 주식으로 Meta를 추천했습니다.",
+      "impact": "positive",
+      "analysis": "이 추천은 투자자들에게 Meta의 성장 가능성을 다시 한번 상기시키며, 주가에 긍정적인 영향을 미칠 수 있습니다."
     },
     {
       "symbol": "NVDA",
@@ -31,7 +37,10 @@
       "url": "https://finance.yahoo.com/news/cisco-unveils-ai-networking-chip-083353229.html",
       "source": "Reuters",
       "summary": null,
-      "published_at": "2026-02-10T08:33:53.000Z"
+      "published_at": "2026-02-10T08:33:53.000Z",
+      "summary_kr": "Cisco가 새로운 AI 네트워킹 칩을 공개하며 Broadcom과 Nvidia에 도전장을 내밀었습니다.",
+      "impact": "neutral",
+      "analysis": "AI 기술 경쟁이 치열해지는 가운데 Cisco의 새로운 제품 출시는 시장의 관심을 끌지만, 기존의 강력한 경쟁자들과의 경쟁에서 어떤 성과를 낼지는 지켜봐야 합니다."
     },
     {
       "symbol": "TSLA",
@@ -39,7 +48,10 @@
       "url": "https://finance.yahoo.com/news/tesla-officially-updates-free-fsd-043116112.html",
       "source": "Benzinga",
       "summary": null,
-      "published_at": "2026-02-10T04:31:16.000Z"
+      "published_at": "2026-02-10T04:31:16.000Z",
+      "summary_kr": "Tesla가 무료 FSD 전송 정책을 업데이트하며 주문 마감일을 발표했습니다.",
+      "impact": "positive",
+      "analysis": "이 업데이트는 고객의 구매 결정을 촉진할 수 있으며, Tesla의 판매 증가에 긍정적인 영향을 미칠 것으로 예상됩니다."
     },
     {
       "symbol": "TSLA",
@@ -47,7 +59,10 @@
       "url": "https://finance.yahoo.com/m/5453cbef-76bb-3657-a3c0-a7c2660a08a1/tesla-is-left-out-of-latest.html",
       "source": "TheStreet",
       "summary": null,
-      "published_at": "2026-02-10T04:07:00.000Z"
+      "published_at": "2026-02-10T04:07:00.000Z",
+      "summary_kr": "Tesla가 최근 백악관 무역 협정에서 제외되었습니다.",
+      "impact": "negative",
+      "analysis": "이로 인해 Tesla의 글로벌 시장 접근성이 제한될 수 있으며, 장기적인 성장 전망에 부정적인 영향을 미칠 수 있습니다."
     },
     {
       "symbol": "GOOGL",
@@ -55,7 +70,10 @@
       "url": "https://finance.yahoo.com/m/cce7f066-0f9b-3a4c-af5e-7d36b7a21a78/this-could-be-one-of-the-best.html",
       "source": "Motley Fool",
       "summary": null,
-      "published_at": "2026-02-10T08:03:00.000Z"
+      "published_at": "2026-02-10T08:03:00.000Z",
+      "summary_kr": "모티리 퓰은 향후 10년간 보유할 최고의 기술 주식으로 Alphabet을 언급했습니다.",
+      "impact": "positive",
+      "analysis": "Alphabet의 지속적인 성장 가능성을 강조하며, 투자자들에게 긍정적인 신호를 줄 수 있습니다."
     },
     {
       "symbol": "GOOGL",
@@ -63,7 +81,10 @@
       "url": "https://finance.yahoo.com/news/alibaba-pushes-robotics-ai-open-065326706.html",
       "source": "Bloomberg",
       "summary": null,
-      "published_at": "2026-02-10T06:53:26.000Z"
+      "published_at": "2026-02-10T06:53:26.000Z",
+      "summary_kr": "알리바바가 오픈소스 로봇 AI 'RynnBrain'을 출시하며 로봇 분야로 진출하고 있습니다.",
+      "impact": "positive",
+      "analysis": "이러한 진출은 알리바바의 기술 포트폴리오를 다각화하고, 새로운 시장 기회를 창출할 수 있습니다."
     },
     {
       "symbol": "AMZN",
@@ -87,7 +108,10 @@
       "url": "https://finance.yahoo.com/news/memory-chip-crunch-ripples-markets-023002147.html",
       "source": "Bloomberg",
       "summary": null,
-      "published_at": "2026-02-10T07:20:03.000Z"
+      "published_at": "2026-02-10T07:20:03.000Z",
+      "summary_kr": "메모리 칩 공급 부족이 시장 승자와 패자 간의 격차를 확대하고 있습니다.",
+      "impact": "negative",
+      "analysis": "이 문제는 메모리 칩 제조업체들에게 부정적인 영향을 미치며, 전반적인 기술 산업의 성장을 저해할 수 있습니다."
     },
     {
       "symbol": "AAPL",
@@ -111,7 +135,10 @@
       "url": "https://finance.yahoo.com/news/capex-cash-flow-bull-case-034900933.html",
       "source": "Zacks",
       "summary": null,
-      "published_at": "2026-02-10T03:49:00.000Z"
+      "published_at": "2026-02-10T03:49:00.000Z",
+      "summary_kr": "MSFT의 AI 인프라 주식에 대한 긍정적인 전망이 제시되었습니다.",
+      "impact": "positive",
+      "analysis": "AI 기술의 발전과 함께 MSFT의 주가는 긍정적인 영향을 받을 가능성이 높습니다."
     },
     {
       "symbol": "COIN",
@@ -143,7 +170,10 @@
       "url": "https://finance.yahoo.com/m/797b6a49-bbc1-373e-ae58-d47e6c3acb71/as-palantir-bets-on-61%25.html",
       "source": "Barchart",
       "summary": null,
-      "published_at": "2026-02-09T22:09:58.000Z"
+      "published_at": "2026-02-09T22:09:58.000Z",
+      "summary_kr": "Palantir가 2026년 61%의 수익 성장을 목표로 하고 있습니다.",
+      "impact": "positive",
+      "analysis": "이러한 목표는 투자자들에게 Palantir의 성장 가능성을 강조하며, 주가에 긍정적인 영향을 미칠 수 있습니다."
     },
     {
       "symbol": "META",
@@ -241,5 +271,9 @@
       "summary": null,
       "published_at": "2026-02-10T00:55:00.000Z"
     }
-  ]
+  ],
+  "analysis": {
+    "summary_kr": "오늘 종목 뉴스는 Meta와 Tesla에 대한 부정적인 소식과 함께, AI 및 기술 관련 긍정적인 전망이 혼재되어 있습니다.",
+    "jarvis_take": "현재 시장은 기술 주식에 대한 긍정적인 전망과 함께, 규제 및 경쟁의 압박을 동시에 받고 있습니다. 투자자들은 이러한 복합적인 요소를 고려하여 신중한 결정을 내려야 할 시점입니다."
+  }
 }

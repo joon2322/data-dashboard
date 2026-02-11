@@ -1,0 +1,67 @@
+{
+  "date": "2026-02-09",
+  "period": "pm",
+  "tldr": [
+    "기술주 NVDA와 AMD 각각 7.87% 및 8.28% 상승",
+    "S&P 500은 1.97% 상승, 그러나 AMZN과 GOOGL은 하락",
+    "비트코인과 이더리움의 하락세가 지속되고 있으며 거래소 신뢰성 문제 부각"
+  ],
+  "sections": [
+    {
+      "title": "시장",
+      "category": "market",
+      "items": [
+        {
+          "headline": "기술주 상승세",
+          "detail": "오늘 시장은 전반적으로 긍정적인 흐름을 보이며, NVDA와 AMD가 각각 7.87% 및 8.28% 상승했다. 그러나 AMZN과 GOOGL은 하락세를 보이며 혼조세를 나타내고 있다.",
+          "source": "@JJNews",
+          "sentiment": "bullish"
+        }
+      ]
+    },
+    {
+      "title": "뉴스",
+      "category": "news",
+      "items": [
+        {
+          "headline": "비트코인 ETF 안정세",
+          "detail": "비트코인 ETF가 안정세를 보이며 블랙록이 유입을 주도하고 있다. 그러나 비트코인과 이더리움에 대한 두려움이 시장에 영향을 미치고 있다.",
+          "source": "@JJNews",
+          "sentiment": "bearish"
+        },
+        {
+          "headline": "거래소 신뢰성 문제",
+          "detail": "금융당국이 가상자산 거래소 내부 통제를 전면 점검하기로 하며, 60조원 유령 비트코인 사태가 거래소 구조의 문제를 드러냈다.",
+          "source": "@JJNews",
+          "sentiment": "bearish"
+        }
+      ]
+    },
+    {
+      "title": "종목뉴스",
+      "category": "stock",
+      "items": [
+        {
+          "headline": "AI 관련 기업 긍정적 소식",
+          "detail": "AI 관련 기업들이 긍정적인 소식을 전하며 전반적인 시장 상승세를 반영하고 있다.",
+          "source": "@JJNews",
+          "sentiment": "bullish"
+        }
+      ]
+    },
+    {
+      "title": "해커뉴스",
+      "category": "hn",
+      "items": [
+        {
+          "headline": "AI와 반도체 산업 논의",
+          "detail": "오늘 해커뉴스에서는 AI와 반도체 산업에 대한 논의가 두드러지며, 기술적 진보와 사회적 변화가 주목받고 있다.",
+          "source": "@JJNews",
+          "sentiment": "neutral"
+        }
+      ]
+    }
+  ],
+  "jarvis_take": "오늘 시장은 기술주들의 상승으로 긍정적인 흐름을 보이고 있으나, 암호화폐 시장의 불안정성이 여전히 우려되는 상황이다. 거래소 신뢰성 문제는 향후 시장에 부정적인 영향을 미칠 가능성이 크다.",
+  "generated_at": "2026-02-11T06:41:38.882Z"
+}
