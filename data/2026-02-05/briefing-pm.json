@@ -1,0 +1,91 @@
+{
+  "date": "2026-02-05",
+  "period": "pm",
+  "tldr": [
+    "테슬라 주가 397.21로 상승",
+    "메타 주가 670.21로 최고치 경신",
+    "S&P 500 지수 6798.09로 상승"
+  ],
+  "sections": [
+    {
+      "title": "시장",
+      "category": "market",
+      "items": [
+        {
+          "headline": "전반적인 시장 강세",
+          "detail": "오늘 시장은 전반적으로 강세를 보이며 주요 기술주들이 상승세를 이어가고 있습니다.",
+          "source": "시장 데이터",
+          "sentiment": "bullish"
+        }
+      ]
+    },
+    {
+      "title": "X/Elon",
+      "category": "x",
+      "items": [
+        {
+          "headline": "엘론 머스크의 정치적 논란",
+          "detail": "머스크는 제프리 엡스타인의 자살과 관련된 의문을 제기하며 비판적인 입장을 취하고 있습니다.",
+          "source": "@elonmusk",
+          "sentiment": "neutral"
+        },
+        {
+          "headline": "애국심 표현",
+          "detail": "머스크가 미국 국기를 이모지로 표현하며 애국심을 드러냈습니다.",
+          "source": "@elonmusk",
+          "sentiment": "neutral"
+        },
+        {
+          "headline": "돈과 행복에 대한 생각",
+          "detail": "머스크는 '돈이 행복을 살 수 없다'는 말에 공감하며 우울한 감정을 표현했습니다.",
+          "source": "@elonmusk",
+          "sentiment": "neutral"
+        }
+      ]
+    },
+    {
+      "title": "뉴스",
+      "category": "news",
+      "items": [
+        {
+          "headline": "AI 기술 발전",
+          "detail": "AI 기반 코딩 도구와 관련된 다양한 발전이 시장 반응을 이끌고 있습니다.",
+          "source": "뉴스 데이터",
+          "sentiment": "bullish"
+        },
+        {
+          "headline": "AI 정책 논의",
+          "detail": "연방 정부의 AI 정책 주도적 역할 필요성이 강조되고 있습니다.",
+          "source": "뉴스 데이터",
+          "sentiment": "neutral"
+        }
+      ]
+    },
+    {
+      "title": "종목뉴스",
+      "category": "stock",
+      "items": [
+        {
+          "headline": "팔란티어 및 암호화폐 관련 부정적 소식",
+          "detail": "오늘의 종목 뉴스는 팔란티어와 암호화폐 관련 주식의 부정적인 소식이 주를 이루고 있습니다.",
+          "source": "종목 데이터",
+          "sentiment": "bearish"
+        }
+      ]
+    },
+    {
+      "title": "해커뉴스",
+      "category": "hn",
+      "items": [
+        {
+          "headline": "유럽의 디지털 자주성",
+          "detail": "깊이 있는 사고의 필요성과 유럽의 디지털 자주성이 주요 트렌드로 부각되고 있습니다.",
+          "source": "해커뉴스",
+          "sentiment": "neutral"
+        }
+      ]
+    }
+  ],
+  "jarvis_take": "오늘 시장은 기술주들의 강세로 긍정적인 흐름을 이어가고 있으며, AI 기술의 발전이 주목받고 있습니다. 그러나 일부 종목에서는 부정적인 소식이 전해지고 있어 주의가 필요합니다.",
+  "generated_at": "2026-02-11T07:06:13.084Z"
+}

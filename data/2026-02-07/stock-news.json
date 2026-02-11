@@ -7,7 +7,10 @@
       "url": "https://finance.yahoo.com/news/coinbase-deepens-crypto-isac-ties-160347951.html",
       "source": "Simply Wall St.",
       "summary": null,
-      "published_at": "2026-02-07T16:03:47.000Z"
+      "published_at": "2026-02-07T16:03:47.000Z",
+      "summary_kr": "Coinbase가 암호화폐 ISAC와의 관계를 강화하여 기관 보안을 강화하고 있습니다.",
+      "impact": "positive",
+      "analysis": "이러한 조치는 Coinbase의 신뢰성을 높이고 기관 투자자들의 관심을 끌어올릴 가능성이 큽니다."
     },
     {
       "symbol": "COIN",
@@ -15,7 +18,10 @@
       "url": "https://finance.yahoo.com/news/crypto-currents-strategy-galaxy-digital-153045203.html",
       "source": "TipRanks",
       "summary": null,
-      "published_at": "2026-02-07T15:30:45.000Z"
+      "published_at": "2026-02-07T15:30:45.000Z",
+      "summary_kr": "Galaxy Digital이 4분기 실적을 발표하며 암호화폐 시장의 전략을 공유했습니다.",
+      "impact": "neutral",
+      "analysis": "실적 발표는 시장의 전반적인 흐름에 큰 영향을 미치지 않을 것으로 보입니다."
     },
     {
       "symbol": "AMD",
@@ -23,7 +29,10 @@
       "url": "https://finance.yahoo.com/m/41c6b815-d28a-340c-b48c-2126f3a1d7bd/is-amd%27s-17%25-decline-a.html",
       "source": "Motley Fool",
       "summary": null,
-      "published_at": "2026-02-07T16:35:00.000Z"
+      "published_at": "2026-02-07T16:35:00.000Z",
+      "summary_kr": "AMD의 17% 하락이 Nvidia 주주들에게 경고 신호로 작용할 수 있습니다.",
+      "impact": "bearish",
+      "analysis": "AMD의 하락은 반도체 시장 전반에 대한 불안감을 조성할 수 있으며, Nvidia에도 부정적인 영향을 미칠 수 있습니다."
     },
     {
       "symbol": "PLTR",
@@ -31,7 +40,10 @@
       "url": "https://finance.yahoo.com/news/strong-palantir-pltr-results-fail-151051606.html",
       "source": "Insider Monkey",
       "summary": null,
-      "published_at": "2026-02-07T15:10:51.000Z"
+      "published_at": "2026-02-07T15:10:51.000Z",
+      "summary_kr": "Palantir의 강력한 실적에도 불구하고 RBC는 여전히 약세 전망을 유지하고 있습니다.",
+      "impact": "bearish",
+      "analysis": "RBC의 약세 전망은 Palantir의 성장 가능성에 대한 시장의 신뢰를 약화시킬 수 있습니다."
     },
     {
       "symbol": "TSLA",
@@ -39,7 +51,10 @@
       "url": "https://finance.yahoo.com/m/504935d3-78c8-3d23-9a96-4b1e41df0f1a/elon%27s-big-nvidia-pivot-is-a.html",
       "source": "Money Digest",
       "summary": null,
-      "published_at": "2026-02-07T17:30:00.000Z"
+      "published_at": "2026-02-07T17:30:00.000Z",
+      "summary_kr": "Elon Musk가 Nvidia와의 큰 전환이 두 회사에 영향을 미칠 수 있다고 경고했습니다.",
+      "impact": "neutral",
+      "analysis": "이러한 경고는 투자자들에게 불확실성을 제공할 수 있으며, 두 회사의 주가에 혼란을 초래할 수 있습니다."
     },
     {
       "symbol": "TSLA",
@@ -47,7 +62,10 @@
       "url": "https://finance.yahoo.com/news/tesla-recasts-future-around-optimus-170624236.html",
       "source": "Simply Wall St.",
       "summary": null,
-      "published_at": "2026-02-07T17:06:24.000Z"
+      "published_at": "2026-02-07T17:06:24.000Z",
+      "summary_kr": "Tesla가 Optimus 로봇 AI와 높은 평가를 중심으로 미래를 재구성하고 있습니다.",
+      "impact": "positive",
+      "analysis": "이러한 전략은 Tesla의 혁신적인 이미지를 강화하고 장기적인 성장 가능성을 높일 수 있습니다."
     },
     {
       "symbol": "TSLA",
@@ -55,7 +73,10 @@
       "url": "https://finance.yahoo.com/news/elon-musk-warns-us-1-164606902.html",
       "source": "Benzinga",
       "summary": null,
-      "published_at": "2026-02-07T16:46:06.000Z"
+      "published_at": "2026-02-07T16:46:06.000Z",
+      "summary_kr": "Elon Musk가 미국의 부채 증가로 인해 1,000% 파산할 것이라고 경고했습니다.",
+      "impact": "bearish",
+      "analysis": "이러한 발언은 경제 전반에 대한 불안감을 조성하고, 투자자들에게 부정적인 심리를 유발할 수 있습니다."
     },
     {
       "symbol": "META",
@@ -63,7 +84,10 @@
       "url": "https://finance.yahoo.com/m/a2362cdd-556d-3f4a-a783-494179e02997/maybe-i-wasn%E2%80%99t-so-wrong-about.html",
       "source": "24/7 Wall St.",
       "summary": null,
-      "published_at": "2026-02-07T17:11:09.000Z"
+      "published_at": "2026-02-07T17:11:09.000Z",
+      "summary_kr": "Reddit에 대한 비판이 재조명되고 있습니다.",
+      "impact": "neutral",
+      "analysis": "이 뉴스는 Reddit의 주가에 직접적인 영향을 미치지 않을 것으로 보입니다."
     },
     {
       "symbol": "META",
@@ -71,7 +95,10 @@
       "url": "https://finance.yahoo.com/news/bitcoin-fall-54k-veteran-trader-164602291.html",
       "source": "Benzinga",
       "summary": null,
-      "published_at": "2026-02-07T16:46:02.000Z"
+      "published_at": "2026-02-07T16:46:02.000Z",
+      "summary_kr": "비트코인이 $54K로 하락할 가능성에 대한 의문이 제기되고 있습니다.",
+      "impact": "bearish",
+      "analysis": "이러한 전망은 암호화폐 투자자들에게 불안감을 줄 수 있으며, 시장의 하락세를 초래할 수 있습니다."
     },
     {
       "symbol": "NVDA",
@@ -79,7 +106,10 @@
       "url": "https://finance.yahoo.com/m/febfddb0-8d7b-36f7-a988-fa5cc92a2333/amd-shares-slide-despite.html",
       "source": "Motley Fool",
       "summary": null,
-      "published_at": "2026-02-07T20:34:00.000Z"
+      "published_at": "2026-02-07T20:34:00.000Z",
+      "summary_kr": "AMD 주가가 강력한 성장에도 불구하고 하락하고 있습니다.",
+      "impact": "bearish",
+      "analysis": "이러한 하락은 투자자들에게 AMD의 미래 성장 가능성에 대한 의구심을 불러일으킬 수 있습니다."
     },
     {
       "symbol": "GOOGL",
@@ -87,7 +117,10 @@
       "url": "https://finance.yahoo.com/m/e341d409-e001-35c0-8e1d-e74fdb7c42e0/this-ai-stock-could-be-one-of.html",
       "source": "Motley Fool",
       "summary": null,
-      "published_at": "2026-02-07T19:09:00.000Z"
+      "published_at": "2026-02-07T19:09:00.000Z",
+      "summary_kr": "2027년까지 가장 가치 있는 AI 주식이 될 가능성이 있는 기업이 언급되고 있습니다.",
+      "impact": "positive",
+      "analysis": "이러한 전망은 AI 관련 기업에 대한 투자자들의 관심을 높일 수 있습니다."
     },
     {
       "symbol": "GOOGL",
@@ -95,7 +128,10 @@
       "url": "https://finance.yahoo.com/news/her-husband-brings-156k-struggle-183131125.html",
       "source": "Benzinga",
       "summary": null,
-      "published_at": "2026-02-07T18:31:31.000Z"
+      "published_at": "2026-02-07T18:31:31.000Z",
+      "summary_kr": "가정의 재정 문제에 대한 논의가 이어지고 있습니다.",
+      "impact": "neutral",
+      "analysis": "이 뉴스는 주식 시장과 직접적인 연관성이 적습니다."
     },
     {
       "symbol": "AMZN",
@@ -103,7 +139,10 @@
       "url": "https://finance.yahoo.com/news/amazon-ceo-andy-jassy-warns-203141202.html",
       "source": "Benzinga",
       "summary": null,
-      "published_at": "2026-02-07T20:31:41.000Z"
+      "published_at": "2026-02-07T20:31:41.000Z",
+      "summary_kr": "Amazon CEO가 트럼프의 10% 관세가 가격에 미치는 영향을 경고했습니다.",
+      "impact": "negative",
+      "analysis": "이러한 경고는 소비자 신뢰를 저하시킬 수 있으며, Amazon의 매출에 부정적인 영향을 미칠 수 있습니다."
     },
     {
       "symbol": "AAPL",
@@ -111,7 +150,10 @@
       "url": "https://finance.yahoo.com/news/ubs-maintains-neutral-view-apple-151022695.html",
       "source": "Insider Monkey",
       "summary": null,
-      "published_at": "2026-02-07T15:10:22.000Z"
+      "published_at": "2026-02-07T15:10:22.000Z",
+      "summary_kr": "UBS가 Apple의 App Store 트렌드에 대해 중립적인 견해를 유지하고 있습니다.",
+      "impact": "neutral",
+      "analysis": "중립적인 견해는 Apple의 주가에 큰 영향을 미치지 않을 것으로 보입니다."
     },
     {
       "symbol": "MSFT",
@@ -119,7 +161,10 @@
       "url": "https://finance.yahoo.com/m/46572c69-3b4a-3e0d-9750-0b461a4b3b56/this-datacenter-reit-could.html",
       "source": "Motley Fool",
       "summary": null,
-      "published_at": "2026-02-07T20:21:00.000Z"
+      "published_at": "2026-02-07T20:21:00.000Z",
+      "summary_kr": "2026년까지 하이퍼스케일러들이 $500억을 지출할 것으로 예상되는 데이터 센터 REIT에 대한 논의가 있습니다.",
+      "impact": "positive",
+      "analysis": "이러한 지출은 관련 기업들에게 긍정적인 영향을 미칠 것으로 예상됩니다."
     },
     {
       "symbol": "MSFT",
@@ -127,7 +172,10 @@
       "url": "https://finance.yahoo.com/m/963ea41f-e0a8-353d-a2af-af9d84e8ff80/there%27s-a-rout-in-tech.html",
       "source": "Motley Fool",
       "summary": null,
-      "published_at": "2026-02-07T19:38:00.000Z"
+      "published_at": "2026-02-07T19:38:00.000Z",
+      "summary_kr": "기술 주식에 대한 하락세가 이어지고 있습니다.",
+      "impact": "bearish",
+      "analysis": "기술 주식의 하락은 전반적인 시장 불안감을 조성할 수 있습니다."
     },
     {
       "symbol": "MSFT",
@@ -135,7 +183,10 @@
       "url": "https://finance.yahoo.com/m/fa65a9f1-551e-31c6-b3ea-e49100fd91d8/ai-leaders-argue-software.html",
       "source": "Fox Business",
       "summary": null,
-      "published_at": "2026-02-07T18:31:11.000Z"
+      "published_at": "2026-02-07T18:31:11.000Z",
+      "summary_kr": "AI 리더들이 소프트웨어가 적응할 것이라고 주장하고 있습니다.",
+      "impact": "neutral",
+      "analysis": "이러한 주장은 기술 산업의 미래에 대한 긍정적인 시각을 제공하지만, 시장에 큰 영향을 미치지 않을 것으로 보입니다."
     },
     {
       "symbol": "PLTR",
@@ -143,7 +194,10 @@
       "url": "https://finance.yahoo.com/news/pltr-snow-daniel-ives-names-110612294.html",
       "source": "TipRanks",
       "summary": null,
-      "published_at": "2026-02-07T11:06:12.000Z"
+      "published_at": "2026-02-07T11:06:12.000Z",
+      "summary_kr": "Daniel Ives가 AI 주식 추천 목록을 발표했습니다.",
+      "impact": "positive",
+      "analysis": "이러한 추천은 AI 관련 주식에 대한 투자자들의 관심을 높일 수 있습니다."
     },
     {
       "symbol": "PLTR",
@@ -151,7 +205,10 @@
       "url": "https://finance.yahoo.com/m/ebaee6c8-aa0f-3bfc-96ae-4869390ad2ed/this-part-of-palantir-used-to.html",
       "source": "Motley Fool",
       "summary": null,
-      "published_at": "2026-02-07T09:30:00.000Z"
+      "published_at": "2026-02-07T09:30:00.000Z",
+      "summary_kr": "Palantir의 특정 부문이 성장을 촉진하고 있다는 소식이 전해졌습니다.",
+      "impact": "positive",
+      "analysis": "이러한 성장은 Palantir의 주가에 긍정적인 영향을 미칠 수 있습니다."
     },
     {
       "symbol": "META",
@@ -159,7 +216,10 @@
       "url": "https://finance.yahoo.com/news/texas-capital-initiated-coverage-oklo-122213758.html",
       "source": "Insider Monkey",
       "summary": null,
-      "published_at": "2026-02-07T12:22:13.000Z"
+      "published_at": "2026-02-07T12:22:13.000Z",
+      "summary_kr": "Texas Capital이 Oklo Inc.에 대한 매수 추천을 시작했습니다.",
+      "impact": "positive",
+      "analysis": "이러한 추천은 Oklo Inc.의 주가 상승에 긍정적인 영향을 미칠 수 있습니다."
     },
     {
       "symbol": "META",
@@ -241,5 +301,9 @@
       "summary": null,
       "published_at": "2026-02-07T13:50:58.000Z"
     }
-  ]
+  ],
+  "analysis": {
+    "summary_kr": "오늘 종목 뉴스는 기술 및 암호화폐 관련 기업들의 실적과 전망에 대한 다양한 의견이 제시되고 있습니다.",
+    "jarvis_take": "전반적으로 기술 주식의 하락세와 암호화폐 시장의 불확실성이 두드러지며, 투자자들은 신중한 접근이 필요할 것입니다. 특히, AMD와 Palantir의 약세 전망은 주의가 필요합니다."
+  }
 }

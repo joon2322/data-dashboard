@@ -1,0 +1,85 @@
+{
+  "date": "2026-02-07",
+  "period": "pm",
+  "tldr": [
+    "기술주 강세: NVIDIA +7.87%, AMD +8.28%",
+    "Amazon은 -5.55%로 부진",
+    "S&P 500은 +1.97%로 긍정적인 흐름"
+  ],
+  "sections": [
+    {
+      "title": "시장",
+      "category": "market",
+      "items": [
+        {
+          "headline": "전반적인 긍정적인 시장 흐름",
+          "detail": "기술주들이 두드러진 상승세를 기록하며 S&P 500이 +1.97% 상승했다. 그러나 일부 대형주에서는 하락세가 나타나 혼조세를 보이고 있다.",
+          "source": "@JJNews",
+          "sentiment": "bullish"
+        }
+      ]
+    },
+    {
+      "title": "뉴스",
+      "category": "news",
+      "items": [
+        {
+          "headline": "FAA, 스타쉽 발사 승인",
+          "detail": "FAA가 LC-39A에서 스타쉽 발사를 승인하며 연간 44회의 발사와 88회의 착륙을 위한 승인을 받았다.",
+          "source": "@NASA",
+          "sentiment": "bullish"
+        },
+        {
+          "headline": "테슬라의 오토파일럿 모델 변화",
+          "detail": "테슬라가 새로운 오토파일럿 및 FSD 구독 모델에 대한 이해를 높이고, 로보택시와 FSD v14의 책임자를 승진시켰다.",
+          "source": "@Tesla",
+          "sentiment": "bullish"
+        },
+        {
+          "headline": "스노우플레이크, OpenAI와 파트너십 체결",
+          "detail": "스노우플레이크가 OpenAI와 2억 달러 규모의 AI 파트너십을 체결하여 AI 분야에서의 혁신을 지속하고 있다.",
+          "source": "@Snowflake",
+          "sentiment": "bullish"
+        },
+        {
+          "headline": "앤트로픽의 Claude AI 모델 출시",
+          "detail": "앤트로픽이 Claude Opus 4.6을 출시하며 AI가 '감성 작업' 시대로 나아가고 있다.",
+          "source": "@Anthropic",
+          "sentiment": "bullish"
+        },
+        {
+          "headline": "비트코인 ETF 유출 심화",
+          "detail": "비트코인 ETF 유출이 심화되며 이더리움과 XRP 자금은 유입되고 있다.",
+          "source": "@CryptoNews",
+          "sentiment": "bearish"
+        }
+      ]
+    },
+    {
+      "title": "종목뉴스",
+      "category": "stock",
+      "items": [
+        {
+          "headline": "암호화폐와 기술 주식의 불확실성",
+          "detail": "암호화폐와 기술 주식의 불확실성이 두드러지며, 일부 기업은 긍정적인 실적을 보이고 있다.",
+          "source": "@MarketWatch",
+          "sentiment": "neutral"
+        }
+      ]
+    },
+    {
+      "title": "해커뉴스",
+      "category": "hn",
+      "items": [
+        {
+          "headline": "오픈 소스 게임 개발 논의",
+          "detail": "해커뉴스에서는 오픈 소스 게임 개발, 프로그래밍 언어의 혁신, 기술 직업의 감소와 같은 다양한 주제가 논의되고 있다.",
+          "source": "@HackerNews",
+          "sentiment": "neutral"
+        }
+      ]
+    }
+  ],
+  "jarvis_take": "오늘 시장은 기술주가 주도하는 긍정적인 흐름을 보이고 있으며, AI와 자율주행 기술의 혁신이 주목받고 있다. 그러나 암호화폐 시장의 불확실성은 여전히 투자자들에게 우려를 주고 있다.",
+  "generated_at": "2026-02-11T07:10:18.967Z"
+}

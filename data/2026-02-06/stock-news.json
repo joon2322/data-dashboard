@@ -7,7 +7,10 @@
       "url": "https://finance.yahoo.com/m/73f36ed4-d7ab-3513-9f40-67e071c5e0e5/palantir-technologies%E2%80%99.html",
       "source": "Proactive",
       "summary": null,
-      "published_at": "2026-02-06T19:49:00.000Z"
+      "published_at": "2026-02-06T19:49:00.000Z",
+      "summary_kr": "Palantir의 강력한 펀더멘털에도 불구하고 평가 우려가 주가에 부담을 주고 있다는 분석이 나왔다.",
+      "impact": "negative",
+      "analysis": "Palantir의 주가는 강력한 실적에도 불구하고 시장의 평가 우려로 인해 하락 압력을 받을 가능성이 있다. 이는 투자자들에게 불안감을 줄 수 있으며, 단기적으로 주가에 부정적인 영향을 미칠 수 있다."
     },
     {
       "symbol": "PLTR",
@@ -15,7 +18,10 @@
       "url": "https://finance.yahoo.com/news/nvidia-shares-surge-big-tech-180706782.html",
       "source": "Bloomberg",
       "summary": null,
-      "published_at": "2026-02-06T18:07:06.000Z"
+      "published_at": "2026-02-06T18:07:06.000Z",
+      "summary_kr": "Nvidia의 주가가 대규모 AI 지출 계획으로 급등했다.",
+      "impact": "positive",
+      "analysis": "대형 기술 기업들의 AI 투자 계획은 Nvidia의 성장 전망을 밝게 하고 있으며, 이는 주가 상승에 긍정적인 영향을 미치고 있다. AI 분야의 지속적인 투자 증가가 Nvidia의 시장 지배력을 강화할 것으로 보인다."
     },
     {
       "symbol": "PLTR",
@@ -31,7 +37,10 @@
       "url": "https://finance.yahoo.com/news/coinbase-coin-shares-skyrocket-know-165543657.html",
       "source": "StockStory",
       "summary": null,
-      "published_at": "2026-02-06T16:55:43.000Z"
+      "published_at": "2026-02-06T16:55:43.000Z",
+      "summary_kr": "Coinbase의 주가가 급등하며 시장의 주목을 받고 있다.",
+      "impact": "positive",
+      "analysis": "Coinbase의 주가는 긍정적인 실적 발표와 함께 투자자들의 관심을 끌고 있으며, 이는 암호화폐 시장의 회복세를 반영하는 것으로 해석된다. 앞으로도 이러한 상승세가 지속될 가능성이 있다."
     },
     {
       "symbol": "COIN",
@@ -39,7 +48,10 @@
       "url": "https://finance.yahoo.com/m/6261e019-f2db-3f43-b4c1-e722f9106f0a/cathie-wood-loads-up-on.html",
       "source": "Investor's Business Daily",
       "summary": null,
-      "published_at": "2026-02-06T14:39:17.000Z"
+      "published_at": "2026-02-06T14:39:17.000Z",
+      "summary_kr": "Cathie Wood가 Coinbase 주식을 매도하며 강세를 보이고 있다.",
+      "impact": "negative",
+      "analysis": "Cathie Wood의 매도는 시장에서 Coinbase에 대한 신뢰를 약화시킬 수 있으며, 이는 주가에 부정적인 영향을 미칠 수 있다. 투자자들은 이러한 움직임을 주의 깊게 살펴봐야 할 것이다."
     },
     {
       "symbol": "META",
@@ -63,7 +75,10 @@
       "url": "https://finance.yahoo.com/m/e5ada75e-69b2-3b7d-9a3d-e813d1b76345/nearly-%24240bn-wiped-off.html",
       "source": "The Telegraph",
       "summary": null,
-      "published_at": "2026-02-06T18:27:03.000Z"
+      "published_at": "2026-02-06T18:27:03.000Z",
+      "summary_kr": "아마존의 주가가 AI에 대한 부정적인 시각으로 인해 큰 폭으로 하락했다.",
+      "impact": "negative",
+      "analysis": "AI 투자에 대한 우려가 아마존의 주가에 부정적인 영향을 미치고 있으며, 이는 시장에서의 신뢰도 하락으로 이어질 수 있다. 향후 AI 전략에 대한 명확한 방향성이 필요할 것으로 보인다."
     },
     {
       "symbol": "AMD",
@@ -241,5 +256,9 @@
       "summary": null,
       "published_at": "2026-02-06T03:10:24.000Z"
     }
-  ]
+  ],
+  "analysis": {
+    "summary_kr": "오늘 종목 뉴스는 AI 관련 기업들의 주가가 급등하거나 하락하는 등 큰 변동성을 보이고 있다.",
+    "jarvis_take": "AI 투자에 대한 시장의 반응이 극명하게 갈리고 있으며, 이는 특정 기업의 주가에 큰 영향을 미치고 있다. 투자자들은 이러한 변동성을 잘 분석하고 대응 전략을 세워야 할 시점이다."
+  }
 }

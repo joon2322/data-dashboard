@@ -7,7 +7,16 @@
       "snippet": null,
       "source": "rudrank.com",
       "category": "dev_tools",
-      "fetched_at": "2026-02-05T21:03:45.360Z"
+      "fetched_at": "2026-02-05T21:03:45.360Z",
+      "summary_kr": "AI 기반 코딩 도구인 Xcode 26.3 MCP Tools를 활용한 개발 방법을 탐구한다.",
+      "analysis": "AI 도구의 발전은 개발자들이 효율적으로 작업할 수 있도록 돕고 있으며, 이는 소프트웨어 개발의 패러다임을 변화시키고 있다. 특히, Xcode의 새로운 기능은 애플 생태계에서의 경쟁력을 높일 것으로 예상된다.",
+      "sentiment": "bullish",
+      "relevance": "high",
+      "tags": [
+        "AI",
+        "개발도구",
+        "Xcode"
+      ]
     },
     {
       "title": "From Abilities to AI Agents: Introducing the WordPress MCP Adapter – WordPress Developer Blog",
@@ -15,7 +24,16 @@
       "snippet": null,
       "source": "developer.wordpress.org",
       "category": "dev_tools",
-      "fetched_at": "2026-02-05T21:03:45.360Z"
+      "fetched_at": "2026-02-05T21:03:45.360Z",
+      "summary_kr": "WordPress의 새로운 MCP 어댑터를 소개하며 AI 에이전트의 활용 가능성을 논의한다.",
+      "analysis": "WordPress의 AI 통합은 웹 개발자들에게 새로운 기회를 제공하고, 사용자 경험을 개선할 수 있는 잠재력을 지닌다. 이는 플랫폼의 경쟁력을 강화할 것으로 보인다.",
+      "sentiment": "bullish",
+      "relevance": "high",
+      "tags": [
+        "AI",
+        "WordPress",
+        "개발도구"
+      ]
     },
     {
       "title": "The Battle for Developer Supremacy: How AI Coding Assistants Are Reshaping Software Engineering Economics",
@@ -23,7 +41,16 @@
       "snippet": null,
       "source": "www.webpronews.com",
       "category": "dev_tools",
-      "fetched_at": "2026-02-05T21:03:45.360Z"
+      "fetched_at": "2026-02-05T21:03:45.360Z",
+      "summary_kr": "AI 코딩 보조 도구들이 소프트웨어 엔지니어링 경제를 어떻게 변화시키고 있는지를 분석한다.",
+      "analysis": "AI 도구의 도입은 개발 비용을 절감하고 생산성을 높이는 데 기여하고 있으며, 이는 소프트웨어 산업의 구조적 변화를 초래할 수 있다. 그러나 이에 따른 일자리 감소 우려도 존재한다.",
+      "sentiment": "bullish",
+      "relevance": "high",
+      "tags": [
+        "AI",
+        "소프트웨어",
+        "경제"
+      ]
     },
     {
       "title": "Appropriations Watch: FY 2026 | Committee for a Responsible Federal Budget",
@@ -31,7 +58,15 @@
       "snippet": null,
       "source": null,
       "category": "regulation_policy",
-      "fetched_at": "2026-02-05T18:01:51.886Z"
+      "fetched_at": "2026-02-05T18:01:51.886Z",
+      "summary_kr": "2026 회계연도의 예산안에 대한 논의를 다룬다.",
+      "analysis": "예산안의 결정은 정부의 AI 정책 및 기술 발전에 중요한 영향을 미칠 수 있으며, 이는 향후 기술 투자 방향성을 제시할 것이다.",
+      "sentiment": "neutral",
+      "relevance": "medium",
+      "tags": [
+        "정책",
+        "예산"
+      ]
     },
     {
       "title": "DeSantis hosts AI panel, warns against ‘race to replace’ humans with artificial intelligence",
@@ -39,7 +74,16 @@
       "snippet": null,
       "source": null,
       "category": "regulation_policy",
-      "fetched_at": "2026-02-05T18:01:51.887Z"
+      "fetched_at": "2026-02-05T18:01:51.887Z",
+      "summary_kr": "DeSantis가 AI 패널을 주최하며 인공지능이 인간을 대체하는 것에 대한 경고를 한다.",
+      "analysis": "AI의 발전이 인간의 일자리를 위협할 수 있다는 경고는 정책 입안자들에게 중요한 논의거리를 제공하고 있다. 이는 향후 AI 규제 논의에 영향을 미칠 가능성이 크다.",
+      "sentiment": "bearish",
+      "relevance": "high",
+      "tags": [
+        "AI",
+        "정책",
+        "규제"
+      ]
     },
     {
       "title": "Congress Should Lead On AI Policy, Not The States - R Street Institute",
@@ -47,7 +91,16 @@
       "snippet": null,
       "source": null,
       "category": "regulation_policy",
-      "fetched_at": "2026-02-05T18:01:51.887Z"
+      "fetched_at": "2026-02-05T18:01:51.887Z",
+      "summary_kr": "AI 정책에 대한 연방 정부의 주도적 역할 필요성을 강조한다.",
+      "analysis": "주 정부보다 연방 정부가 AI 정책을 주도해야 한다는 주장은 일관된 규제 체계를 구축하는 데 도움이 될 수 있다. 이는 AI 산업의 안정성을 높이는 데 기여할 것이다.",
+      "sentiment": "bullish",
+      "relevance": "high",
+      "tags": [
+        "AI",
+        "정책",
+        "규제"
+      ]
     },
     {
       "title": "More details about Irish implementation of EU AI Act | Irish Legal News",
@@ -71,7 +124,16 @@
       "snippet": null,
       "source": "Reuters",
       "category": "ai_industry",
-      "fetched_at": "2026-02-05T15:04:06.166Z"
+      "fetched_at": "2026-02-05T15:04:06.166Z",
+      "summary_kr": "AI의 존재적 위협에 대한 논의로 소프트웨어 및 서비스 주식에서 거의 1조 달러의 손실이 발생했다.",
+      "analysis": "AI 기술의 불확실성이 투자자들에게 큰 우려를 안기고 있으며, 이는 시장의 변동성을 증가시키고 있다. 향후 AI의 발전 방향에 따라 시장이 다시 회복될 가능성도 존재한다.",
+      "sentiment": "bearish",
+      "relevance": "high",
+      "tags": [
+        "AI",
+        "시장",
+        "투자"
+      ]
     },
     {
       "title": "Anthropic's AI push raises analyst concerns over Indian IT services revenues | Reuters",
@@ -87,7 +149,16 @@
       "snippet": null,
       "source": "Bloomberg",
       "category": "ai_industry",
-      "fetched_at": "2026-02-05T15:04:06.166Z"
+      "fetched_at": "2026-02-05T15:04:06.166Z",
+      "summary_kr": "Anthropic의 AI 도구가 소프트웨어 및 광범위한 시장에서 매도세를 촉발했다.",
+      "analysis": "AI 도구의 상용화가 예상보다 빠르게 진행되면서 시장의 불안정성이 커지고 있다. 이는 투자자들에게 신중한 접근이 필요함을 시사한다.",
+      "sentiment": "bearish",
+      "relevance": "high",
+      "tags": [
+        "AI",
+        "시장",
+        "투자"
+      ]
     },
     {
       "title": "The latest AI news we announced in January",
@@ -103,7 +174,16 @@
       "snippet": null,
       "source": null,
       "category": "ai_industry",
-      "fetched_at": "2026-02-05T12:05:47.797Z"
+      "fetched_at": "2026-02-05T12:05:47.797Z",
+      "summary_kr": "Intel이 AI 기반 인프라 변화에 맞춰 데이터 센터 GPU에 주목하고 있다.",
+      "analysis": "AI 수요 증가에 따라 데이터 센터 GPU 시장이 성장할 것으로 예상되며, 이는 Intel의 전략적 방향성을 강화할 수 있다. 이러한 변화는 반도체 산업에도 긍정적인 영향을 미칠 것이다.",
+      "sentiment": "bullish",
+      "relevance": "high",
+      "tags": [
+        "AI",
+        "반도체",
+        "Intel"
+      ]
     },
     {
       "title": "Data Center Chip Market Report 2026: $37.44 Bn Opportunities, Trends, Competitive Landscape, Strategies, and Forecasts, 2020-2025, 2025-2030F, 2035F",
@@ -119,7 +199,16 @@
       "snippet": null,
       "source": null,
       "category": "ai_industry",
-      "fetched_at": "2026-02-05T12:05:47.797Z"
+      "fetched_at": "2026-02-05T12:05:47.797Z",
+      "summary_kr": "한국이 중소기업 간 AI 격차 해소를 위해 지역 정부에 의존하고 있다.",
+      "analysis": "중소기업의 AI 도입을 촉진하기 위한 정책은 한국의 기술 생태계 발전에 중요한 역할을 할 것이다. 이는 경쟁력을 높이는 데 기여할 것으로 보인다.",
+      "sentiment": "bullish",
+      "relevance": "high",
+      "tags": [
+        "AI",
+        "중소기업",
+        "정책"
+      ]
     },
     {
       "title": "With Investments from Nvidia, Intel to Start Making GPUs for the AI Market",
@@ -151,7 +240,16 @@
       "snippet": null,
       "source": "Reuters",
       "category": "crypto_market",
-      "fetched_at": "2026-02-05T09:04:49.533Z"
+      "fetched_at": "2026-02-05T09:04:49.533Z",
+      "summary_kr": "암호화폐 시장의 변동성이 25억 달러의 비트코인 청산을 초래했다.",
+      "analysis": "비트코인 시장의 변동성은 투자자들에게 큰 리스크를 안기고 있으며, 이는 암호화폐 시장의 신뢰성에 부정적인 영향을 미칠 수 있다. 이러한 상황은 규제 필요성을 더욱 부각시킨다.",
+      "sentiment": "bearish",
+      "relevance": "high",
+      "tags": [
+        "암호화폐",
+        "비트코인",
+        "시장"
+      ]
     },
     {
       "title": "Bitcoin is coming off a brutal week. Here's what's happening",
@@ -403,5 +501,14 @@
       "category": "dev_tools",
       "fetched_at": "2026-02-05T06:01:24.900Z"
     }
-  ]
+  ],
+  "analysis": {
+    "summary_kr": "오늘 뉴스에서는 AI 기술과 관련된 다양한 발전과 그에 따른 시장 반응이 주를 이루고 있다.",
+    "top_themes": [
+      "AI",
+      "정책",
+      "시장"
+    ],
+    "jarvis_take": "AI 기술의 발전은 긍정적인 측면과 부정적인 측면 모두를 가지고 있으며, 특히 시장의 변동성이 심화되고 있다. 향후 AI 규제와 정책 방향이 중요한 이슈로 부각될 것으로 보인다."
+  }
 }

@@ -1,0 +1,49 @@
+{
+  "date": "2026-02-03",
+  "period": "pm",
+  "tldr": [
+    "주요 주식 지수 상승",
+    "소비자 신뢰 지수 증가",
+    "기술주 강세"
+  ],
+  "sections": [
+    {
+      "title": "시장 동향",
+      "category": "market",
+      "items": [
+        {
+          "headline": "오늘 시장 상승세",
+          "detail": "긍정적인 경제 지표와 기업 실적 발표로 시장이 상승세를 보이고 있습니다. 투자자들은 향후 성장 가능성에 대한 기대감으로 활발한 매수세를 보이고 있습니다.",
+          "source": "@JJNews",
+          "sentiment": "bullish"
+        }
+      ]
+    },
+    {
+      "title": "기업 실적",
+      "category": "news",
+      "items": [
+        {
+          "headline": "기업 실적 발표",
+          "detail": "주요 기업들이 긍정적인 실적을 발표하며 시장에 긍정적인 영향을 미치고 있습니다.",
+          "source": "@JJNews",
+          "sentiment": "bullish"
+        }
+      ]
+    },
+    {
+      "title": "기술주 동향",
+      "category": "stock",
+      "items": [
+        {
+          "headline": "기술주 강세",
+          "detail": "기술주가 전반적으로 강세를 보이며 투자자들의 관심을 끌고 있습니다.",
+          "source": "@JJNews",
+          "sentiment": "bullish"
+        }
+      ]
+    }
+  ],
+  "jarvis_take": "오늘 시장은 긍정적인 경제 지표와 기업 실적 덕분에 상승세를 보이고 있습니다. 특히 기술주가 두드러진 강세를 보이며, 앞으로의 성장 가능성에 대한 기대감이 높아지고 있습니다.",
+  "generated_at": "2026-02-11T07:03:51.256Z"
+}

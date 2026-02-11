@@ -7,7 +7,10 @@
       "url": "https://finance.yahoo.com/news/why-palantir-technologies-pltr-shares-204048378.html",
       "source": "StockStory",
       "summary": null,
-      "published_at": "2026-02-05T20:40:48.000Z"
+      "published_at": "2026-02-05T20:40:48.000Z",
+      "summary_kr": "팔란티어 기술(PLTR)의 주가가 하락하고 있는 이유는 시장의 부정적인 반응 때문입니다.",
+      "impact": "negative",
+      "analysis": "팔란티어의 주가는 최근 실적 발표 후 투자자들의 우려로 인해 하락세를 보이고 있으며, 이는 기업의 성장 전망에 대한 불안감을 반영합니다."
     },
     {
       "symbol": "PLTR",
@@ -15,7 +18,10 @@
       "url": "https://finance.yahoo.com/news/wedbush-microsoft-palantir-crowdstrike-lead-181444637.html",
       "source": "GuruFocus.com",
       "summary": null,
-      "published_at": "2026-02-05T18:14:44.000Z"
+      "published_at": "2026-02-05T18:14:44.000Z",
+      "summary_kr": "Wedbush는 마이크로소프트, 팔란티어, 크라우드스트라이크가 최고의 소프트웨어 주식으로 선정되었습니다.",
+      "impact": "positive",
+      "analysis": "이 뉴스는 팔란티어의 시장 내 위치를 강화하며, 투자자들에게 긍정적인 신호를 줄 수 있습니다."
     },
     {
       "symbol": "PLTR",
@@ -23,7 +29,10 @@
       "url": "https://finance.yahoo.com/news/palantir-technologies-pltr-incredible-growth-174501744.html",
       "source": "Zacks",
       "summary": null,
-      "published_at": "2026-02-05T17:45:01.000Z"
+      "published_at": "2026-02-05T17:45:01.000Z",
+      "summary_kr": "팔란티어 기술은 뛰어난 성장 주식으로 평가받고 있으며, 그 이유가 세 가지로 설명됩니다.",
+      "impact": "positive",
+      "analysis": "이러한 긍정적인 평가가 투자자들의 관심을 끌고 있으며, 장기적인 성장 가능성을 시사합니다."
     },
     {
       "symbol": "COIN",
@@ -31,7 +40,10 @@
       "url": "https://finance.yahoo.com/m/6b1aec50-e50f-3ed3-af31-86d4c4bf82ef/strategy%E2%80%99s-earnings-are.html",
       "source": "Barrons.com",
       "summary": null,
-      "published_at": "2026-02-05T18:52:00.000Z"
+      "published_at": "2026-02-05T18:52:00.000Z",
+      "summary_kr": "비트코인의 급락이 전략 관련 주식에 부정적인 영향을 미치고 있습니다.",
+      "impact": "negative",
+      "analysis": "비트코인의 하락은 암호화폐 관련 기업의 주가에 직접적인 부정적 영향을 미치고 있습니다."
     },
     {
       "symbol": "COIN",
@@ -39,7 +51,10 @@
       "url": "https://finance.yahoo.com/m/44b4e95d-cab2-323e-b4cb-4304489df75d/bitcoin-falls-to-15-month.html",
       "source": "Investor's Business Daily",
       "summary": null,
-      "published_at": "2026-02-05T16:36:29.000Z"
+      "published_at": "2026-02-05T16:36:29.000Z",
+      "summary_kr": "비트코인이 15개월 만에 최저치로 떨어졌으며, 스티펠은 추가 하락 가능성을 경고했습니다.",
+      "impact": "negative",
+      "analysis": "비트코인의 가격 하락은 암호화폐 시장 전반에 부정적인 영향을 미치고 있으며, 투자 심리를 악화시키고 있습니다."
     },
     {
       "symbol": "COIN",
@@ -47,7 +62,10 @@
       "url": "https://finance.yahoo.com/m/880d992e-0503-3e6c-a874-f70371d3fcaa/crypto-selloff-deepens%2C.html",
       "source": "The Wall Street Journal",
       "summary": null,
-      "published_at": "2026-02-05T15:54:10.000Z"
+      "published_at": "2026-02-05T15:54:10.000Z",
+      "summary_kr": "암호화폐 매도세가 심화되면서 비트코인 가격이 67,000달러로 하락하고 있습니다.",
+      "impact": "negative",
+      "analysis": "이러한 매도세는 투자자들에게 불안감을 주며, 암호화폐 시장의 전반적인 신뢰를 저하시킬 수 있습니다."
     },
     {
       "symbol": "AMD",
@@ -55,7 +73,10 @@
       "url": "https://finance.yahoo.com/m/681e6d8b-efba-3e14-8b91-7dbc00fd8079/morgan-stanley-tweaks-amd.html",
       "source": "TheStreet",
       "summary": null,
-      "published_at": "2026-02-05T18:33:00.000Z"
+      "published_at": "2026-02-05T18:33:00.000Z",
+      "summary_kr": "모건 스탠리가 AMD의 주가 목표치를 조정했습니다.",
+      "impact": "neutral",
+      "analysis": "주가 목표치 조정은 시장의 반응에 따라 긍정적 또는 부정적 영향을 미칠 수 있으나, 현재로서는 중립적인 신호로 해석됩니다."
     },
     {
       "symbol": "AMD",
@@ -63,7 +84,10 @@
       "url": "https://finance.yahoo.com/m/91540cfc-79c8-3f32-b242-69b0bab712e4/cathie-wood-goes-bargain.html",
       "source": "Motley Fool",
       "summary": null,
-      "published_at": "2026-02-05T17:55:00.000Z"
+      "published_at": "2026-02-05T17:55:00.000Z",
+      "summary_kr": "캐시 우드가 AMD를 포함한 세 가지 주식을 새로 매수했습니다.",
+      "impact": "positive",
+      "analysis": "유명 투자자의 매수는 AMD에 대한 긍정적인 신뢰를 나타내며, 주가에 긍정적인 영향을 미칠 가능성이 있습니다."
     },
     {
       "symbol": "AMD",
@@ -71,7 +95,10 @@
       "url": "https://finance.yahoo.com/m/f2607ae6-cb53-3ca8-84c2-3e856211fc90/these-stocks-are-today%E2%80%99s.html",
       "source": "Barrons.com",
       "summary": null,
-      "published_at": "2026-02-05T17:19:00.000Z"
+      "published_at": "2026-02-05T17:19:00.000Z",
+      "summary_kr": "오늘의 주요 주식으로는 알파벳, 퀄컴, 브로드컴, AMD 등이 있습니다.",
+      "impact": "neutral",
+      "analysis": "이 뉴스는 특정 주식에 대한 시장의 관심을 반영하지만, 전체적인 시장 방향성에는 큰 영향을 미치지 않을 것으로 보입니다."
     },
     {
       "symbol": "TSLA",
@@ -95,7 +122,10 @@
       "url": "https://finance.yahoo.com/m/f7e568e5-5937-39b5-917f-75480f7bf2a5/one-analyst-thinks-tesla%27s.html",
       "source": "Motley Fool",
       "summary": null,
-      "published_at": "2026-02-05T18:39:57.000Z"
+      "published_at": "2026-02-05T18:39:57.000Z",
+      "summary_kr": "한 분석가는 테슬라의 로봇택시 수익이 2035년까지 2,500억 달러에 이를 수 있다고 전망했습니다.",
+      "impact": "positive",
+      "analysis": "이러한 전망은 테슬라의 미래 성장 가능성을 강조하며, 투자자들에게 긍정적인 신호로 작용할 수 있습니다."
     },
     {
       "symbol": "META",
@@ -119,7 +149,10 @@
       "url": "https://finance.yahoo.com/news/live/stock-market-today-dow-sp-500-nasdaq-sell-off-builds-as-tech-rout-continues-bitcoin-plunges-210019775.html",
       "source": "Yahoo Finance",
       "summary": null,
-      "published_at": "2026-02-05T21:00:19.000Z"
+      "published_at": "2026-02-05T21:00:19.000Z",
+      "summary_kr": "기술주가 계속해서 하락하며 다우, S&P 500, 나스닥이 매도세를 보이고 있습니다.",
+      "impact": "negative",
+      "analysis": "기술주 하락은 전체 시장에 부정적인 영향을 미치며, 투자자들의 심리를 위축시킬 수 있습니다."
     },
     {
       "symbol": "AMZN",
@@ -241,5 +274,9 @@
       "summary": null,
       "published_at": "2026-02-05T03:18:30.000Z"
     }
-  ]
+  ],
+  "analysis": {
+    "summary_kr": "오늘의 종목 뉴스는 팔란티어와 암호화폐 관련 주식의 부정적인 소식이 주를 이루고 있으며, 기술주 전반의 하락세가 지속되고 있습니다.",
+    "jarvis_take": "현재 시장은 불안정한 상태이며, 특히 암호화폐와 기술주에 대한 투자자들의 신뢰가 흔들리고 있습니다. 향후 시장 회복을 위해서는 긍정적인 실적 발표와 안정적인 경제 지표가 필요할 것으로 보입니다."
+  }
 }
