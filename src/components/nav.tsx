@@ -6,9 +6,9 @@ import { useState } from "react";
 import { ThemeToggle } from "./theme-toggle";
 
 const NAV_LINKS = [
-  { label: "데일리", href: "/daily" },
-  { label: "위클리", href: "/weekly" },
-  { label: "먼슬리", href: "/monthly" },
+  { label: "Daily", href: "/daily" },
+  { label: "Weekly", href: "/weekly" },
+  { label: "Monthly", href: "/monthly" },
 ];
 
 export function Nav() {

@@ -68,18 +68,6 @@ export default function Home() {
         </div>
       </header>
 
-      <div className="mb-10 flex flex-wrap gap-2">
-        <Link href="/daily" className="flex min-h-[44px] items-center rounded-lg border border-accent/30 bg-accent/10 px-4 py-2.5 text-sm font-medium text-accent transition-colors hover:bg-accent/15">
-          데일리
-        </Link>
-        <Link href="/weekly" className="flex min-h-[44px] items-center rounded-lg border border-border bg-surface px-4 py-2.5 text-sm font-medium text-text-secondary transition-colors hover:border-accent/20 hover:bg-surface-hover hover:text-text-primary">
-          위클리
-        </Link>
-        <Link href="/monthly" className="flex min-h-[44px] items-center rounded-lg border border-border bg-surface px-4 py-2.5 text-sm font-medium text-text-secondary transition-colors hover:border-accent/20 hover:bg-surface-hover hover:text-text-primary">
-          먼슬리
-        </Link>
-      </div>
-
       {/* ── TL;DR + Jarvis Take 상단 대시보드 ── */}
       {briefing && briefing.tldr.length > 0 && (
         <section className="mb-10">
