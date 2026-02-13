@@ -53,7 +53,7 @@ export default async function MonthlyPage({ params }: MonthlyPageProps) {
 
         {data.notable_events.length > 0 && (
           <section>
-            <h3 className="mb-4 text-xs font-medium uppercase tracking-widest text-text-tertiary">주요 이벤트</h3>
+            <h3 className="mb-4 text-xs font-semibold tracking-wide text-text-tertiary">주요 이벤트</h3>
             <div className="space-y-3">
               {data.notable_events.map((event, i) => (
                 <div key={i} className="flex gap-4 rounded-xl border border-border bg-surface p-4">
@@ -69,12 +69,12 @@ export default async function MonthlyPage({ params }: MonthlyPageProps) {
         )}
 
         <section className="rounded-xl border border-border bg-surface p-5">
-          <h3 className="mb-2 text-xs font-medium uppercase tracking-widest text-text-tertiary">분석</h3>
+          <h3 className="mb-2 text-xs font-semibold tracking-wide text-text-tertiary">분석</h3>
           <p className="text-sm leading-relaxed text-text-secondary">{data.analysis}</p>
         </section>
 
         <section className="rounded-xl border border-border bg-surface p-5">
-          <h3 className="mb-2 text-xs font-medium uppercase tracking-widest text-text-tertiary">전망</h3>
+          <h3 className="mb-2 text-xs font-semibold tracking-wide text-text-tertiary">전망</h3>
           <p className="text-sm leading-relaxed text-text-secondary">{data.outlook}</p>
         </section>
 

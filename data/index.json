@@ -1,0 +1,134 @@
+{
+  "generatedAt": "2026-02-13T18:23:10.106Z",
+  "dates": [
+    "2026-02-11",
+    "2026-02-10",
+    "2026-02-09",
+    "2026-02-08",
+    "2026-02-07",
+    "2026-02-06",
+    "2026-02-05",
+    "2026-02-04",
+    "2026-02-03",
+    "2026-02-02"
+  ],
+  "weeks": [
+    "2026-W06"
+  ],
+  "months": [
+    "2026-02"
+  ],
+  "latestDateWithData": "2026-02-10",
+  "dateMeta": {
+    "2026-02-11": {
+      "hasMarket": true,
+      "hasNews": false,
+      "hasHn": false,
+      "hasX": false,
+      "hasStockNews": false,
+      "hasBriefingAm": false,
+      "hasBriefingPm": false,
+      "hasAnalysis": false,
+      "totalItems": 0
+    },
+    "2026-02-10": {
+      "hasMarket": true,
+      "hasNews": true,
+      "hasHn": true,
+      "hasX": true,
+      "hasStockNews": true,
+      "hasBriefingAm": false,
+      "hasBriefingPm": true,
+      "hasAnalysis": true,
+      "totalItems": 82
+    },
+    "2026-02-09": {
+      "hasMarket": true,
+      "hasNews": true,
+      "hasHn": true,
+      "hasX": false,
+      "hasStockNews": true,
+      "hasBriefingAm": false,
+      "hasBriefingPm": true,
+      "hasAnalysis": true,
+      "totalItems": 59
+    },
+    "2026-02-08": {
+      "hasMarket": true,
+      "hasNews": true,
+      "hasHn": true,
+      "hasX": true,
+      "hasStockNews": true,
+      "hasBriefingAm": true,
+      "hasBriefingPm": true,
+      "hasAnalysis": true,
+      "totalItems": 99
+    },
+    "2026-02-07": {
+      "hasMarket": true,
+      "hasNews": true,
+      "hasHn": true,
+      "hasX": false,
+      "hasStockNews": true,
+      "hasBriefingAm": false,
+      "hasBriefingPm": true,
+      "hasAnalysis": true,
+      "totalItems": 97
+    },
+    "2026-02-06": {
+      "hasMarket": true,
+      "hasNews": true,
+      "hasHn": true,
+      "hasX": false,
+      "hasStockNews": true,
+      "hasBriefingAm": false,
+      "hasBriefingPm": true,
+      "hasAnalysis": true,
+      "totalItems": 109
+    },
+    "2026-02-05": {
+      "hasMarket": true,
+      "hasNews": true,
+      "hasHn": true,
+      "hasX": true,
+      "hasStockNews": true,
+      "hasBriefingAm": false,
+      "hasBriefingPm": true,
+      "hasAnalysis": true,
+      "totalItems": 140
+    },
+    "2026-02-04": {
+      "hasMarket": true,
+      "hasNews": false,
+      "hasHn": false,
+      "hasX": false,
+      "hasStockNews": false,
+      "hasBriefingAm": false,
+      "hasBriefingPm": true,
+      "hasAnalysis": true,
+      "totalItems": 0
+    },
+    "2026-02-03": {
+      "hasMarket": true,
+      "hasNews": false,
+      "hasHn": false,
+      "hasX": false,
+      "hasStockNews": false,
+      "hasBriefingAm": false,
+      "hasBriefingPm": true,
+      "hasAnalysis": true,
+      "totalItems": 0
+    },
+    "2026-02-02": {
+      "hasMarket": true,
+      "hasNews": false,
+      "hasHn": false,
+      "hasX": false,
+      "hasStockNews": false,
+      "hasBriefingAm": false,
+      "hasBriefingPm": true,
+      "hasAnalysis": true,
+      "totalItems": 0
+    }
+  }
+}

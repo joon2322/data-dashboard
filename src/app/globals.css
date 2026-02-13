@@ -42,7 +42,7 @@
 
   --color-text-primary: #111827;
   --color-text-secondary: #4b5563;
-  --color-text-tertiary: #9ca3af;
+  --color-text-tertiary: #6b7280;
 }
 
 *,
@@ -73,4 +73,18 @@ body {
 a {
   color: inherit;
   text-decoration: none;
+}
+
+a:focus-visible,
+button:focus-visible {
+  outline: none;
+  box-shadow: 0 0 0 2px var(--color-base), 0 0 0 4px var(--color-accent);
+  border-radius: 8px;
+}
+
+@media (pointer: coarse) {
+  a,
+  button {
+    min-height: 44px;
+  }
 }

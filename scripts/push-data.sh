@@ -39,7 +39,8 @@ if [ "$SKIP_ANALYZE" != "1" ]; then
 fi
 
 cd "$REPO_DIR"
-git add "data/${DATE}/" "data/weekly/" "data/monthly/" 2>/dev/null || true
+node "${REPO_DIR}/scripts/generate-manifest.js"
+git add "data/${DATE}/" "data/weekly/" "data/monthly/" "data/index.json" 2>/dev/null || true
 if git diff --cached --quiet; then
     echo "No changes for ${DATE}"
     exit 0

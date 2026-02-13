@@ -18,7 +18,7 @@ const SENTIMENT_LABELS: Record<Sentiment, string> = {
 
 export function SentimentBadge({ sentiment }: SentimentBadgeProps) {
   return (
-    <span className={`inline-flex items-center rounded-md px-2 py-0.5 text-[11px] font-medium ${SENTIMENT_STYLES[sentiment]}`}>
+    <span className={`inline-flex items-center rounded-md px-2 py-0.5 text-xs font-medium ${SENTIMENT_STYLES[sentiment]}`}>
       {SENTIMENT_LABELS[sentiment]}
     </span>
   );
@@ -42,7 +42,7 @@ const RELEVANCE_LABELS: Record<Relevance, string> = {
 
 export function RelevanceBadge({ relevance }: RelevanceBadgeProps) {
   return (
-    <span className={`inline-flex items-center rounded-md px-2 py-0.5 text-[11px] font-medium ${RELEVANCE_STYLES[relevance]}`}>
+    <span className={`inline-flex items-center rounded-md px-2 py-0.5 text-xs font-medium ${RELEVANCE_STYLES[relevance]}`}>
       {RELEVANCE_LABELS[relevance]}
     </span>
   );
@@ -66,7 +66,7 @@ const IMPACT_LABELS: Record<Impact, string> = {
 
 export function ImpactBadge({ impact }: ImpactBadgeProps) {
   return (
-    <span className={`inline-flex items-center rounded-md px-2 py-0.5 text-[11px] font-medium ${IMPACT_STYLES[impact]}`}>
+    <span className={`inline-flex items-center rounded-md px-2 py-0.5 text-xs font-medium ${IMPACT_STYLES[impact]}`}>
       {IMPACT_LABELS[impact]}
     </span>
   );

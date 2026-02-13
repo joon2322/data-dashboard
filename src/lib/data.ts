@@ -27,9 +27,44 @@ function dailyPath(date: string, filename: string): string {
   return path.join(DATA_DIR, date, filename);
 }
 
+// ─── Manifest (data/index.json) for fast lookups ───
+
+interface DateMeta {
+  hasMarket: boolean;
+  hasNews: boolean;
+  hasHn: boolean;
+  hasX: boolean;
+  hasStockNews: boolean;
+  hasBriefingAm: boolean;
+  hasBriefingPm: boolean;
+  hasAnalysis: boolean;
+  totalItems: number;
+}
+
+interface DataManifest {
+  generatedAt: string;
+  dates: string[];
+  weeks: string[];
+  months: string[];
+  latestDateWithData: string | null;
+  dateMeta: Record<string, DateMeta>;
+}
+
+let _manifestCache: DataManifest | null = null;
+
+function getManifest(): DataManifest | null {
+  if (_manifestCache) return _manifestCache;
+  const manifest = readJson<DataManifest>(path.join(DATA_DIR, "index.json"));
+  if (manifest) _manifestCache = manifest;
+  return manifest;
+}
+
 // ─── Available dates / weeks / months ───
 
 export function getAvailableDates(): string[] {
+  const manifest = getManifest();
+  if (manifest) return manifest.dates;
+
   try {
     const entries = fs.readdirSync(DATA_DIR, { withFileTypes: true });
     return entries
@@ -43,6 +78,9 @@ export function getAvailableDates(): string[] {
 }
 
 export function getAvailableWeeks(): string[] {
+  const manifest = getManifest();
+  if (manifest) return manifest.weeks;
+
   const weeklyDir = path.join(DATA_DIR, "weekly");
   try {
     const entries = fs.readdirSync(weeklyDir, { withFileTypes: true });
@@ -57,6 +95,9 @@ export function getAvailableWeeks(): string[] {
 }
 
 export function getAvailableMonths(): string[] {
+  const manifest = getManifest();
+  if (manifest) return manifest.months;
+
   const monthlyDir = path.join(DATA_DIR, "monthly");
   try {
     const entries = fs.readdirSync(monthlyDir, { withFileTypes: true });
@@ -135,26 +176,29 @@ export function hasEnhancedData(date: string): boolean {
 }
 
 export function getLatestDateWithData(): string | null {
+  const manifest = getManifest();
+  if (manifest?.latestDateWithData) return manifest.latestDateWithData;
+
   const dates = getAvailableDates();
-  
+
   for (const date of dates) {
     const news = getNewsData(date);
     const hn = getHnData(date);
     const x = getXData(date);
     const stockNews = getStockNewsData(date);
-    
+
     const newsCount = (news?.us?.length ?? 0) + (news?.kr?.length ?? 0);
     const hnCount = hn?.posts?.length ?? 0;
     const xCount = x?.posts?.length ?? 0;
     const stockNewsCount = stockNews?.articles?.length ?? 0;
-    
+
     const totalItems = newsCount + hnCount + xCount + stockNewsCount;
-    
+
     if (totalItems > 0) {
       return date;
     }
   }
-  
+
   return dates.length > 0 ? dates[0] : null;
 }
 

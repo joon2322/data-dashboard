@@ -15,7 +15,7 @@ import { SentimentBadge } from "@/components/sentiment-badge";
 function SectionHeader({ children, href, linkText = "더보기" }: { children: React.ReactNode; href?: string; linkText?: string }) {
   return (
     <div className="mb-4 flex items-center justify-between">
-      <h2 className="flex items-center gap-2 text-xs font-medium uppercase tracking-widest text-text-tertiary">
+      <h2 className="flex items-center gap-2 text-xs font-semibold tracking-wide text-text-tertiary">
         <span className="inline-block h-4 w-1 rounded-full bg-accent" />
         {children}
       </h2>
@@ -53,7 +53,7 @@ export default function Home() {
     .slice(0, 4);
 
   return (
-    <div className="mx-auto max-w-7xl px-3 py-8 sm:px-6">
+    <div className="mx-auto max-w-7xl px-4 py-8 sm:px-6">
       <header className="mb-10">
         <div className="flex items-center gap-3">
           <span className="flex h-12 w-12 items-center justify-center rounded-xl bg-gradient-to-br from-accent to-accent-dim text-lg font-black tracking-tighter text-base">

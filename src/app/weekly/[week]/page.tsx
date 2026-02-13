@@ -59,7 +59,7 @@ export default async function WeeklyPage({ params }: WeeklyPageProps) {
 
         {data.key_events.length > 0 && (
           <section>
-            <h3 className="mb-4 text-xs font-medium uppercase tracking-widest text-text-tertiary">주요 이벤트</h3>
+            <h3 className="mb-4 text-xs font-semibold tracking-wide text-text-tertiary">주요 이벤트</h3>
             <div className="space-y-3">
               {data.key_events.map((event, i) => (
                 <div key={i} className="flex gap-4 rounded-xl border border-border bg-surface p-4">
@@ -81,7 +81,7 @@ export default async function WeeklyPage({ params }: WeeklyPageProps) {
 
         {data.market_recap && (
           <section>
-            <h3 className="mb-4 text-xs font-medium uppercase tracking-widest text-text-tertiary">시장 리캡</h3>
+            <h3 className="mb-4 text-xs font-semibold tracking-wide text-text-tertiary">시장 리캡</h3>
             <div className="grid grid-cols-1 gap-4 sm:grid-cols-2">
               {data.market_recap.best_performers && data.market_recap.best_performers.length > 0 && (
                 <div className="rounded-xl border border-border bg-surface p-4">
@@ -114,12 +114,12 @@ export default async function WeeklyPage({ params }: WeeklyPageProps) {
         )}
 
         <section className="rounded-xl border border-border bg-surface p-5">
-          <h3 className="mb-2 text-xs font-medium uppercase tracking-widest text-text-tertiary">분석</h3>
+          <h3 className="mb-2 text-xs font-semibold tracking-wide text-text-tertiary">분석</h3>
           <p className="text-sm leading-relaxed text-text-secondary">{data.analysis}</p>
         </section>
 
         <section className="rounded-xl border border-border bg-surface p-5">
-          <h3 className="mb-2 text-xs font-medium uppercase tracking-widest text-text-tertiary">전망</h3>
+          <h3 className="mb-2 text-xs font-semibold tracking-wide text-text-tertiary">전망</h3>
           <p className="text-sm leading-relaxed text-text-secondary">{data.outlook}</p>
         </section>
 

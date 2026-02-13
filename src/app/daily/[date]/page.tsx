@@ -16,7 +16,7 @@ import { SentimentBadge } from "@/components/sentiment-badge";
 function SectionHeader({ children, href, linkText = "전체보기" }: { children: React.ReactNode; href?: string; linkText?: string }) {
   return (
     <div className="mb-3 flex items-center justify-between">
-      <h2 className="flex items-center gap-2 text-xs font-medium uppercase tracking-widest text-text-tertiary">
+      <h2 className="flex items-center gap-2 text-xs font-semibold tracking-wide text-text-tertiary">
         <span className="inline-block h-4 w-1 rounded-full bg-accent" />
         {children}
       </h2>
@@ -103,7 +103,7 @@ export default async function OverviewPage({ params }: OverviewPageProps) {
       {market?.analysis && (
         <section className="rounded-xl border border-border bg-surface p-5">
           <div className="mb-2 flex items-center gap-2">
-            <h2 className="flex items-center gap-2 text-xs font-medium uppercase tracking-widest text-text-tertiary">
+      <h2 className="flex items-center gap-2 text-xs font-semibold tracking-wide text-text-tertiary">
               <span className="inline-block h-4 w-1 rounded-full bg-accent" />
               시장 분석
             </h2>
